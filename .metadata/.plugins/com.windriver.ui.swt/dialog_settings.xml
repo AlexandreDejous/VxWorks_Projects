@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CustomTitleAreaDialog">
+		<section name="com.windriver.ide.launch.ui.tabs.controls.WRFileOrBuildTargetSelectionControl">
+			<list key="WREditDownloadDialog.WREditDownloadDialog">
+				<item value="/home/dejouale/WindRiver/workspace/TestProject/SIMLINUXgnu/TestProject/Debug/TestProject.out"/>
+			</list>
+		</section>
+	</section>
+	<section name="WTXConsolePropertiesDialog">
+		<section name="vxsim0@k2-111">
+			<item value=" -io -s -n -w " key="consoleStartupOptions"/>
+		</section>
+	</section>
+	<section name="HostShellPropertiesDialog">
+		<section name="vxsim0@k2-111">
+			<item value=" " key="consoleStartupOptions"/>
+			<section name="com.windriver.ide.target.ui.dialogs.HostShellPropertiesDialog$WRHostShellStartupFileControl">
+				<list key="hostShell.startupFile">
+				</list>
+			</section>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,38 @@
+Checking License...OK
+Virtual  Base Address: 0x60000000
+Virtual  Top  Address: 0xa0000000    Virtual  Size: 0x40000000 (1024Mb)
+Physical Base Address: 0x60000000
+Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
+Loading...
+0x1a5d98 + 0x10114 + 0x18fec
+NVRAM disabled: can't access /opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/nvram.vxWorks0 with READ/WRITE permission.
+Loading symbol table from k2-115:/opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/vxWorks.sym ...done
+ 
+
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]            
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]            
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]  
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]] 
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks 6.9
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.13
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-2017
+
+ CPU: Linux 4.9.0-0.bpo.1-amd64 [x86_64].  Processor #0.
+ Memory Size: 0x1ff00000 (511Mb).  BSP version 6.9/0.
+ Created: Oct 20 2017 18:26:29
+ ED&R Policy Mode: Deployed
+ WDB Comm Type: WDB_COMM_PIPE
+ WDB: Ready.
+
+-> 

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="DEBUG_CONSOLE_SETTINGS">
+		<item value="false" key="DEBUG_CONTEXT_LINK_ENABLED"/>
+	</section>
+</section>

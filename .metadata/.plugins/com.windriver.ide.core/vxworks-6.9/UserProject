@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<attributes>
+    <mapAttribute>
+        <intAttribute key="BuildSupportEnabled" value="2"/>
+        <stringAttribute key="BLD::Info|cmd" value="%makeprefix% make -f Makefile"/>
+        <listAttribute key="BLD::Info|Tools">
+            <stringAttribute value="Build Target Rule"/>
+        </listAttribute>
+        <booleanAttribute key="BLD::Info|Tool|Build Target Rule|passAble" value="true"/>
+    </mapAttribute>
+</attributes>

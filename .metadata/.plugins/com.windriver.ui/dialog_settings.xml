@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WROptionalMessageDialog">
+		<item value="true" key="HostShellPropertiesDialog.additionalInfo"/>
+		<item value="true" key="WTXConsolePropertiesDialog.additionalInfo"/>
+	</section>
+</section>

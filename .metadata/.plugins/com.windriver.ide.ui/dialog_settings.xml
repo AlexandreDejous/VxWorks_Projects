@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SYIspCalculatorDialog">
+	</section>
+	<section name="WRProjectWizard">
+		<list key="WRWizardNewProjectCreationPage.STORE_PROJECT_LOCATION">
+			<item value="/home/dejouale/WindRiver/workspace/TestProject2"/>
+			<item value="/home/dejouale/WindRiver/workspace/TestProject"/>
+		</list>
+	</section>
+	<section name="class com.windriver.ide.ui.staticanalysis.ispwizard.WRStoreGeneratedIncludesPage">
+	</section>
+	<section name="unchecked-vars">
+	</section>
+</section>

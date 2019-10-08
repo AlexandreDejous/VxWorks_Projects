@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.windriver.ide.launch.ui.context.WRFlatCompositeLaunchContextSelectorMediatorPage">
+		<section name="com.windriver.ide.launch.ui.context.WRFlatCompositeLaunchContextSelectorMediatorPage$WRFlatCompositeLaunchContextSelectorControl">
+			<item value="false" key="CreateTask - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="C - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="Creat - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="CreateTas - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="CreateTak - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="Cr - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="CreateTa - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="noEntryPoint - TestProject.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="noEntryPoint - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="Create - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="CreateT - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="CreateTasks - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="Crea - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="Cre - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="CreateTasks - TestProject.out - vxsim0.hideUnconnected"/>
+		</section>
+	</section>
+	<section name="WRLaunchConfigSelectionDialog.com.windriver.ide.launch.vxworks6.tmRunTask">
+		<item value="false" key="new"/>
+		<item value="false" key="duplicate"/>
+		<item value="true" key="edit"/>
+		<item value="false" key="launch"/>
+	</section>
+	<section name="com.windriver.ide.launch.ui.context.WRCompositeContextSelectorTab">
+		<section name="com.windriver.ide.launch.ui.tabs.vxworks.kerneltask.WRVxWorksKernelTaskConfiguratorMediatorPage">
+			<item value="false" key="Advanced"/>
+		</section>
+		<section name="com.windriver.ide.launch.ui.tabs.vxworks.kerneltask.download.WRVxWorksKernelModuleDownloadConfiguratorMediatorPage">
+		</section>
+	</section>
+	<section name="WRVxWorksKernelTaskEntryPointSelectionDialog">
+	</section>
+</section>
