@@ -9,12 +9,6 @@
 long int task_run[]={100, 450, 200};
 int task_stop[]={18, 25, 30};
 
-SEM_ID semShovels;
-semShovels = semCCreate(SEM_Q_FIFO, 3);
-
-/*SEM_ID semSoilHeap;*/
-/*semSoilHeap = semCCreate(SEM_Q_FIFO,0 );*/
-
 void task(int n)
 {
         long int x;
@@ -69,7 +63,6 @@ void CreateTasks(void)
 		if (key == 'e'){
 			printf("EQJHQFJ");
 		}
-		
 	}
         /*int id1, id2, id3;*/
 

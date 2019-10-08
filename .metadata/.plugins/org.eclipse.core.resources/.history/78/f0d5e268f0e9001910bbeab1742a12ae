@@ -9,7 +9,7 @@
 long int task_run[]={100, 450, 200};
 int task_stop[]={18, 25, 30};
 
-SEM_ID semShovels;
+TEST semShovels;
 semShovels = semCCreate(SEM_Q_FIFO, 3);
 
 /*SEM_ID semSoilHeap;*/

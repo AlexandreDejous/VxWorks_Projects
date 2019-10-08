@@ -48,7 +48,7 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="test2.c" partName="test2.c" path="/home/dejouale/WindRiver/workspace/TestProject2/test2.c" title="test2.c" tooltip="TestProject2/test2.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject2/test2.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="374" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="39" selectionOffset="215" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -61,13 +61,7 @@
 </view>
 <view id="org.eclipse.tm.terminal.view.TerminalView" partName="Terminal 1">
 <viewState Title="Terminal 1" _keys_="Title,connectionManageractive,connectionManagerconnection0Encoding,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagerconnection0org.eclipse.tm.internal.terminal.telnet.TelnetConnector.NetworkPort,connectionManagerconnection0org.eclipse.tm.internal.terminal.telnet.TelnetConnector.Timeout,connectionManagersize" connectionManageractive="connection0" connectionManagerconnection0Encoding="ISO-8859-1" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="Terminal 1" connectionManagersize="1">
-<connectionManagerconnection0org>
-<eclipse>
-<tm>
-<internal>
-<terminal>
-<telnet>
-<TelnetConnector NetworkPort="23" Timeout="10"/>
+<connectionManagerconnection0org>&#x0A;<eclipse>&#x0A;<tm>&#x0A;<internal>&#x0A;<terminal>&#x0A;<telnet>&#x0A;<TelnetConnector NetworkPort="23" Timeout="10"/>
 </telnet>
 </terminal>
 </internal>
@@ -119,6 +113,9 @@
 <viewState/>
 </view>
 <view id="org.eclipse.debug.ui.RegisterView" partName="Registers">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
 <view id="com.windriver.ide.launch.ui.DebugSymbolBrowserView" partName="Debug Symbol Browser"/>
@@ -591,13 +588,13 @@
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.Disconnect"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.SkipAllBreakpoints"/>
 <hide_toolbar_item_id id="com.windriver.ide.ocd.ui.welcomescreen.action"/>
-<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.ToggleStepFilters"/>
 <hide_toolbar_item_id id="org.eclipse.tcf.te.ui.terminals.toolbar"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.ToggleStepFilters"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.StepOver"/>
-<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.Resume"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.Suspend"/>
-<hide_toolbar_item_id id="com.windriver.ide.cfg.components.clients.opcae.actions.Launch"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.Resume"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="com.windriver.ide.cfg.components.clients.opcae.actions.Launch"/>
 <hide_toolbar_item_id id="com.windriver.ide.ui.WRBuildFile"/>
 <hide_toolbar_item_id id="com.windriver.ide.ui.WRRunLastBuild"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.DropToFrame"/>
@@ -608,6 +605,7 @@
 <view id="com.windriver.ide.target.ui.TargetConsoleView"/>
 <view id="com.windriver.ide.debug.ui.console.DebugConsoleView"/>
 <view id="com.windriver.ide.ui.build.WRBuildConsoleView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.debug.ui.BreakpointView"/>
 <view id="org.eclipse.debug.ui.VariableView"/>
@@ -676,11 +674,12 @@
 </folder>
 </info>
 <info folder="true" part="bottom" ratio="0.66906476" ratioLeft="651" ratioRight="322" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.windriver.ide.target.ui.TargetConsoleView" appearance="2" expanded="2">
+<folder activePageID="com.windriver.ide.ui.build.WRBuildConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.tm.terminal.view.TerminalView" label="Terminal 1"/>
 <page content="com.windriver.ide.target.ui.TargetConsoleView" label="Target Consoles"/>
 <page content="com.windriver.ide.debug.ui.console.DebugConsoleView" label="Debug Command Shell"/>
 <page content="com.windriver.ide.ui.build.WRBuildConsoleView" label="Build Console"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
@@ -689,12 +688,12 @@
 <page content="com.windriver.ide.target.ui.dfw.WRDFWInfoRetrieveView" label="LabelNotFound"/>
 <page content="com.windriver.ide.target.ui.wtx.WRWTXRegistryView" label="LabelNotFound"/>
 <page content="com.windriver.ide.terminal.amio.AMIOConsoleView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -737,8 +736,23 @@
 <item historyLabel="test.c" index="0">
 <position info="not_deleted" x="490" y="0"/>
 </item>
-<item active="true" historyLabel="test2.c" index="1">
+<item historyLabel="test2.c" index="1">
 <position info="not_deleted" x="207" y="0"/>
+</item>
+<item historyLabel="test2.c" index="1">
+<position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="test2.c" index="1">
+<position info="not_deleted" x="202" y="12"/>
+</item>
+<item historyLabel="test2.c" index="1">
+<position info="not_deleted" x="215" y="39"/>
+</item>
+<item historyLabel="test2.c" index="1">
+<position info="not_deleted" x="258" y="0"/>
+</item>
+<item active="true" historyLabel="test2.c" index="1">
+<position info="not_deleted" x="215" y="39"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
