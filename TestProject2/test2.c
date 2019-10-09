@@ -52,9 +52,19 @@ int dequeue(node_t **head) {
 
 /*END of queue implementation */
 
+/*Queue instantiation */
+
+node_t *LDiggers = NULL;
+node_t *UDiggers = NULL;
+int ret;
+
+/*END of queue instantiation */
+
 SEM_ID semShovels;
 SEM_ID semSoilHeap;
 int numberDiggers = 0;
+int numberLDiggers = 0;
+int numberUDiggers = 0;
 
 
 void task(int n)
@@ -110,6 +120,7 @@ void CreateTasks(void)
 {
   semSoilHeap = semCCreate(SEM_Q_FIFO,0 );
   semShovels = semCCreate(SEM_Q_FIFO, 3);
+  int taskAddr;
 
 	while(1){
 		char key = getchar();
@@ -118,31 +129,35 @@ void CreateTasks(void)
 
 		}
     if (key == 'i'){//lower entering
-			printf("EQJHQFJ");
-      if(numberDiggers <50){
-        numberDiggers++;
+			
+      if(numberUDiggers + numberLDiggers <50){
+        numberLDiggers++;
+        diggerName = char[10];
+        snprintf(diggerName, 10, "tWorkerL%d", numberLDiggers-1);
+        printf("lower digger %d entering", diggerName);
+        lower_digger_array[lower_digger_name] =  taskSpawn(diggerName, 210, 0, 4096, (FUNCPTR) digger_in_hole, diggerName, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         
       }
       
 		}
     if (key == 'o'){//lower leaving
 			printf("EQJHQFJ");
-      if(numberDiggers > 0){
-        numberDiggers--;
+      if(numberUDiggers + numberLDiggers > 0){
+        numberLDiggers--;
       }
       
 		}
 		if (key == 'I'){//upper entering
 			printf("EQJHQFJ");
-      if(numberDiggers <50){
-        numberDiggers++;
+      if(numberUDiggers + numberLDiggers <50){
+        numberUDiggers++;
 
       }
 		}
     if (key == 'O'){//upper leaving
 			printf("EQJHQFJ");
-      if(numberDiggers > 0){
-        numberDiggers--;
+      if(numberUDiggers + numberLDiggers > 0){
+        numberUDiggers--;
       }
 		}
 	}
