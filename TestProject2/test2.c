@@ -190,23 +190,23 @@ void CreateTasks(void)
       
 		}
 		if (key == 'I'){/* upper entering*/
-			printf("EQJHQFJ");
+			/* printf("EQJHQFJ");*/
       if(numberUDiggers + numberLDiggers <50){
         numberUDiggers++;
         numberUDiggersCumul++;
         char diggerName[11];
         snprintf(diggerName, 11, "tWorkerU%d", numberUDiggersCumul-1);
-        printf("lower digger %d entering", numberUDiggersCumul-1);
+        printf("upper digger %d entering", numberUDiggersCumul-1);
         taskAddr = taskSpawn(diggerName, 210, 0, 4096, (FUNCPTR) digger_on_ground, numberUDiggersCumul-1, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         enqueue(&LDiggers, taskAddr);
 
       }
 		}
     if (key == 'O'){/*upper leaving */
-			printf("EQJHQFJ");
+			/* printf("EQJHQFJ");*/
       if(numberUDiggers > 0){
         numberUDiggers--;
-        printf("lower digger %d exiting", numberUDiggersCumul-1);
+        printf("upper digger %d exiting", numberUDiggersCumul-1);
         taskAddr = dequeue(&UDiggers);
         taskDelete(taskAddr);
       }
