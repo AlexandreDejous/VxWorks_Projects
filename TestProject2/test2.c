@@ -116,10 +116,11 @@ void digger_on_ground(int n)
   while (1) {
     semTake(semShovels, WAIT_FOREVER);
     taskSafe();
-    printf("upper digger %d: working\n", n);
+    
     
     taskDelay(WORK_TIME);
     semTake(semSoilHeap, 100);/*if it is work time but still no soil after a moment, rest*/
+    printf("upper digger %d: working\n", n);
     semGive(semShovels);
     taskUnsafe();
     printf("upper digger %d: resting\n", n);
