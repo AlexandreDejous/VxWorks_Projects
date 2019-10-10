@@ -65,7 +65,7 @@ SEM_ID semSoilHeap;
 int numberDiggers = 0;
 int numberLDiggers = 0;
 int numberUDiggers = 0;
-int numberLDiggersCumul = 0;/*cumulated number of diggers since the beggining, useful for giving their a unique name*/
+int numberLDiggersCumul = 0;/*cumulated number of diggers since the beggining, useful for giving them a unique name*/
 int numberUDiggersCumul = 0;
 
 
@@ -198,7 +198,7 @@ void CreateTasks(void)
         snprintf(diggerName, 11, "tWorkerU%d", numberUDiggersCumul-1);
         printf("upper digger %d entering", numberUDiggersCumul-1);
         taskAddr = taskSpawn(diggerName, 210, 0, 4096, (FUNCPTR) digger_on_ground, numberUDiggersCumul-1, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-        enqueue(&LDiggers, taskAddr);
+        enqueue(&UDiggers, taskAddr);
 
       }
 		}
@@ -220,6 +220,10 @@ void CreateTasks(void)
       printf("%d upper diggers\n", numberUDiggers);
       printf("%d lower diggers worked today\n", numberLDiggersCumul);
       printf("%d upper diggers worked today\n", numberUDiggersCumul);
+
+      print_list(LDiggers);
+      printf("\n-----\n");
+      print_list(UDiggers);
 		}
 	}
         /*int id1, id2, id3;*/
