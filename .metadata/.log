@@ -1151,3 +1151,63 @@ Caused by: com.windriver.rb.gdbmi.InputParser$ResultError: Target not connected
 
 !ENTRY com.windriver.ide.debug 0 3 2019-10-10 12:21:32.267
 !MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=4563,localport=33772]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 12:28:48.497
+!MESSAGE VIOStreamsProxy attempting to connect to port 4598
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 12:28:48.499
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=4598,localport=51552]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 12:28:48.545
+!MESSAGE VIOStreamsProxy attempting to connect to port 4599
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 12:28:48.547
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=4599,localport=37586]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 12:32:22.237
+!MESSAGE VIOStreamsProxy attempting to connect to port 4783
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 12:32:22.239
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=4783,localport=59174]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 12:32:22.285
+!MESSAGE VIOStreamsProxy attempting to connect to port 4784
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 12:32:22.287
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=4784,localport=45614]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 12:37:38.676
+!MESSAGE VIOStreamsProxy attempting to connect to port 4906
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 12:37:38.679
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=4906,localport=34248]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 12:37:38.725
+!MESSAGE VIOStreamsProxy attempting to connect to port 4907
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 12:37:38.727
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=4907,localport=49506]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 12:38:37.127
+!MESSAGE VIOStreamsProxy attempting to connect to port 5038
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 12:38:37.129
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=5038,localport=57440]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 12:38:37.173
+!MESSAGE VIOStreamsProxy attempting to connect to port 5039
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 12:38:37.176
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=5039,localport=39090]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 12:41:14.214
+!MESSAGE VIOStreamsProxy attempting to connect to port 5123
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 12:41:14.217
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=5123,localport=44870]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 12:41:14.261
+!MESSAGE VIOStreamsProxy attempting to connect to port 5124
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 12:41:14.264
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=5124,localport=60376]

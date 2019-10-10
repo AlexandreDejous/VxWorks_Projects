@@ -128,13 +128,13 @@ void CreateTasks(void)
 		if (key == 'E'){
 			
       if(numberUDiggers + numberLDiggers > 0){
-        printf("Everyone goes home!\n");
+        printf("Everyone goes home!");
 
         if (numberUDiggers > 0){
           for (i=0; i<=numberUDiggers-1; i++){
           
           ret = dequeue(&UDiggersID);
-          printf("upper digger %d exiting\n", ret);
+          printf("upper digger %d exiting", ret);
           taskAddr = dequeue(&UDiggers);
           taskDelete(taskAddr);
 
@@ -144,7 +144,7 @@ void CreateTasks(void)
         if (numberLDiggers > 0){
           for (i=0; i<=numberLDiggers-1; i++){
           ret = dequeue(&LDiggersID);
-          printf("lower digger %d exiting\n", numberLDiggersCumul-1);
+          printf("lower digger %d exiting", numberLDiggersCumul-1);
           taskAddr = dequeue(&LDiggers);
           taskDelete(taskAddr);
 
@@ -154,7 +154,7 @@ void CreateTasks(void)
       }
       else
       {
-        printf("Number of diggers already 0\n");
+        printf("Number of diggers already 0");
       }
 
 
@@ -166,7 +166,7 @@ void CreateTasks(void)
         numberLDiggersCumul++;
         char diggerName[11];
         snprintf(diggerName, 11, "tWorkerL%d", numberLDiggersCumul-1);
-        printf("lower digger %d entering\n", numberLDiggersCumul-1);
+        printf("lower digger %d entering", numberLDiggersCumul-1);
         taskAddr = taskSpawn(diggerName, 210, 0, 4096, (FUNCPTR) digger_in_hole, numberLDiggersCumul-1, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         enqueue(&LDiggers, taskAddr);
         enqueue(&LDiggersID, numberLDiggersCumul-1);
@@ -174,17 +174,17 @@ void CreateTasks(void)
       
 		}
     if (key == 'o'){/*lower leaving */
-
+			printf("EQJHQFJ");
       if(numberLDiggers > 0){
         numberLDiggers--;
-        ret = dequeue(&LDiggersID);
-        printf("lower digger %d exiting\n", ret);
+        ret = enqueue(&LDiggersID,numberLDiggersCumul-1);
+        printf("lower digger %d exiting", numberLDiggersCumul-1);
         taskAddr = dequeue(&LDiggers);
         taskDelete(taskAddr);
       }
       else
       {
-        printf("Number of lower diggers already 0\n");
+        printf("Number of lower diggers already 0");
       }
       
       
@@ -196,7 +196,7 @@ void CreateTasks(void)
         numberUDiggersCumul++;
         char diggerName[11];
         snprintf(diggerName, 11, "tWorkerU%d", numberUDiggersCumul-1);
-        printf("upper digger %d entering\n", numberUDiggersCumul-1);
+        printf("upper digger %d entering", numberUDiggersCumul-1);
         taskAddr = taskSpawn(diggerName, 210, 0, 4096, (FUNCPTR) digger_on_ground, numberUDiggersCumul-1, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         enqueue(&UDiggers, taskAddr);
         enqueue(&UDiggersID, numberUDiggersCumul-1);
@@ -208,13 +208,13 @@ void CreateTasks(void)
       if(numberUDiggers > 0){
         numberUDiggers--;
         ret = dequeue(&UDiggersID);
-        printf("upper digger %d exiting\n", ret);
+        printf("upper digger %d exiting", numberUDiggersCumul-1);
         taskAddr = dequeue(&UDiggers);
         taskDelete(taskAddr);
       }
       else
       {
-        printf("Number of upper diggers already 0\n");
+        printf("Number of upper diggers already 0");
       }
 		}
 		if (key == 'c'){/* workplace status*/
