@@ -90,7 +90,7 @@ int numberUDiggersCumul = 0;
 void digger_in_hole(int n)
 {
   while (1) {
-    semTake(semShovels, WAIT_FOREVER);/* hope it will return the shovel */
+    semTake(semShovels, WAIT_FOREVER);/* hope it will return the shovel if the task gets terminated en route */
     taskSafe();
     printf("lower digger %d: working\n", n);
     taskDelay(WORK_TIME);
@@ -206,6 +206,9 @@ void CreateTasks(void)
 			printf("EQJHQFJ");
       if(numberUDiggers > 0){
         numberUDiggers--;
+        printf("lower digger %d exiting", numberUDiggersCumul-1);
+        taskAddr = dequeue(&UDiggers);
+        taskDelete(taskAddr);
       }
       else
       {
@@ -213,7 +216,10 @@ void CreateTasks(void)
       }
 		}
 		if (key == 'c'){/* workplace status*/
-			printf("EQJHQFJ");
+			printf("%d lower diggers\n", numberLDiggers);
+      printf("%d upper diggers\n", numberUDiggers);
+      printf("%d lower diggers worked today\n", numberLDiggersCumul);
+      printf("%d upper diggers worked today\n", numberUDiggersCumul);
 		}
 	}
         /*int id1, id2, id3;*/
