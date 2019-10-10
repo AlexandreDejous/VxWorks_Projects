@@ -137,17 +137,6 @@ void createLowerDigger(){
 	  enqueue(&LDiggersID, numberLDiggersCumul-1);	  
 }
 
-void createUpperDigger(){
-	numberUDiggers++;
-	numberUDiggersCumul++;
-	char diggerName[11];
-	snprintf(diggerName, 11, "tWorkerU%d", numberUDiggersCumul-1);
-	printf("upper digger %d entering\n", numberUDiggersCumul-1);
-	int taskAddr = taskSpawn(diggerName, 210, 0, 4096, (FUNCPTR) digger_on_ground, numberUDiggersCumul-1, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-	enqueue(&UDiggers, taskAddr);
-	enqueue(&UDiggersID, numberUDiggersCumul-1);
-}
-
 
 void CreateTasks(void)
 {
@@ -159,8 +148,8 @@ void CreateTasks(void)
   
   
   /*initial miners*/
-  createLowerDigger();
-  createUpperDigger();
+  
+
   
   
   
@@ -185,7 +174,7 @@ void CreateTasks(void)
         if (numberLDiggers > 0){
           for (i=0; i<=numberLDiggers-1; i++){
           ret = dequeue(&LDiggersID);
-          printf("lower digger %d exiting\n", ret);
+          printf("lower digger %d exiting\n", numberLDiggersCumul-1);
           taskAddr = dequeue(&LDiggers);
           taskDelete(taskAddr);
 
@@ -226,7 +215,14 @@ void CreateTasks(void)
 		if (key == 'I'){/* upper entering*/
 
       if(numberUDiggers + numberLDiggers <50){
-    	  createUpperDigger();
+        numberUDiggers++;
+        numberUDiggersCumul++;
+        char diggerName[11];
+        snprintf(diggerName, 11, "tWorkerU%d", numberUDiggersCumul-1);
+        printf("upper digger %d entering\n", numberUDiggersCumul-1);
+        taskAddr = taskSpawn(diggerName, 210, 0, 4096, (FUNCPTR) digger_on_ground, numberUDiggersCumul-1, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+        enqueue(&UDiggers, taskAddr);
+        enqueue(&UDiggersID, numberUDiggersCumul-1);
         
 
       }

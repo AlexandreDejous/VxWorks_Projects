@@ -159,8 +159,8 @@ void CreateTasks(void)
   
   
   /*initial miners*/
-  createLowerDigger();
-  createUpperDigger();
+  
+
   
   
   
@@ -185,7 +185,7 @@ void CreateTasks(void)
         if (numberLDiggers > 0){
           for (i=0; i<=numberLDiggers-1; i++){
           ret = dequeue(&LDiggersID);
-          printf("lower digger %d exiting\n", ret);
+          printf("lower digger %d exiting\n", numberLDiggersCumul-1);
           taskAddr = dequeue(&LDiggers);
           taskDelete(taskAddr);
 

@@ -159,8 +159,8 @@ void CreateTasks(void)
   
   
   /*initial miners*/
-  createLowerDigger();
-  createUpperDigger();
+  
+
   
   
   
