@@ -1,3 +1,16 @@
+/*README
+
+Implemented:
+-diggers tasks spawing and deletion (upper and lower)
+-press c to get a general view of the workplace (how much diggers are working and worked today)
+-info message (ex. upper digger 6 exiting... ; lower digger 3 entering...)
+I used a queue to implement the FIFO rule about diggers (first arrived to the workplace, first to leave)
+Upper diggers are waiting a finite amount of time to check if there is soil to remove
+*/
+
+
+
+
 #include <taskLib.h>
 #include <stdio.h>
 #include <kernelLib.h>
