@@ -98,9 +98,8 @@ void digger_in_hole(int n)
 {
 	printf("lower digger %d: arriving\n", n);
   while (1) {
-    
-    taskSafe();
     semTake(semShovels, WAIT_FOREVER);/* hope it will return the shovel if the task gets terminated en route */
+    taskSafe();
     printf("lower digger %d: working\n", n);
     taskDelay(WORK_TIME);
     semGive(semSoilHeap);
@@ -115,14 +114,12 @@ void digger_on_ground(int n)
 {
   printf("lower digger %d: arriving\n", n);
   while (1) {
-    
-    
-    
-    semTake(semSoilHeap, WAIT_FOREVER);/*if it is work time but still no soil after a moment, rest*/
-    taskSafe();
     semTake(semShovels, WAIT_FOREVER);
-    taskDelay(WORK_TIME);
+    taskSafe();
     
+    
+    taskDelay(WORK_TIME);
+    semTake(semSoilHeap, 100);/*if it is work time but still no soil after a moment, rest*/
     printf("upper digger %d: working\n", n);
     semGive(semShovels);
     taskUnsafe();
