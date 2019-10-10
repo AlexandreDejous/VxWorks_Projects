@@ -50,6 +50,15 @@ int dequeue(node_t **head) {
     return retval;
 }
 
+void print_list(node_t *head) {
+    node_t *current = head;
+
+    while (current != NULL) {
+        printf("%d\n", current->val);
+        current = current->next;
+    }
+}
+
 /*END of queue implementation */
 
 /*Queue instantiation */
