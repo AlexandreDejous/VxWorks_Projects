@@ -147,8 +147,9 @@ void CreateTasks(void)
         if (numberUDiggers > 0){
           for (i=0; i<=numberUDiggers; i++){
           numberUDiggers--;
-          printf("upper digger %d exiting", numberUDiggersCumul-1);
           taskAddr = dequeue(&UDiggers);
+          printf("upper digger %d exiting", taskAddr);
+          
           taskDelete(taskAddr);
 
           }
