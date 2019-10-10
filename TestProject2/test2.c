@@ -7,8 +7,6 @@
 #define WORK_TIME 50
 #define BREAK_TIME 50
 
-/* long int task_run[]={100, 450, 200};
-int task_stop[]={18, 25, 30};*/
 
 /*Standard queue implementation in C. Found at https://gist.github.com/kroggen/5fc7380d30615b2e70fcf9c7b69997b6 */
 
@@ -65,6 +63,9 @@ void print_list(node_t *head) {
 
 node_t *LDiggers = NULL;
 node_t *UDiggers = NULL;
+
+node_t *LDiggersID = NULL;/*stqck containing the ID (number, order of arrival) of each digger */
+node_t *UDiggersID = NULL;
 int ret;
 
 /*END of queue instantiation */
@@ -78,23 +79,7 @@ int numberLDiggersCumul = 0;/*cumulated number of diggers since the beggining, u
 int numberUDiggersCumul = 0;
 
 
-/* void task(int n)
-{
-        long int x;
 
-        printf("Task %i has been started\n", n);
-
-        while (1)
-        {
-                printf("taskkkkk %d: running\n", n);
-                x = 1000000 * task_run[n];
-                while (x > 0){ 
-                	x--;
-                }
-                printf("taskkkkkkk %d: stopped\n", n);
-                taskDelay(task_stop[n]);
-        }
-}*/
 
 void digger_in_hole(int n)
 {
@@ -119,7 +104,7 @@ void digger_on_ground(int n)
     printf("upper digger %d: working\n", n);
     
     taskDelay(WORK_TIME);
-    semTake(semSoilHeap, WAIT_FOREVER);
+    semTake(semSoilHeap, 100);/*if it is work time but still no soil after a moment, rest*/
     semGive(semShovels);
     taskUnsafe();
     printf("upper digger %d: resting\n", n);
@@ -146,22 +131,23 @@ void CreateTasks(void)
 
         if (numberUDiggers > 0){
           for (i=0; i<=numberUDiggers; i++){
-          numberUDiggers--;
-          taskAddr = dequeue(&UDiggers);
-          printf("upper digger %d exiting", taskAddr);
           
+          printf("upper digger %d exiting", numberUDiggersCumul-1);
+          taskAddr = dequeue(&UDiggers);
           taskDelete(taskAddr);
 
           }
+          numberUDiggers = 0;
         }
         if (numberLDiggers > 0){
           for (i=0; i<=numberLDiggers; i++){
-          numberLDiggers--;
+          
           printf("lower digger %d exiting", numberLDiggersCumul-1);
           taskAddr = dequeue(&LDiggers);
           taskDelete(taskAddr);
 
           }
+          numberLDiggers = 0;
         }
       }
       else
@@ -188,6 +174,7 @@ void CreateTasks(void)
 			printf("EQJHQFJ");
       if(numberLDiggers > 0){
         numberLDiggers--;
+        
         printf("lower digger %d exiting", numberLDiggersCumul-1);
         taskAddr = dequeue(&LDiggers);
         taskDelete(taskAddr);
@@ -200,7 +187,7 @@ void CreateTasks(void)
       
 		}
 		if (key == 'I'){/* upper entering*/
-			/* printf("EQJHQFJ");*/
+
       if(numberUDiggers + numberLDiggers <50){
         numberUDiggers++;
         numberUDiggersCumul++;
@@ -213,7 +200,6 @@ void CreateTasks(void)
       }
 		}
     if (key == 'O'){/*upper leaving */
-			/* printf("EQJHQFJ");*/
       if(numberUDiggers > 0){
         numberUDiggers--;
         printf("upper digger %d exiting", numberUDiggersCumul-1);
@@ -235,16 +221,7 @@ void CreateTasks(void)
       print_list(UDiggers);
 		}
 	}
-        /*int id1, id2, id3;*/
 
-        /*  kernelTimeSlice(1); */
-
-        /*id1=taskSpawn("Task0", 210, 0, 4096, (FUNCPTR) task, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-        id2=taskSpawn("Task1", 210, 0, 4096, (FUNCPTR) task, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-        id3=taskSpawn("Task2", 210, 0, 4096, (FUNCPTR) task, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0);*/
-	
-	
-	/*id3=taskSpawn("Task2", 210, 0, 4096, (FUNCPTR) task, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0);*/
 }
 
 
