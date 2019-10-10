@@ -3224,3 +3224,27 @@ com.windriver.tm.core.exceptions.TargetServiceException: Error loading '/TestPro
 
 !ENTRY com.windriver.ide.debug 0 3 2019-10-10 13:46:14.895
 !MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=1612,localport=60258]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 13:56:44.040
+!MESSAGE VIOStreamsProxy attempting to connect to port 1743
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 13:56:44.043
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=1743,localport=52462]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 13:56:44.089
+!MESSAGE VIOStreamsProxy attempting to connect to port 1744
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 13:56:44.091
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=1744,localport=40936]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 14:00:39.852
+!MESSAGE VIOStreamsProxy attempting to connect to port 1817
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 14:00:39.854
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=1817,localport=40912]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-10 14:00:39.902
+!MESSAGE VIOStreamsProxy attempting to connect to port 1818
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-10 14:00:39.904
+!MESSAGE opened new socket: Socket[addr=/192.168.202.115,port=1818,localport=42748]

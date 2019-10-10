@@ -96,7 +96,6 @@ int numberUDiggersCumul = 0;
 
 void digger_in_hole(int n)
 {
-	printf("lower digger %d: arriving\n", n);
   while (1) {
     semTake(semShovels, WAIT_FOREVER);/* hope it will return the shovel if the task gets terminated en route */
     taskSafe();
@@ -112,7 +111,6 @@ void digger_in_hole(int n)
 
 void digger_on_ground(int n)
 {
-  printf("lower digger %d: arriving\n", n);
   while (1) {
     semTake(semShovels, WAIT_FOREVER);
     taskSafe();

@@ -809,3 +809,446 @@ Loading symbol table from k2-115:/opt/WindRiver/vxworks-6.9/target/proj/linux_di
  WDB: Ready.
 
 -> 
+0x60103c12 shellTask    +0x452: 0x60103129 (0x62abfd78, 0, 0, 0x1)
+0x60103134 shellExec    +0x324: ledRead2 (0x62216010, 0x62abfefc, 0x100, 0x60100e30, 0x62abfd78, 0x13, 0x62ad9f88, 0x6010310f)
+0x600edcfd ledRead2     +0xdd : 0x601090a5 (0x62216010, 0x62abfefc, 0x100, 0x80867c0)
+0x60109198 viLedLibInit +0x158: 0x600b4880 (0x1, 0x62ad9edb, 0x1, 0)
+0x600b48b4 lseek        +0x244: iosRead (0x3, 0x62ad9edb, 0x1, 0)
+0x600b58fe iosRead      +0x2e : tyRead (0x621de0b8, 0x62ad9edb, 0x1, 0x6228e070)
+0x600bd35e tyRead       +0x6e : semTake (0x621de0e0, 0xffffffff, 0x62ad9ce8, 0x600b5751)
+0x6015ff4a semTake      +0x2a : semBTake (0x621de0e0, 0xffffffff, 0x62ad9ce8, 0x60051221)
+
+Shell task 'tShell0' restarted...
+
+-> Virtual  Base Address: 0x60000000
+Virtual  Top  Address: 0xa0000000    Virtual  Size: 0x40000000 (1024Mb)
+Physical Base Address: 0x60000000
+Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
+Loading...
+0x1a5d98 + 0x10114 + 0x18fec
+NVRAM disabled: can't access /opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/nvram.vxWorks0 with READ/WRITE permission.
+Loading symbol table from k2-115:/opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/vxWorks.sym ...done
+ 
+
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]            
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]            
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]  
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]] 
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks 6.9
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.13
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-2017
+
+ CPU: Linux 4.9.0-0.bpo.1-amd64 [x86_64].  Processor #0.
+ Memory Size: 0x1ff00000 (511Mb).  BSP version 6.9/0.
+ Created: Oct 20 2017 18:26:29
+ ED&R Policy Mode: Deployed
+ WDB Comm Type: WDB_COMM_PIPE
+ WDB: Ready.
+
+-> lower digger 0: working
+upper digger 0: working
+lower digger 0: resting
+upper digger 0: resting
+lower digger 0: working
+upper digger 0: working
+lower digger 1: working
+lower digger 0: resting
+upper digger 0: resting
+lower digger 2: working
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+Virtual  Base Address: 0x60000000
+Virtual  Top  Address: 0xa0000000    Virtual  Size: 0x40000000 (1024Mb)
+Physical Base Address: 0x60000000
+Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
+Loading...
+0x1a5d98 + 0x10114 + 0x18fec
+NVRAM disabled: can't access /opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/nvram.vxWorks0 with READ/WRITE permission.
+Loading symbol table from k2-115:/opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/vxWorks.sym ...done
+ 
+
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]            
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]            
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]  
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]] 
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks 6.9
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.13
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-2017
+
+ CPU: Linux 4.9.0-0.bpo.1-amd64 [x86_64].  Processor #0.
+ Memory Size: 0x1ff00000 (511Mb).  BSP version 6.9/0.
+ Created: Oct 20 2017 18:26:29
+ ED&R Policy Mode: Deployed
+ WDB Comm Type: WDB_COMM_PIPE
+ WDB: Ready.
+
+-> lower digger 0: arriving
+lower digger 0: working
+lower digger 0: arriving
+upper digger 0: working
+lower digger 0: resting
+upper digger 0: resting
+lower digger 0: working
+upper digger 0: working
+lower digger 1: arriving
+lower digger 1: working
+lower digger 2: arriving
+lower digger 3: arriving
+lower digger 0: resting
+upper digger 0: resting
+lower digger 2: working
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+lower digger 3: resting
+upper digger 0: working
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+ilower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+ilower digger 1: working
+ilower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+iilower digger 1: resting
+ilower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+i
+C interp: unknown symbol name 'iiiiiii'.
+-> lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 1: working
+lower digger 0: resting
+lower digger 2: working
+upper digger 0: resting
+lower digger 3: working
+lower digger 1: resting
+lower digger 0: working
+lower digger 2: resting
+upper digger 0: working
+lower digger 3: resting
+lower digger 4: arriving
+lower digger 4: working
+lower digger 5: arriving
+lower digger 6: arriving
+lower digger 7: arriving
+lower digger 8: arriving
+lower digger 9: arriving
+lower digger 10: arriving
+lower digger 11: arriving
+lower digger 12: arriving
+lower digger 13: arriving
+lower digger 14: arriving
+lower digger 15: arriving
+lower digger 16: arriving
+lower digger 17: arriving
+lower digger 18: arriving
+lower digger 19: arriving
+lower digger 20: arriving
+lower digger 21: arriving
+lower digger 22: arriving
+lower digger 23: arriving
+lower digger 24: arriving
+lower digger 25: arriving
+lower digger 26: arriving
+lower digger 27: arriving
+lower digger 28: arriving
+lower digger 29: arriving
+lower digger 0: resting
+upper digger 0: resting
+lower digger 5: working
+lower digger 6: working
+lower digger 4: resting
+lower digger 7: working
+lower digger 5: resting
+lower digger 6: resting
+lower digger 8: working
+lower digger 9: working
+lower digger 7: resting
+lower digger 10: working
+lower digger 8: resting
+lower digger 9: resting
+lower digger 11: working
+lower digger 12: working
+lower digger 10: resting
+lower digger 13: working
+lower digger 11: resting
+lower digger 12: resting
+lower digger 14: working
+lower digger 15: working
+lower digger 13: resting
+lower digger 16: working
+lower digger 14: resting
+lower digger 15: resting
+lower digger 17: working
+lower digger 18: working
+lower digger 16: resting
+lower digger 19: working
+Virtual  Base Address: 0x60000000
+Virtual  Top  Address: 0xa0000000    Virtual  Size: 0x40000000 (1024Mb)
+Physical Base Address: 0x60000000
+Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
+Loading...
+0x1a5d98 + 0x10114 + 0x18fec
+NVRAM disabled: can't access /opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/nvram.vxWorks0 with READ/WRITE permission.
+Loading symbol table from k2-115:/opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/vxWorks.sym ...done
+ 
+
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]            
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]            
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]  
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]] 
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks 6.9
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.13
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-2017
+
+ CPU: Linux 4.9.0-0.bpo.1-amd64 [x86_64].  Processor #0.
+ Memory Size: 0x1ff00000 (511Mb).  BSP version 6.9/0.
+ Created: Oct 20 2017 18:26:29
+ ED&R Policy Mode: Deployed
+ WDB Comm Type: WDB_COMM_PIPE
+ WDB: Ready.
+
+-> 
