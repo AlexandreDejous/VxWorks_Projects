@@ -22,8 +22,8 @@
 	<section name="WRLaunchConfigSelectionDialog.com.windriver.ide.launch.vxworks6.tmRunTask">
 		<item value="false" key="new"/>
 		<item value="false" key="duplicate"/>
-		<item value="false" key="launch"/>
 		<item value="true" key="edit"/>
+		<item value="false" key="launch"/>
 	</section>
 	<section name="com.windriver.ide.launch.ui.context.WRCompositeContextSelectorTab">
 		<section name="com.windriver.ide.launch.ui.tabs.vxworks.kerneltask.WRVxWorksKernelTaskConfiguratorMediatorPage">

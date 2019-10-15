@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="49" version="2.0">
+<workbench progressCount="51" version="2.0">
 <workbenchAdvisor/>
 <window height="1100" maximized="true" width="1820" x="0" y="31">
 <fastViewData fastViewLocation="1024"/>
@@ -48,7 +48,7 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="test2.c" partName="test2.c" path="/home/dejouale/WindRiver/workspace/TestProject2/test2.c" title="test2.c" tooltip="TestProject2/test2.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject2/test2.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3969" selectionTopPixel="2692"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2729" selectionTopPixel="1592"/>
 </editor>
 </editors>
 <views>
@@ -594,13 +594,13 @@
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.Disconnect"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.SkipAllBreakpoints"/>
 <hide_toolbar_item_id id="com.windriver.ide.ocd.ui.welcomescreen.action"/>
-<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.ToggleStepFilters"/>
 <hide_toolbar_item_id id="org.eclipse.tcf.te.ui.terminals.toolbar"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.ToggleStepFilters"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.StepOver"/>
-<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.Resume"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.Suspend"/>
-<hide_toolbar_item_id id="com.windriver.ide.cfg.components.clients.opcae.actions.Launch"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.Resume"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="com.windriver.ide.cfg.components.clients.opcae.actions.Launch"/>
 <hide_toolbar_item_id id="com.windriver.ide.ui.WRBuildFile"/>
 <hide_toolbar_item_id id="com.windriver.ide.ui.WRRunLastBuild"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.DropToFrame"/>
@@ -770,8 +770,20 @@
 <item historyLabel="test.c" index="2">
 <position info="not_deleted" x="490" y="0"/>
 </item>
-<item active="true" historyLabel="test2.c" index="1">
+<item historyLabel="test2.c" index="1">
 <position info="not_deleted" x="5465" y="0"/>
+</item>
+<item historyLabel="test2.c" index="1">
+<position info="not_deleted" x="4464" y="0"/>
+</item>
+<item historyLabel="test2.c" index="1">
+<position/>
+</item>
+<item historyLabel="test2.c" index="1">
+<position info="not_deleted" x="3749" y="0"/>
+</item>
+<item active="true" historyLabel="test2.c" index="1">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
