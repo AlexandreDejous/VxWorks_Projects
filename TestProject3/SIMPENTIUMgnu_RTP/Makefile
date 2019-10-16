@@ -84,64 +84,120 @@ endif
 
 
 #Project Targets
-PROJECT_TARGETS = TestProject3/$(MODE_DIR)/TestProject3.vxe
+PROJECT_TARGETS = company/$(MODE_DIR)/company.vxe \
+	 monitor/$(MODE_DIR)/monitor.vxe
 
 
 #Rules
 
-# TestProject3
+# company
 ifeq ($(DEBUG_MODE),1)
-TestProject3/$(MODE_DIR)/% : DEBUGFLAGS_C-Compiler = -g
-TestProject3/$(MODE_DIR)/% : DEBUGFLAGS_C++-Compiler = -g
-TestProject3/$(MODE_DIR)/% : DEBUGFLAGS_Linker = 
-TestProject3/$(MODE_DIR)/% : DEBUGFLAGS_Librarian = 
-TestProject3/$(MODE_DIR)/% : DEBUGFLAGS_Assembler = -g
+company/$(MODE_DIR)/% : DEBUGFLAGS_C-Compiler = -g
+company/$(MODE_DIR)/% : DEBUGFLAGS_C++-Compiler = -g
+company/$(MODE_DIR)/% : DEBUGFLAGS_Linker = 
+company/$(MODE_DIR)/% : DEBUGFLAGS_Librarian = 
+company/$(MODE_DIR)/% : DEBUGFLAGS_Assembler = -g
 else
-TestProject3/$(MODE_DIR)/% : DEBUGFLAGS_C-Compiler =  -O2  -fno-defer-pop
-TestProject3/$(MODE_DIR)/% : DEBUGFLAGS_C++-Compiler =  -O2  -fno-defer-pop
-TestProject3/$(MODE_DIR)/% : DEBUGFLAGS_Linker = 
-TestProject3/$(MODE_DIR)/% : DEBUGFLAGS_Librarian = 
-TestProject3/$(MODE_DIR)/% : DEBUGFLAGS_Assembler =  -O2  -fno-defer-pop
+company/$(MODE_DIR)/% : DEBUGFLAGS_C-Compiler =  -O2  -fno-defer-pop
+company/$(MODE_DIR)/% : DEBUGFLAGS_C++-Compiler =  -O2  -fno-defer-pop
+company/$(MODE_DIR)/% : DEBUGFLAGS_Linker = 
+company/$(MODE_DIR)/% : DEBUGFLAGS_Librarian = 
+company/$(MODE_DIR)/% : DEBUGFLAGS_Assembler =  -O2  -fno-defer-pop
 endif
-TestProject3/$(MODE_DIR)/% : IDE_INCLUDES = -I$(WIND_BASE)/target/usr/h -I$(WIND_BASE)/target/usr/h/wrn/coreip 
-TestProject3/$(MODE_DIR)/% : IDE_LIBRARIES = 
-TestProject3/$(MODE_DIR)/% : IDE_DEFINES = -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   -D_VSB_CONFIG_FILE=\"$(VSB_DIR)/h/config/vsbConfig.h\" 
-TestProject3/$(MODE_DIR)/% : PROJECT_TYPE = RTP
-TestProject3/$(MODE_DIR)/% : DEFINES = 
-TestProject3/$(MODE_DIR)/% : DO_STRIP = 0
-TestProject3/$(MODE_DIR)/% : EXPAND_DBG = 0
-TestProject3/$(MODE_DIR)/% : VX_CPU_FAMILY = simpentium
-TestProject3/$(MODE_DIR)/% : CPU = SIMPENTIUM
-TestProject3/$(MODE_DIR)/% : TOOL_FAMILY = gnu
-TestProject3/$(MODE_DIR)/% : TOOL = gnu
-TestProject3/$(MODE_DIR)/% : TOOL_PATH = 
-TestProject3/$(MODE_DIR)/% : CC_ARCH_SPEC = -mtune=i486 -march=i486
-TestProject3/$(MODE_DIR)/% : LIBPATH = 
-TestProject3/$(MODE_DIR)/% : LIBS = -lstdc++
-TestProject3/$(MODE_DIR)/% : VSB_DIR = $(WIND_BASE)/target/lib
-TestProject3/$(MODE_DIR)/% : VSB_CONFIG_FILE = $(VSB_DIR)/h/config/vsbConfig.h
-TestProject3/$(MODE_DIR)/% : OBJ_DIR := TestProject3/$(MODE_DIR)
+company/$(MODE_DIR)/% : IDE_INCLUDES = -I$(WIND_BASE)/target/usr/h -I$(WIND_BASE)/target/usr/h/wrn/coreip 
+company/$(MODE_DIR)/% : IDE_LIBRARIES = 
+company/$(MODE_DIR)/% : IDE_DEFINES = -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   -D_VSB_CONFIG_FILE=\"$(VSB_DIR)/h/config/vsbConfig.h\" 
+company/$(MODE_DIR)/% : PROJECT_TYPE = RTP
+company/$(MODE_DIR)/% : DEFINES = 
+company/$(MODE_DIR)/% : DO_STRIP = 0
+company/$(MODE_DIR)/% : EXPAND_DBG = 0
+company/$(MODE_DIR)/% : VX_CPU_FAMILY = simpentium
+company/$(MODE_DIR)/% : CPU = SIMPENTIUM
+company/$(MODE_DIR)/% : TOOL_FAMILY = gnu
+company/$(MODE_DIR)/% : TOOL = gnu
+company/$(MODE_DIR)/% : TOOL_PATH = 
+company/$(MODE_DIR)/% : CC_ARCH_SPEC = -mtune=i486 -march=i486
+company/$(MODE_DIR)/% : LIBPATH = 
+company/$(MODE_DIR)/% : LIBS = -lstdc++
+company/$(MODE_DIR)/% : VSB_DIR = $(WIND_BASE)/target/lib
+company/$(MODE_DIR)/% : VSB_CONFIG_FILE = $(VSB_DIR)/h/config/vsbConfig.h
+company/$(MODE_DIR)/% : OBJ_DIR := company/$(MODE_DIR)
 
-TestProject3/$(MODE_DIR)/Objects/TestProject3/test3.o : $(PRJ_ROOT_DIR)/test3.c $(FORCE_FILE_BUILD)
+company/$(MODE_DIR)/Objects/TestProject3/test3.o : $(PRJ_ROOT_DIR)/test3.c $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccpentium $(DEBUGFLAGS_C-Compiler) $(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -std=c99 -fasm -Wall    -MD -MP $(IDE_DEFINES) $(DEFINES) $(ADDED_CFLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -o "$@" -c "$<"
 
 
-OBJECTS_TestProject3 = TestProject3/$(MODE_DIR)/Objects/TestProject3/test3.o
+OBJECTS_company = company/$(MODE_DIR)/Objects/TestProject3/test3.o
 
 ifeq ($(TARGET_JOBS),1)
-TestProject3/$(MODE_DIR)/TestProject3.vxe : $(OBJECTS_TestProject3)
-	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)c++pentium $(DEBUGFLAGS_Linker) $(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -std=c99 -fasm -Wall    -MD -MP  -mrtp -o "$@" $(OBJECTS_TestProject3) $(ADDED_OBJECTS) $(IDE_LIBRARIES) $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/simpentium/SIMPENTIUM/common $(ADDED_LIBPATH) $(ADDED_LIBS) -Wl,--start-group -Wl,--end-group && if [ "$(DO_STRIP)" = "1" ]; then mv -f "$@" "$@.unstripped" && strippentium -g -o "$@" "$@.unstripped";fi && if [ "$(EXPAND_DBG)" = "1" ]; then plink "$@";fi
+company/$(MODE_DIR)/company.vxe : $(OBJECTS_company)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)c++pentium $(DEBUGFLAGS_Linker) $(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -std=c99 -fasm -Wall    -MD -MP  -mrtp -o "$@" $(OBJECTS_company) $(ADDED_OBJECTS) $(IDE_LIBRARIES) $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/simpentium/SIMPENTIUM/common $(ADDED_LIBPATH) $(ADDED_LIBS) -Wl,--start-group -Wl,--end-group && if [ "$(DO_STRIP)" = "1" ]; then mv -f "$@" "$@.unstripped" && strippentium -g -o "$@" "$@.unstripped";fi && if [ "$(EXPAND_DBG)" = "1" ]; then plink "$@";fi
 
 else
-TestProject3/$(MODE_DIR)/TestProject3.vxe : TestProject3/$(MODE_DIR)/TestProject3.vxe_jobs
+company/$(MODE_DIR)/company.vxe : company/$(MODE_DIR)/company.vxe_jobs
 
 endif
-TestProject3/$(MODE_DIR)/TestProject3_compile_file : $(FILE) ;
+company/$(MODE_DIR)/company_compile_file : $(FILE) ;
 
-_clean :: TestProject3/$(MODE_DIR)/TestProject3_clean
+_clean :: company/$(MODE_DIR)/company_clean
 
-TestProject3/$(MODE_DIR)/TestProject3_clean : 
-	$(TRACE_FLAG)if [ -d "TestProject3" ]; then cd "TestProject3"; rm -rf $(MODE_DIR); fi
+company/$(MODE_DIR)/company_clean : 
+	$(TRACE_FLAG)if [ -d "company" ]; then cd "company"; rm -rf $(MODE_DIR); fi
+
+
+# monitor
+ifeq ($(DEBUG_MODE),1)
+monitor/$(MODE_DIR)/% : DEBUGFLAGS_C-Compiler = -g
+monitor/$(MODE_DIR)/% : DEBUGFLAGS_C++-Compiler = -g
+monitor/$(MODE_DIR)/% : DEBUGFLAGS_Linker = 
+monitor/$(MODE_DIR)/% : DEBUGFLAGS_Librarian = 
+monitor/$(MODE_DIR)/% : DEBUGFLAGS_Assembler = -g
+else
+monitor/$(MODE_DIR)/% : DEBUGFLAGS_C-Compiler =  -O2  -fno-defer-pop
+monitor/$(MODE_DIR)/% : DEBUGFLAGS_C++-Compiler =  -O2  -fno-defer-pop
+monitor/$(MODE_DIR)/% : DEBUGFLAGS_Linker = 
+monitor/$(MODE_DIR)/% : DEBUGFLAGS_Librarian = 
+monitor/$(MODE_DIR)/% : DEBUGFLAGS_Assembler =  -O2  -fno-defer-pop
+endif
+monitor/$(MODE_DIR)/% : IDE_INCLUDES = -I$(WIND_BASE)/target/usr/h -I$(WIND_BASE)/target/usr/h/wrn/coreip 
+monitor/$(MODE_DIR)/% : IDE_LIBRARIES = 
+monitor/$(MODE_DIR)/% : IDE_DEFINES = -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   -D_VSB_CONFIG_FILE=\"$(VSB_DIR)/h/config/vsbConfig.h\" 
+monitor/$(MODE_DIR)/% : PROJECT_TYPE = RTP
+monitor/$(MODE_DIR)/% : DEFINES = 
+monitor/$(MODE_DIR)/% : DO_STRIP = 0
+monitor/$(MODE_DIR)/% : EXPAND_DBG = 0
+monitor/$(MODE_DIR)/% : VX_CPU_FAMILY = simpentium
+monitor/$(MODE_DIR)/% : CPU = SIMPENTIUM
+monitor/$(MODE_DIR)/% : TOOL_FAMILY = gnu
+monitor/$(MODE_DIR)/% : TOOL = gnu
+monitor/$(MODE_DIR)/% : TOOL_PATH = 
+monitor/$(MODE_DIR)/% : CC_ARCH_SPEC = -mtune=i486 -march=i486
+monitor/$(MODE_DIR)/% : LIBPATH = 
+monitor/$(MODE_DIR)/% : LIBS = -lstdc++
+monitor/$(MODE_DIR)/% : VSB_DIR = $(WIND_BASE)/target/lib
+monitor/$(MODE_DIR)/% : VSB_CONFIG_FILE = $(VSB_DIR)/h/config/vsbConfig.h
+monitor/$(MODE_DIR)/% : OBJ_DIR := monitor/$(MODE_DIR)
+
+monitor/$(MODE_DIR)/Objects/TestProject3/monitor.o : $(PRJ_ROOT_DIR)/monitor.c $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccpentium $(DEBUGFLAGS_C-Compiler) $(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -std=c99 -fasm -Wall    -MD -MP $(IDE_DEFINES) $(DEFINES) $(ADDED_CFLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -o "$@" -c "$<"
+
+
+OBJECTS_monitor = monitor/$(MODE_DIR)/Objects/TestProject3/monitor.o
+
+ifeq ($(TARGET_JOBS),1)
+monitor/$(MODE_DIR)/monitor.vxe : $(OBJECTS_monitor)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)c++pentium $(DEBUGFLAGS_Linker) $(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -std=c99 -fasm -Wall    -MD -MP  -mrtp -o "$@" $(OBJECTS_monitor) $(ADDED_OBJECTS) $(IDE_LIBRARIES) $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/simpentium/SIMPENTIUM/common $(ADDED_LIBPATH) $(ADDED_LIBS) -Wl,--start-group -Wl,--end-group && if [ "$(DO_STRIP)" = "1" ]; then mv -f "$@" "$@.unstripped" && strippentium -g -o "$@" "$@.unstripped";fi && if [ "$(EXPAND_DBG)" = "1" ]; then plink "$@";fi
+
+else
+monitor/$(MODE_DIR)/monitor.vxe : monitor/$(MODE_DIR)/monitor.vxe_jobs
+
+endif
+monitor/$(MODE_DIR)/monitor_compile_file : $(FILE) ;
+
+_clean :: monitor/$(MODE_DIR)/monitor_clean
+
+monitor/$(MODE_DIR)/monitor_clean : 
+	$(TRACE_FLAG)if [ -d "monitor" ]; then cd "monitor"; rm -rf $(MODE_DIR); fi
 
 force : 
 
@@ -149,7 +205,7 @@ TARGET_JOBS_RULE?=echo "Update the makefile template via File > Import > Build S
 %_jobs : 
 	$(TRACE_FLAG)$(TARGET_JOBS_RULE)
 
-DEP_FILES := TestProject3/$(MODE_DIR)/Objects/TestProject3/test3.d
+DEP_FILES := company/$(MODE_DIR)/Objects/TestProject3/test3.d monitor/$(MODE_DIR)/Objects/TestProject3/monitor.d
 -include $(DEP_FILES)
 
 

@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <semLib.h>
+#include <stdlib.h>
+
+void main(){
+	
+	/*printf("monitor started");*/
+	while(1){
+		
+	}
+}

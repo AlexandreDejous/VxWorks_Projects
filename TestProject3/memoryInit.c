@@ -54,3 +54,5 @@ void init_shm(void)
 
     /* ... register this company to the memory ... */
 }
+
+

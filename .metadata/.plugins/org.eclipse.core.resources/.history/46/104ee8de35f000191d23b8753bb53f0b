@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <semLib.h>
+#include <stdlib.h>
+
+void printInConsole(){
+	printf("lets print");
+}
+
+void main(void){
+	
+	printf("monitor started");
+	while(1){
+		char key = getchar();
+		if (key == 'E'){
+			printf("E detected");
+			printInConsole();
+			//return;
+		}
+				
+	}
+}
+
+

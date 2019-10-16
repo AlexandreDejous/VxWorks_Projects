@@ -2457,9 +2457,26 @@
         </mapAttribute>
     </attributes>
     <buildtargets>
-        <buildtarget buildtool="Linker" name="TestProject3" passed="false" targetname="TestProject3">
+        <buildtarget buildtool="Linker" name="company" passed="false" targetname="company">
             <contents>
-                <folder name="/TestProject3" recursive="true"/>
+                <folder name="/TestProject3" recursive="true">
+                    <excludes>
+                        <file name="monitor.c"/>
+                        <file name="memoryInit.c"/>
+                        <file name="test3bis.c"/>
+                    </excludes>
+                </folder>
+            </contents>
+        </buildtarget>
+        <buildtarget buildtool="Linker" name="monitor" passed="false" targetname="monitor">
+            <contents>
+                <folder name="/TestProject3" recursive="true">
+                    <excludes>
+                        <file name="memoryInit.c"/>
+                        <file name="test3bis.c"/>
+                        <file name="test3.c"/>
+                    </excludes>
+                </folder>
             </contents>
         </buildtarget>
     </buildtargets>
