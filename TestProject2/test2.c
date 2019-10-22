@@ -181,8 +181,9 @@ void CreateTasks(void)
           for (i=0; i<=numberUDiggers-1; i++){
           
           ret = dequeue(&UDiggersID);
-          printf("upper digger %d: leaving\n", ret);
+          
           taskAddr = dequeue(&UDiggers);
+          printf("upper digger %d: leaving\n", ret);
           taskDelete(taskAddr);
 
           }
@@ -190,9 +191,9 @@ void CreateTasks(void)
         }
         if (numberLDiggers > 0){
           for (i=0; i<=numberLDiggers-1; i++){
-          ret = dequeue(&LDiggersID);
-          printf("lower digger %d: leaving\n", ret);
+          ret = dequeue(&LDiggersID);          
           taskAddr = dequeue(&LDiggers);
+          printf("lower digger %d: leaving\n", ret);
           taskDelete(taskAddr);
 
           }
@@ -218,8 +219,9 @@ void CreateTasks(void)
       if(numberLDiggers > 0){
         numberLDiggers--;
         ret = dequeue(&LDiggersID);
-        printf("lower digger %d: leaving\n", ret);
+        
         taskAddr = dequeue(&LDiggers);
+        printf("lower digger %d: leaving\n", ret);
         taskDelete(taskAddr);
       }
       else
@@ -241,8 +243,9 @@ void CreateTasks(void)
       if(numberUDiggers > 0){
         numberUDiggers--;
         ret = dequeue(&UDiggersID);
-        printf("upper digger %d: leaving\n", ret);
+        
         taskAddr = dequeue(&UDiggers);
+        printf("upper digger %d: leaving\n", ret);
         taskDelete(taskAddr);
       }
       else
