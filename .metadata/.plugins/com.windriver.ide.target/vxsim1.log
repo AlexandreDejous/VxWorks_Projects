@@ -6,28 +6,28 @@ Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
 Loading...
 0x1ca970 + 0x137dc + 0x32f2c
 NVRAM disabled: can't access /opt/psr/nvram.vxWorks-sim-shm1 with READ/WRITE permission.
-Redirecting TCP port 40061 to 10.0.10.2:21
-Redirecting TCP port 39771 to 10.0.10.2:22
-Redirecting TCP port 38651 to 10.0.10.2:23
-Redirecting TCP port 46301 to 10.0.10.2:69
-Redirecting TCP port 42139 to 10.0.10.2:80
-Redirecting TCP port 40075 to 10.0.10.2:443
-Redirecting TCP port 40563 to 10.0.10.2:17476
-Redirecting UDP port 36016 to 10.0.10.2:17185
-Redirecting TCP port 39969 to 10.0.10.2:1534
-Redirecting TCP port 41439 to 10.0.10.2:5698
-Redirecting TCP port 39079 to 10.0.10.2:5678
-Redirecting TCP port 46519 to 10.0.10.2:3333
-Redirecting TCP port 44991 to 10.0.10.2:49152
-Redirecting TCP port 42693 to 10.0.10.2:49153
-Redirecting TCP port 43857 to 10.0.10.2:49154
-Redirecting TCP port 44731 to 10.0.10.2:49155
-Redirecting TCP port 44905 to 10.0.10.2:49156
-Redirecting TCP port 35233 to 10.0.10.2:49280
-Redirecting TCP port 36911 to 10.0.10.2:49281
-Redirecting TCP port 42327 to 10.0.10.2:49282
-Redirecting TCP port 45409 to 10.0.10.2:49283
-Redirecting TCP port 45219 to 10.0.10.2:49284
+Redirecting TCP port 35455 to 10.0.10.2:21
+Redirecting TCP port 42701 to 10.0.10.2:22
+Redirecting TCP port 38197 to 10.0.10.2:23
+Redirecting TCP port 44163 to 10.0.10.2:69
+Redirecting TCP port 37633 to 10.0.10.2:80
+Redirecting TCP port 33739 to 10.0.10.2:443
+Redirecting TCP port 37063 to 10.0.10.2:17476
+Redirecting UDP port 55803 to 10.0.10.2:17185
+Redirecting TCP port 34415 to 10.0.10.2:1534
+Redirecting TCP port 35739 to 10.0.10.2:5698
+Redirecting TCP port 44263 to 10.0.10.2:5678
+Redirecting TCP port 45603 to 10.0.10.2:3333
+Redirecting TCP port 37053 to 10.0.10.2:49152
+Redirecting TCP port 33983 to 10.0.10.2:49153
+Redirecting TCP port 44689 to 10.0.10.2:49154
+Redirecting TCP port 37157 to 10.0.10.2:49155
+Redirecting TCP port 42537 to 10.0.10.2:49156
+Redirecting TCP port 39273 to 10.0.10.2:49280
+Redirecting TCP port 44527 to 10.0.10.2:49281
+Redirecting TCP port 40905 to 10.0.10.2:49282
+Redirecting TCP port 40233 to 10.0.10.2:49283
+Redirecting TCP port 35767 to 10.0.10.2:49284
 VxWorks CPU number: 2 / Host CPU number: 4
 Failed. 
 Error opening k09-183:/opt/psr/vxWorks-sim-shm.sym: status = 0x2

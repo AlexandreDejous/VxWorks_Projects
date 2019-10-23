@@ -85,7 +85,7 @@ int ret;
 /*END of queue instantiation */
 
 /* Companies data types definition */
-/*
+
 struct company {
     char name[20];
     int work_done;
@@ -97,7 +97,7 @@ struct company_registry {
 };
 
 struct company_registry *ptr;
-*/
+
 
 
 /* END of companies data types definition */

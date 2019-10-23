@@ -4,9 +4,7 @@
 #include <sys/stat.h>
 #include <semLib.h>
 #include <fcntl.h>
-#include "t3_header.h"
 
-/*
 struct company {
     char name[20];
     int work_done;
@@ -18,7 +16,6 @@ struct company_registry {
 };
 
 struct company_registry *ptr;
-*/
 SEM_ID lock;
 
 void init_shm(void)

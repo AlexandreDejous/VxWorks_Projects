@@ -78,7 +78,8 @@ company/Debug/Objects/TestProject3/memoryInit.o:  \
   /opt/WindRiver/vxworks-6.9/target/usr/h/semSysCall.h \
   /opt/WindRiver/vxworks-6.9/target/usr/h/fcntl.h \
   /opt/WindRiver/vxworks-6.9/target/usr/h/types/vxANSI.h \
-  /opt/WindRiver/vxworks-6.9/target/usr/h/sys/fcntlcom.h
+  /opt/WindRiver/vxworks-6.9/target/usr/h/sys/fcntlcom.h \
+  /home/dejouale/WindRiver/workspace/TestProject3/t3_header.h
 
 /opt/WindRiver/vxworks-6.9/target/usr/h/sys/mman.h:
 
@@ -237,3 +238,5 @@ company/Debug/Objects/TestProject3/memoryInit.o:  \
 /opt/WindRiver/vxworks-6.9/target/usr/h/types/vxANSI.h:
 
 /opt/WindRiver/vxworks-6.9/target/usr/h/sys/fcntlcom.h:
+
+/home/dejouale/WindRiver/workspace/TestProject3/t3_header.h:

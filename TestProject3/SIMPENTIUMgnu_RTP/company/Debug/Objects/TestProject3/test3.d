@@ -77,7 +77,8 @@ company/Debug/Objects/TestProject3/test3.o:  \
   /opt/WindRiver/vxworks-6.9/target/usr/h/semLibCommon.h \
   /opt/WindRiver/vxworks-6.9/target/usr/h/semSysCall.h \
   /opt/WindRiver/vxworks-6.9/target/usr/h/stdlib.h \
-  /opt/WindRiver/vxworks-6.9/target/usr/h/string.h
+  /opt/WindRiver/vxworks-6.9/target/usr/h/string.h \
+  /home/dejouale/WindRiver/workspace/TestProject3/t3_header.h
 
 /opt/WindRiver/vxworks-6.9/target/usr/h/taskLib.h:
 
@@ -234,3 +235,5 @@ company/Debug/Objects/TestProject3/test3.o:  \
 /opt/WindRiver/vxworks-6.9/target/usr/h/stdlib.h:
 
 /opt/WindRiver/vxworks-6.9/target/usr/h/string.h:
+
+/home/dejouale/WindRiver/workspace/TestProject3/t3_header.h:

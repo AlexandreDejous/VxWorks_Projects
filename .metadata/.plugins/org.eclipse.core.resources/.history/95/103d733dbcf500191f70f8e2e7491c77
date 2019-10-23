@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <semLib.h>
 #include <stdlib.h>
-#include "t3_header.h"
+
 /* Companies data types definition */
 
 
