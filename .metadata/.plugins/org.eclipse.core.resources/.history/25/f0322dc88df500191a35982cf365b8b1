@@ -1,0 +1,10 @@
+#include "header.h"
+
+void main(void){
+	int num = 5;
+	printf('Main launched %d \n',5);
+}
+ 
+void printAnything(){
+	printf("Anything ?\n");
+}

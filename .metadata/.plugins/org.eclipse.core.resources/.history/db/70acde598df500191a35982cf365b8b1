@@ -1,0 +1,8 @@
+
+void main(void){
+	printf('Main launched');
+}
+ 
+void printAnything(){
+	printf("Anything ?\n");
+}

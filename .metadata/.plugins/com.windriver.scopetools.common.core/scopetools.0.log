@@ -1,0 +1,4 @@
+2019-10-22 20:02:10 , Data Monitor, com.windriver.scopetools.common.core.link.wtx.ScopeCommonWtxLink loadFpLib
+FINER: Target does not need additional floating point routines loaded
+2019-10-22 20:02:10 , Data Monitor, com.windriver.scopetools.common.core.link.wtx.ScopeCommonWtxLink loadScopeutils
+FINEST: Loaded module scopeutils.so 

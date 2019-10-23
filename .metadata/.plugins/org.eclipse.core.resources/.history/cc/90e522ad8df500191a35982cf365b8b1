@@ -1,0 +1,9 @@
+#include "header.h"
+
+void main(void){
+	printf('Main launched %d \n',%);
+}
+ 
+void printAnything(){
+	printf("Anything ?\n");
+}

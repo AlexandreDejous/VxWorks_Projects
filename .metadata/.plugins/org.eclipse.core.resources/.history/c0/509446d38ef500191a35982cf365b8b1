@@ -1,0 +1,12 @@
+#include "header.h"
+
+#include <stdio.h>
+
+void main(void){
+	int num = 5;
+	printf('Main launched %d \n',num);
+}
+ 
+void printAnything(){
+	//printf("Anything ?\n");
+}

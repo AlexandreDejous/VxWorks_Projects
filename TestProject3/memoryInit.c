@@ -12,7 +12,7 @@ struct company {
 
 struct company_registry {
     struct company companies[50];
-    int occupied[50]; /* 0 if the correponding index is not occupied by a company, 1 else*/
+    
 };
 
 struct company_registry *ptr;
@@ -21,16 +21,24 @@ SEM_ID lock;
 void init_shm(void)
 {
     int fd;
+    int set0 = 1;
+
 
     /* Lock to protect manipulations with shared memory - accessible from multiple processes */
     lock = semOpen("/complock", SEM_TYPE_MUTEX, SEM_FULL, SEM_Q_FIFO, OM_CREATE, NULL);
     /* use semTake() and semGive() to protect the relevant code below */
 
-    fd = shm_open("/company", O_RDWR | O_CREAT, S_IRUSR|S_IWUSR);
+    
     /* or consider using O_EXCL flag to find whether the memory
      * needs to be initialized (see memset below) or not */
     fd = shm_open("/company", O_RDWR | O_CREAT | O_EXCL, S_IRUSR|S_IWUSR);
 
+    if (fd == -1){//if -1, then we dont need to zero the memory
+        set0 = 0;
+        fd = shm_open("/company", O_RDWR | O_CREAT, S_IRUSR|S_IWUSR);
+    }else{
+        
+    }
     /* set the size of shared memory block */
     if (ftruncate (fd, sizeof(struct company_registry)) == -1) {
         perror("ftruncate");
@@ -51,9 +59,10 @@ void init_shm(void)
     /* ... */
 
     /* the fist company should zero the memory this way: */
-    memset(ptr, 0, sizeof(struct company_registry));
+    if (set0 ==1){
+        memset(ptr, 0, sizeof(struct company_registry));
+    }
+    
 
     /* ... register this company to the memory ... */
 }
-
-

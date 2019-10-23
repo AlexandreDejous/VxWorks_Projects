@@ -1,12 +1,10 @@
 /*README
-
 Implemented (Task2):
 -diggers tasks spawing and deletion (upper and lower)
 -press c to get a general view of the workplace (how much diggers are working and worked today)
 -info message (ex. upper digger 6 exiting... ; lower digger 3 entering...)
 I used a queue to implement the FIFO rule about diggers (first arrived to the workplace, first to leave)
 Upper diggers are waiting a finite amount of time to check if there is soil to remove
-
 Implemented (Task3): TOWRITE
 */
 
@@ -17,6 +15,7 @@ Implemented (Task3): TOWRITE
 #include <stdio.h>
 #include <semLib.h>
 #include <stdlib.h>
+#include <string.h>
 
 #define WORK_TIME 50
 #define BREAK_TIME 50
@@ -176,51 +175,57 @@ void createUpperDigger(){
 	enqueue(&UDiggersID, numberUDiggersCumul-1);
 }
 
-int registerCompany(char *companyName){
+/*int registerCompany(char *companyName){
   
-  /*sifts through the occupancy table and stops on the first free index (current) */
+  //sifts through the occupancy table and stops on the first free index (current) 
   int current;
-  bool found = false;
-  for (current = 0; current < 50; current++;){
-    if (ptr->occupied[current] == 0){//if 0, it is free
-      found = true;/*here the value current is one of a valid index*/
-      break;
+  int i;
+  for (i = 0, i <50, i++){
+    if (ptr->companies[i].name[0]==0){
+      strcpy(ptr->companies[i].name, companyName);
     }
   }
-  if (found){
-
-    //insert name of the company in the registry
+    
     ptr->companies[current].name = companyName;
     ptr->occupied[current] = 1;
     return current;
     
-  }else{
-    return -1;/*returning a company index that cannot exist*/
-  }
-  printf("Too much companies are registered (max. 50)\n");
-}
+}*/
 
-void unregisterCompany(*companyIndex){
-
+/*void unregisterCompany(*companyIndex){
   ptr->companies[*companyIndex].name = '';
   ptr->occupied[current] = 0;
-
-}
+}*/
 
 
 void main(int argc, char *argv[])
 {
 	
-  char *companyName = argv[1];//points to an array of char (name of the company) 
+  init_shm();
+  //char *companyName = argv[1];//points to an array of char (name of the company) 
 
   /*register the company*/
-  *companyIndex = registerCompany(companyName); /*when passing a pointer to a func as arg, we pass the pointer itself, not the value of the var it points to*/
-
+  //pointercompanyIndex = registerCompany(companyName); /*when passing a pointer to a func as arg, we pass the pointer itself, not the value of the var it points to*/
+  int current;
+  int i;
+  for (i = 0; i <50; i++){
+    if (ptr->companies[i].name[0]==0){
+      current = i;
+      strcpy(ptr->companies[i].name, argv[1]);
+      break;
+    }
+  }
+  
+  printf("Company name : %s",ptr->companies[i].name);
+    
+  /*  ptr->companies[current].name = companyName;
+    ptr->occupied[current] = 1;
+    return current; */
 
   semSoilHeap = semCCreate(SEM_Q_FIFO,0 );
   semShovels = semCCreate(SEM_Q_FIFO, 3);
   int taskAddr;
-  int i = 0;
+  i = 0;
   int ret = 0;
   
   
@@ -235,7 +240,7 @@ void main(int argc, char *argv[])
 		char key = getchar();
 		if (key == 'E'){/*Everybody goes home !!*/
 			
-      unregisterCompany(*companyIndex);
+      //unregisterCompany(*companyIndex);
 
       if(numberUDiggers + numberLDiggers > 0){
         printf("Everyone goes home!\n");
@@ -327,5 +332,3 @@ void main(int argc, char *argv[])
 		}
 	}
 }
-
-

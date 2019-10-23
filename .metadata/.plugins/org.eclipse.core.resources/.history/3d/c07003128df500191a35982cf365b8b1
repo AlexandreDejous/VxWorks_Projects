@@ -1,0 +1,8 @@
+
+void main(void){
+	printf()
+}
+ 
+void printAnything(){
+	printf("Anything ?\n");
+}

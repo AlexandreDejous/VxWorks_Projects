@@ -1,0 +1,2200 @@
+DFW status and trace log : Tue Oct 22 18:42:27 2019
+
+18:42:27.638 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5665
+18:42:27.642 ERROR: target definition defaultTarget has not been created
+  Protocol Component : SevError(2) : targetdefinitionmanager.cpp : 5161
+DFW status and trace log : Tue Oct 22 18:42:39 2019
+
+18:42:39.180 ERROR: Node 'TargetDefns' does not have a child name 'vxsim1': StdStructContainerInfoNode1::evalNodeChild
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+18:42:39.181 ERROR: Node 'TargetDefns' does not have a child name 'vxsim1'
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+18:42:39.182 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5665
+18:43:22.252 ERROR: WTX API Error: Invalid handle
+  SevError(2) : wtxerrors.cpp : 1035
+18:43:22.309 ERROR: Target not connected: TargetComponent::CheckInitAndConnect
+  SevError(2) : targetcomponent.cpp : 2837
+18:43:22.309 ERROR: Target not connected
+  SevError(2) : targetcomponent.cpp : 2837
+18:43:22.309 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5665
+18:43:22.311 ERROR: Target not connected: TargetComponent::CheckInitAndConnect
+  SevError(2) : targetcomponent.cpp : 2837
+18:43:22.311 ERROR: Target not connected
+  SevError(2) : targetcomponent.cpp : 2837
+18:43:22.311 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5665
+18:44:01.437 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.443 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.448 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.452 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.456 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.460 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.463 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.467 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.470 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.474 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.477 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.481 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.484 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.488 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.491 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.494 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.498 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.501 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+18:44:01.507 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5665
+18:44:01.507 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5665
+18:44:01.512 ERROR: Invalid core (CPU) id
+  SevError(2) : tccoreinfo.cpp : 849
+18:44:01.597 ERROR: Unsupported function call: TargetPluginAPI::GetTraceInfo
+  SevError(2) : tccallwrappers.cpp : 4517
+18:44:01.604 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.604 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.604 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.752 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.752 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.752 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.752 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.753 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.753 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.753 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.753 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.754 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.754 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.755 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.755 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.757 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.757 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.758 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.758 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.761 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.761 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.762 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.762 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.766 WARNING: No register with name 'pc' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'pc' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'pc' exists
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'FPRegisterAccess' exists
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'GetFeatures' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'GetFeatures' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'GetFeatures' exists
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'EvalEdxFxsr' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'EvalEdxFxsr' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'EvalEdxFxsr' exists
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'EvalEcxXSaveAvx' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'EvalEcxXSaveAvx' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.766 WARNING: No register with name 'EvalEcxXSaveAvx' exists
+  SevWarning(1) : scregaccess.cpp : 3817
+18:44:01.770 ERROR: Internal Error: Target connected notice when not connecting
+  SevInternalError(4) : contextstatemanagerimpl.cpp : 533
+18:44:01.772 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.823 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.823 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.835 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.835 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.835 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.835 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.835 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.835 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.837 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.837 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.837 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.837 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.838 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.838 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.838 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.838 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.838 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.838 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.839 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.839 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.839 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.839 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.839 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.839 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.839 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.839 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.840 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.840 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.840 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.840 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.840 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.840 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.840 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.840 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.840 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.840 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.840 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.840 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.840 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.840 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.851 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.851 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.852 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.852 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.852 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.852 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.853 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.853 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:01.853 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:01.853 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.828 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.828 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.836 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.836 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.836 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.836 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.884 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.884 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.905 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.905 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.905 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.905 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.993 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.993 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.993 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.993 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.994 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.994 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.994 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.994 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.994 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.994 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.994 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.994 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.994 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.994 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.994 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.994 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.994 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.994 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.994 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.994 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.995 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.995 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.995 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.995 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.995 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.995 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.995 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.995 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:02.995 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:02.995 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.003 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.003 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.004 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.005 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.005 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.005 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.005 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.006 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.006 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.007 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.007 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.008 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.008 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.008 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.008 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.008 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.008 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.008 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.008 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.008 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.008 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.008 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.009 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.009 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.009 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.015 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.015 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.021 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.021 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:03.021 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:03.021 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:04.131 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:04.131 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:04.143 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:04.143 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:04.147 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+18:44:04.147 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:04.147 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:04.147 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:04.147 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:04.148 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:04.148 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:04.158 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:04.158 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:13.610 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:13.610 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:13.614 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+18:44:13.616 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:13.616 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:13.616 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:13.616 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:13.619 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+18:44:13.619 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+18:44:19.134 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:19.134 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:19.146 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:19.146 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:21.116 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+18:44:21.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:21.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:21.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:21.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:21.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:21.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:21.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:21.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:21.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:21.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:21.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:21.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:21.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:21.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:44:21.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:44:21.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.090 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.090 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.099 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.099 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.099 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.099 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.104 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.104 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.111 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.111 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.111 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.111 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.193 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.193 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.193 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.193 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.194 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.194 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.194 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.194 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.194 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.194 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.195 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.195 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.195 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.195 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.195 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.195 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.195 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.195 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.196 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.196 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.208 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.208 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.209 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.211 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.211 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.211 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.211 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.211 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.211 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.211 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.211 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.212 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.212 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.213 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.213 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.223 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.223 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.223 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.223 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.223 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.223 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.223 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.223 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.224 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.224 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.224 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.224 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.224 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.224 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.225 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.225 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.225 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.225 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.225 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.225 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.225 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.225 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.226 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.226 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.226 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.226 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.226 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.226 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.226 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.226 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.226 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.226 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.226 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.226 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.228 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:42.228 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:42.228 ERROR: Object Id does not match ObjectType: expected=KernelTask, actual=UnknownType
+  SevError(2) : vxWorksPluginObjectQueryLib.cpp : 3775
+18:52:44.266 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.266 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.272 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+18:52:44.274 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.274 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.274 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.274 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.342 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+18:52:44.347 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.347 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.374 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.374 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.375 ERROR: Node 'Task' does not have a child name 'ObjList': InfoArrayContainerNode_IndexNamedChildren::evalNodeChild
+  Protocol Component : SevError(2) : infonodehelper.hpp : 500
+18:52:44.375 ERROR: Node 'Task' does not have a child name 'ObjList'
+  Protocol Component : SevError(2) : infonodehelper.hpp : 500
+18:52:44.376 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+18:52:44.378 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.378 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.378 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.378 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.485 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+18:52:44.486 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+18:52:44.486 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+18:52:44.486 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+18:52:44.649 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.649 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.649 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.649 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.649 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.649 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.649 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.649 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.649 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.649 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.650 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.650 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:44.650 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:44.650 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.191 ERROR: The TOS object is not initialized: TOSComponent::GetObjectInfo
+  Tos Component : SevError(2) : tosobject.cpp : 2282
+18:52:45.191 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2282
+18:52:45.191 ERROR: The TOS object is not initialized: TOSComponent::GetObjectInfo
+  Tos Component : SevError(2) : tosobject.cpp : 2282
+18:52:45.191 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2282
+18:52:45.399 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.399 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.399 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.399 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.402 ERROR: No register with name 'iar' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'iar' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'pc' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'pc' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'IAR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'IAR' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'PC' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'PC' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'ax' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'ax' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'al' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'al' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'al' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'al' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rax' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rax' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'cx' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'cx' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'cl' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'cl' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'cl' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'cl' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rcx' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rcx' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'dx' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'dx' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'dl' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'dl' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'dl' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'dl' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rdx' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rdx' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'bx' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'bx' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'bl' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'bl' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'bl' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'bl' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rbx' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rbx' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'sp' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'sp' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'ah' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'ah' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'dil' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'dil' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rsp' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rsp' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'bp' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'bp' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'ch' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'ch' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'sil' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'sil' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rbp' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rbp' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'si' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'si' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'dh' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'dh' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'bpl' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'bpl' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rsi' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rsi' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'di' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'di' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'bh' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'bh' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'spl' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'spl' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rdi' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'rdi' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r8w' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r8w' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r8l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r8l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r8l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r8l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r8d' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r8d' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r8' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r8' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r9w' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r9w' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r9l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r9l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r9l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r9l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r9d' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r9d' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r9' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r9' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r10w' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r10w' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r10l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r10l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r10l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r10l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r10d' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r10d' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r10' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r10' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r11w' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r11w' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r11l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r11l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r11l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r11l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r11d' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r11d' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r11' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r11' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r12w' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r12w' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r12l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r12l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r12l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r12l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r12d' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r12d' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r12' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r12' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r13w' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r13w' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r13l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r13l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r13l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r13l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r13d' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r13d' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r13' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r13' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r14w' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r14w' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r14l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.402 ERROR: No register with name 'r14l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r14l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r14l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r14d' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r14d' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r14' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r14' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r15w' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r15w' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r15l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r15l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r15l' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r15l' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r15d' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r15d' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r15' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'r15' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'es' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'es' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'cs' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'cs' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'ss' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'ss' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'ds' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'ds' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'fs' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'fs' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'gs' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'gs' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'cr0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'cr0' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'cr2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'cr2' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'cr3' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'cr3' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'cr4' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'cr4' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'cr8' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'cr8' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'mm0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'mm0' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'xmm0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: No register with name 'xmm0' exists
+  SevError(2) : scregaccess.cpp : 2900
+18:52:45.403 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.403 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.403 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.403 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.548 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.548 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.550 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.550 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.551 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.551 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.551 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.551 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.552 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 245
+18:52:45.552 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 245
+18:52:45.552 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.552 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.552 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 245
+18:52:45.552 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.552 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.552 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 555
+18:52:45.552 ERROR: One or more failures in a multiple request call
+  SevError(2) : CPUPluginTemplate.cpp : 2194
+18:52:45.554 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.554 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.555 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.555 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.557 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.557 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.604 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.604 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.605 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.605 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.606 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.606 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.611 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.611 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.612 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.612 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.613 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 245
+18:52:45.613 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.613 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.613 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 555
+18:52:45.613 ERROR: One or more failures in a multiple request call
+  SevError(2) : CPUPluginTemplate.cpp : 2194
+18:52:45.613 ERROR: cannot access target to evaluate expression
+  Symbol Component : SevError(2) : symbolaccessspt.cpp : 287
+18:52:45.615 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.615 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.616 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.616 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:45.617 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:45.617 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:51.269 ERROR: Unsupported function call: TOSComponent::IsAddressInPLT
+  Tos Component : SevError(2) : tosmodule.cpp : 1172
+18:52:51.269 ERROR: Unsupported function call: TargetPluginAPI::StepRangeOver
+  SevError(2) : tccallwrappers.cpp : 3530
+18:52:51.289 ERROR: Unsupported function call: TargetPluginAPI::StepRangeOver
+  SevError(2) : tccallwrappers.cpp : 3530
+18:52:51.292 ERROR: Unsupported function call: TargetPluginAPI::StepRangeOver
+  SevError(2) : tccallwrappers.cpp : 3530
+18:52:51.294 ERROR: Unsupported function call: TOSComponent::IsAddressInPLT
+  Tos Component : SevError(2) : tosmodule.cpp : 1172
+18:52:51.300 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:51.300 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:51.300 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:51.300 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:51.348 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:51.348 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:51.348 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:51.348 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:51.349 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:51.349 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:51.508 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:51.508 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:51.509 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:51.509 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:51.513 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:51.513 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:51.513 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:51.513 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:51.515 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:51.515 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:51.515 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:51.515 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:51.515 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:51.515 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:52.162 ERROR: Node 'HardwareBreakpointData' does not have a child name 'AccessSizeList': StdStructContainerInfoNode1::evalNodeChild
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+18:52:52.162 ERROR: Node 'HardwareBreakpointData' does not have a child name 'AccessSizeList'
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+18:52:52.164 ERROR: Node 'HardwareBreakpointData' does not have a child name 'AccessTypeList': StdStructContainerInfoNode1::evalNodeChild
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+18:52:52.164 ERROR: Node 'HardwareBreakpointData' does not have a child name 'AccessTypeList'
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+18:52:52.258 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+18:52:52.258 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:52:53.048 ERROR: No symbol context is defined for current context.: ProgramContext::GetLockedModuleListEntry
+  SevError(2) : programcontext.cpp : 5150
+18:52:53.048 ERROR: No symbol context is defined for current context.
+  SevError(2) : programcontext.cpp : 5150
+18:52:53.061 WARNING: Symbol not found: SymbolComponent::GetVariable
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:52:53.061 WARNING: Symbol not found
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:52:53.071 ERROR: No symbol context is defined for current context.: ProgramContext::GetLockedModuleListEntry
+  SevError(2) : programcontext.cpp : 5150
+18:52:53.071 ERROR: No symbol context is defined for current context.
+  SevError(2) : programcontext.cpp : 5150
+18:52:53.085 WARNING: Symbol not found: SymbolComponent::GetVariable
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:52:53.085 WARNING: Symbol not found
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:52:53.093 ERROR: No symbol context is defined for current context.: ProgramContext::GetLockedModuleListEntry
+  SevError(2) : programcontext.cpp : 5150
+18:52:53.093 ERROR: No symbol context is defined for current context.
+  SevError(2) : programcontext.cpp : 5150
+18:52:53.107 WARNING: Symbol not found: SymbolComponent::GetVariable
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:52:53.107 WARNING: Symbol not found
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:52:58.870 ERROR: Unsupported function call: TOSComponent::IsAddressInPLT
+  Tos Component : SevError(2) : tosmodule.cpp : 1172
+18:52:58.875 ERROR: Wrong kind of scope for this operation
+  Symbol Component : SevError(2) : symbolaccessspt.cpp : 5022
+18:52:58.886 ERROR: No source line at this address
+  Protocol Component : SevError(2) : miserialize.cpp : 1982
+18:52:58.887 ERROR: No source line at this address
+  Protocol Component : SevError(2) : miserialize.cpp : 1982
+18:52:59.188 ERROR: No source line at this address
+  Protocol Component : SevError(2) : miserialize.cpp : 1982
+18:53:03.935 ERROR: Unsupported function call: TOSComponent::IsAddressInPLT
+  Tos Component : SevError(2) : tosmodule.cpp : 1172
+18:53:46.051 ERROR: unable to convert struct, class, or union to scalar
+  Symbol Component : SevError(2) : symbolaccessspt.cpp : 323
+18:53:46.051 ERROR: No definition found for struct _Vx_semaphore
+  Symbol Component : SevError(2) : expressionresult.cpp : 983
+18:54:02.445 ERROR: Symbol not found: SymbolComponent::GetVariable
+  Symbol Component : SevError(2) : symbolcomponent.cpp : 4352
+18:54:02.445 ERROR: Symbol not found
+  Symbol Component : SevError(2) : symbolcomponent.cpp : 4352
+18:54:02.445 ERROR: cannot find symbol 'O_EXCL' in scope
+  Expression evaluator : SevError(2) : expressioneval.cpp : 1872
+18:54:03.620 ERROR: Symbol not found: SymbolComponent::GetVariable
+  Symbol Component : SevError(2) : symbolcomponent.cpp : 4352
+18:54:03.620 ERROR: Symbol not found
+  Symbol Component : SevError(2) : symbolcomponent.cpp : 4352
+18:54:03.620 ERROR: cannot find symbol 'PROT_READ' in scope
+  Expression evaluator : SevError(2) : expressioneval.cpp : 1872
+18:54:05.858 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+18:54:05.858 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+18:54:05.863 ERROR: Unknown thread/program-context id 27
+  SevError(2) : programcontext.cpp : 5595
+18:54:05.863 ERROR: The current context is no longer accessible: MISessionState::GetProgramContext
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+18:54:05.863 ERROR: The current context is no longer accessible
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+18:54:05.881 ERROR: Unknown thread/program-context id 28
+  SevError(2) : programcontext.cpp : 5595
+18:54:05.881 ERROR: Unknown thread/program-context id 0: MIProgramContextMapper::LookupProgramContext
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+18:54:05.881 ERROR: Unknown thread/program-context id 0
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+18:54:05.881 ERROR: The current context is no longer accessible: MISessionState::GetProgramContext
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+18:54:05.881 ERROR: The current context is no longer accessible
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+18:54:05.925 ERROR: Unknown thread/program-context id 0: MIProgramContextMapper::LookupProgramContext
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+18:54:05.925 ERROR: Unknown thread/program-context id 0
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+18:54:05.925 ERROR: The current context is no longer accessible: MISessionState::GetProgramContext
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+18:54:05.925 ERROR: The current context is no longer accessible
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+18:54:06.370 ERROR: Unknown thread/program-context id 0: MIProgramContextMapper::LookupProgramContext
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+18:54:06.370 ERROR: Unknown thread/program-context id 0
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+18:54:06.370 ERROR: The current context is no longer accessible: MISessionState::GetProgramContext
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+18:54:06.370 ERROR: The current context is no longer accessible
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+18:54:06.579 ERROR: Unknown thread/program-context id 28
+  SevError(2) : programcontext.cpp : 5595
+18:54:06.579 ERROR: The current context is no longer accessible: MISessionState::GetProgramContext
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+18:54:06.579 ERROR: The current context is no longer accessible
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+18:54:06.590 ERROR: Unknown thread/program-context id 27
+  SevError(2) : programcontext.cpp : 5595
+18:54:06.602 ERROR: Unknown thread/program-context id 27
+  SevError(2) : programcontext.cpp : 5595
+18:54:07.373 ERROR: Socket Closed. API: recv, SessionId: 14: SocketHandler::Read
+  Protocol Component : SevError(2) : sockethandler.cpp : 109
+18:54:07.373 ERROR: Socket Closed. API: recv, SessionId: 14
+  Protocol Component : SevError(2) : sockethandler.cpp : 109
+18:54:07.374 ERROR: target definition defaultTarget has not been created
+  Protocol Component : SevError(2) : targetdefinitionmanager.cpp : 5161
+18:54:07.378 ERROR: Unknown thread/program-context id 27
+  SevError(2) : programcontext.cpp : 5595
+18:54:07.378 ERROR: Unknown thread/program-context id 0: MIProgramContextMapper::LookupProgramContext
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+18:54:07.378 ERROR: Unknown thread/program-context id 0
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+18:54:07.378 ERROR: The current context is no longer accessible: MISessionState::GetProgramContext
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+18:54:07.378 ERROR: The current context is no longer accessible
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+18:54:07.378 ERROR: Unknown thread/program-context id 27
+  SevError(2) : programcontext.cpp : 5595
+18:54:30.202 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+18:54:32.238 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+18:54:32.334 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+18:54:32.372 ERROR: Node 'Task' does not have a child name 'ObjList': InfoArrayContainerNode_IndexNamedChildren::evalNodeChild
+  Protocol Component : SevError(2) : infonodehelper.hpp : 500
+18:54:32.372 ERROR: Node 'Task' does not have a child name 'ObjList'
+  Protocol Component : SevError(2) : infonodehelper.hpp : 500
+18:54:32.373 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+18:54:32.671 ERROR: The TOS object is not initialized: TOSComponent::GetObjectInfo
+  Tos Component : SevError(2) : tosobject.cpp : 2282
+18:54:32.671 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2282
+18:54:32.671 ERROR: The TOS object is not initialized: TOSComponent::GetObjectInfo
+  Tos Component : SevError(2) : tosobject.cpp : 2282
+18:54:32.671 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2282
+18:54:32.976 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 245
+18:54:32.977 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 245
+18:54:32.977 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 245
+18:54:32.977 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 555
+18:54:32.977 ERROR: One or more failures in a multiple request call
+  SevError(2) : CPUPluginTemplate.cpp : 2194
+18:54:33.030 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 245
+18:54:33.030 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 555
+18:54:33.030 ERROR: One or more failures in a multiple request call
+  SevError(2) : CPUPluginTemplate.cpp : 2194
+18:54:33.030 ERROR: cannot access target to evaluate expression
+  Symbol Component : SevError(2) : symbolaccessspt.cpp : 287
+18:54:39.191 ERROR: Node 'HardwareBreakpointData' does not have a child name 'AccessSizeList': StdStructContainerInfoNode1::evalNodeChild
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+18:54:39.191 ERROR: Node 'HardwareBreakpointData' does not have a child name 'AccessSizeList'
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+18:54:39.204 ERROR: Node 'HardwareBreakpointData' does not have a child name 'AccessTypeList': StdStructContainerInfoNode1::evalNodeChild
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+18:54:39.204 ERROR: Node 'HardwareBreakpointData' does not have a child name 'AccessTypeList'
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+18:54:40.043 ERROR: No symbol context is defined for current context.: ProgramContext::GetLockedModuleListEntry
+  SevError(2) : programcontext.cpp : 5150
+18:54:40.043 ERROR: No symbol context is defined for current context.
+  SevError(2) : programcontext.cpp : 5150
+18:54:40.057 WARNING: Symbol not found: SymbolComponent::GetVariable
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:54:40.057 WARNING: Symbol not found
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:54:40.067 ERROR: No symbol context is defined for current context.: ProgramContext::GetLockedModuleListEntry
+  SevError(2) : programcontext.cpp : 5150
+18:54:40.067 ERROR: No symbol context is defined for current context.
+  SevError(2) : programcontext.cpp : 5150
+18:54:40.080 WARNING: Symbol not found: SymbolComponent::GetVariable
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:54:40.080 WARNING: Symbol not found
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:54:40.089 ERROR: No symbol context is defined for current context.: ProgramContext::GetLockedModuleListEntry
+  SevError(2) : programcontext.cpp : 5150
+18:54:40.089 ERROR: No symbol context is defined for current context.
+  SevError(2) : programcontext.cpp : 5150
+18:54:40.103 WARNING: Symbol not found: SymbolComponent::GetVariable
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:54:40.103 WARNING: Symbol not found
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:54:40.111 ERROR: No symbol context is defined for current context.: ProgramContext::GetLockedModuleListEntry
+  SevError(2) : programcontext.cpp : 5150
+18:54:40.111 ERROR: No symbol context is defined for current context.
+  SevError(2) : programcontext.cpp : 5150
+18:54:40.124 WARNING: Symbol not found: SymbolComponent::GetVariable
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:54:40.124 WARNING: Symbol not found
+  Symbol Component : SevWarning(1) : symbolcomponent.cpp : 4543
+18:54:45.388 ERROR: Unsupported function call: TOSComponent::IsAddressInPLT
+  Tos Component : SevError(2) : tosmodule.cpp : 1172
+18:54:45.389 ERROR: Unsupported function call: TargetPluginAPI::StepRangeOver
+  SevError(2) : tccallwrappers.cpp : 3530
+18:54:45.393 ERROR: Unsupported function call: TargetPluginAPI::StepRangeOver
+  SevError(2) : tccallwrappers.cpp : 3530
+18:54:45.411 ERROR: Unsupported function call: TargetPluginAPI::StepRangeOver
+  SevError(2) : tccallwrappers.cpp : 3530
+18:54:45.431 ERROR: Unsupported function call: TOSComponent::IsAddressInPLT
+  Tos Component : SevError(2) : tosmodule.cpp : 1172
+19:00:55.787 ERROR: unable to convert struct, class, or union to scalar
+  Symbol Component : SevError(2) : symbolaccessspt.cpp : 323
+19:00:55.790 ERROR: unable to convert struct, class, or union to scalar
+  Symbol Component : SevError(2) : symbolaccessspt.cpp : 323
+19:05:42.296 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:05:42.297 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:05:42.300 ERROR: Unknown thread/program-context id 30
+  SevError(2) : programcontext.cpp : 5595
+19:05:42.300 ERROR: The current context is no longer accessible: MISessionState::GetProgramContext
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+19:05:42.300 ERROR: The current context is no longer accessible
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+19:05:42.315 ERROR: Unknown thread/program-context id 31
+  SevError(2) : programcontext.cpp : 5595
+19:05:42.315 ERROR: Unknown thread/program-context id 0: MIProgramContextMapper::LookupProgramContext
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+19:05:42.315 ERROR: Unknown thread/program-context id 0
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+19:05:42.316 ERROR: The current context is no longer accessible: MISessionState::GetProgramContext
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+19:05:42.316 ERROR: The current context is no longer accessible
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+19:05:42.363 ERROR: Unknown thread/program-context id 0: MIProgramContextMapper::LookupProgramContext
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+19:05:42.363 ERROR: Unknown thread/program-context id 0
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+19:05:42.363 ERROR: The current context is no longer accessible: MISessionState::GetProgramContext
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+19:05:42.363 ERROR: The current context is no longer accessible
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+19:05:42.789 ERROR: Unknown thread/program-context id 30
+  SevError(2) : programcontext.cpp : 5595
+19:05:42.804 ERROR: Unknown thread/program-context id 0: MIProgramContextMapper::LookupProgramContext
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+19:05:42.804 ERROR: Unknown thread/program-context id 30
+  SevError(2) : programcontext.cpp : 5595
+19:05:42.804 ERROR: Unknown thread/program-context id 0
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+19:05:42.804 ERROR: The current context is no longer accessible: MISessionState::GetProgramContext
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+19:05:42.804 ERROR: The current context is no longer accessible
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+19:05:42.808 ERROR: Unknown thread/program-context id 31
+  SevError(2) : programcontext.cpp : 5595
+19:05:42.808 ERROR: The current context is no longer accessible: MISessionState::GetProgramContext
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+19:05:42.808 ERROR: The current context is no longer accessible
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+19:05:43.803 ERROR: Socket Closed. API: recv, SessionId: 15: SocketHandler::Read
+  Protocol Component : SevError(2) : sockethandler.cpp : 109
+19:05:43.803 ERROR: Socket Closed. API: recv, SessionId: 15
+  Protocol Component : SevError(2) : sockethandler.cpp : 109
+19:05:43.804 ERROR: target definition defaultTarget has not been created
+  Protocol Component : SevError(2) : targetdefinitionmanager.cpp : 5161
+19:05:43.805 ERROR: Unknown thread/program-context id 30
+  SevError(2) : programcontext.cpp : 5595
+19:05:43.805 ERROR: Unknown thread/program-context id 0: MIProgramContextMapper::LookupProgramContext
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+19:05:43.805 ERROR: Unknown thread/program-context id 0
+  Protocol Component : SevError(2) : miprogramcontextmapper.cpp : 128
+19:05:43.805 ERROR: The current context is no longer accessible: MISessionState::GetProgramContext
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+19:05:43.805 ERROR: The current context is no longer accessible
+  Protocol Component : SevError(2) : misessionstate.cpp : 423
+19:05:43.805 ERROR: Unknown thread/program-context id 30
+  SevError(2) : programcontext.cpp : 5595
+19:09:23.909 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:09:26.954 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:09:26.956 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:09:26.956 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:09:53.007 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+19:10:03.579 ERROR: Object Id does not match ObjectType: expected=KernelTask, actual=Semaphore
+  SevError(2) : vxWorksPluginObjectQueryLib.cpp : 3775
+19:10:04.749 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:05.639 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:10:05.639 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:10:05.639 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:10:52.938 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+19:10:52.938 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.938 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.938 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.938 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.940 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+19:10:52.940 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.940 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:54.400 ERROR: Target is busy. Try again later
+  SevError(2) : tccallwrappers.cpp : 271
+19:10:54.400 ERROR: Target is busy. Try again later
+  SevError(2) : tccallwrappers.cpp : 271
+19:10:54.403 ERROR: Target is busy. Try again later
+  SevError(2) : tccallwrappers.cpp : 271
+19:10:54.971 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:54.972 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:54.972 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+19:10:54.972 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:54.978 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+19:10:54.984 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+19:10:54.990 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+19:10:58.686 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+19:11:09.496 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:10.403 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+19:11:15.630 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:11:15.633 ERROR: Invalid Object Id
+  Tos Component : SevError(2) : tosmodule.cpp : 536
+19:11:15.633 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:11:15.633 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:11:31.794 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:31.798 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:11:31.798 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:11:31.798 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:11:57.238 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+19:11:57.238 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.238 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:58.379 ERROR: Target is busy. Try again later
+  SevError(2) : tccallwrappers.cpp : 271
+19:11:58.379 ERROR: Target is busy. Try again later
+  SevError(2) : tccallwrappers.cpp : 271
+19:11:59.244 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:59.244 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:59.244 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+19:11:59.244 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:59.266 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+19:29:36.772 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:29:38.126 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+19:29:42.026 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:29:42.031 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:29:42.031 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:36:30.653 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:36:30.658 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:36:30.658 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:36:30.658 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:37:12.942 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:37:12.942 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:37:15.742 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+19:37:24.788 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:37:27.836 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:37:27.836 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:37:27.836 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:37:47.441 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+19:39:05.119 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:39:05.120 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:39:18.481 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:39:18.485 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:39:18.487 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:39:18.487 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:39:21.712 ERROR: Object Id does not match ObjectType: expected=KernelTask, actual=UnknownType
+  SevError(2) : vxWorksPluginObjectQueryLib.cpp : 3775
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.939 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+19:10:52.939 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.940 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+19:10:52.940 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:52.940 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:54.400 ERROR: Target is busy. Try again later
+  SevError(2) : tccallwrappers.cpp : 271
+19:10:54.400 ERROR: Target is busy. Try again later
+  SevError(2) : tccallwrappers.cpp : 271
+19:10:54.403 ERROR: Target is busy. Try again later
+  SevError(2) : tccallwrappers.cpp : 271
+19:10:54.971 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:54.972 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:54.972 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+19:10:54.972 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:10:54.978 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+19:10:54.984 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+19:10:54.990 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+19:10:58.686 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+19:11:09.496 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:10.403 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+19:11:15.630 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:11:15.633 ERROR: Invalid Object Id
+  Tos Component : SevError(2) : tosmodule.cpp : 536
+19:11:15.633 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:11:15.633 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:11:31.794 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:31.798 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:11:31.798 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:11:31.798 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:11:57.238 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+19:11:57.238 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.238 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:57.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:58.379 ERROR: Target is busy. Try again later
+  SevError(2) : tccallwrappers.cpp : 271
+19:11:58.379 ERROR: Target is busy. Try again later
+  SevError(2) : tccallwrappers.cpp : 271
+19:11:59.244 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:59.244 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:59.244 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+19:11:59.244 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:11:59.266 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+19:29:36.772 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:29:38.126 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+19:29:42.026 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:29:42.031 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:29:42.031 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:36:30.653 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:36:30.658 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:36:30.658 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:36:30.658 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:37:12.942 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:37:12.942 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:37:15.742 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+19:37:24.788 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:37:27.836 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:37:27.836 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:37:27.836 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:37:47.441 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+19:39:05.119 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:39:05.120 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:39:18.481 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:39:18.485 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:39:18.487 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:39:18.487 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:39:21.712 ERROR: Object Id does not match ObjectType: expected=KernelTask, actual=UnknownType
+  SevError(2) : vxWorksPluginObjectQueryLib.cpp : 3775
+19:39:23.706 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:39:23.710 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:39:23.710 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:39:23.710 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:39:30.518 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:39:30.521 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:39:30.523 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:39:30.523 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:39:36.779 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+19:55:57.397 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+19:55:57.532 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+19:55:57.532 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+19:55:57.532 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+20:02:10.545 ERROR: No symbol context is defined for current context.: ProgramContext::GetLockedModuleListEntry
+  SevError(2) : programcontext.cpp : 5150
+20:02:10.545 ERROR: No symbol context is defined for current context.
+  SevError(2) : programcontext.cpp : 5150
+20:02:10.555 ERROR: No symbol context is defined for current context.: ProgramContext::GetLockedModuleListEntry
+  SevError(2) : programcontext.cpp : 5150
+20:02:10.555 ERROR: No symbol context is defined for current context.
+  SevError(2) : programcontext.cpp : 5150
+20:02:10.922 WARNING: Object file has minimal debug information: /opt/WindRiver/vxworks-6.9/target/lib_smp/simlinux/SIMLINUX/common/dkm/analysis/scopeutils.so
+  SevWarning(1) : symbolmanager.cpp : 178
+20:02:11.211 WARNING: Object file has minimal debug information: /opt/WindRiver/vxworks-6.9/target/lib_smp/simlinux/SIMLINUX/common/dkm/analysis/libscope711tcp.so
+  SevWarning(1) : symbolmanager.cpp : 178
+20:05:10.917 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.917 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.918 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.918 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+20:05:10.918 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.918 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+20:05:10.918 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.918 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+20:05:10.918 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.918 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+20:05:10.918 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:10.918 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:12.251 ERROR: Target is busy. Try again later
+  SevError(2) : tccallwrappers.cpp : 271
+20:05:12.251 ERROR: Target is busy. Try again later
+  SevError(2) : tccallwrappers.cpp : 271
+20:05:12.923 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:12.923 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:12.923 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+20:05:12.923 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:05:12.934 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+20:05:12.939 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+20:05:12.945 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+20:05:12.950 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+20:05:12.956 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+20:05:12.961 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+20:05:12.967 ERROR: Unknown WTX Error: 0xFFFFFFFF
+  SevError(2) : wtxerrors.cpp : 1035
+20:05:20.381 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+20:06:40.652 ERROR: Object Id does not match ObjectType: expected=KernelTask, actual=Semaphore
+  SevError(2) : vxWorksPluginObjectQueryLib.cpp : 3775
+20:06:40.656 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:06:41.578 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+20:06:50.879 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+20:06:50.880 ERROR: Target OS Object not found
+  SevError(2) : vxWorksPluginModuleLib.cpp : 695
+20:06:50.882 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+20:06:50.883 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+20:07:01.363 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:07:01.368 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 200
+20:07:01.369 ERROR: Target is running: MIExecContinue:Eval
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+20:07:01.369 ERROR: Target is running
+  Protocol Component : SevError(2) : miexeccommands.cpp : 363
+20:07:10.322 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6221
+20:27:03.775 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1058
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+20:27:03.775 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208

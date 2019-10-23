@@ -2462,7 +2462,6 @@
                 <folder name="/TestProject3" recursive="true">
                     <excludes>
                         <file name="monitor.c"/>
-                        <file name="memoryInit.c"/>
                         <file name="test3bis.c"/>
                     </excludes>
                 </folder>
