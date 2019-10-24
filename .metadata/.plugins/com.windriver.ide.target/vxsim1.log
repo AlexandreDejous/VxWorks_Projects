@@ -6,31 +6,31 @@ Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
 Loading...
 0x1ca970 + 0x137dc + 0x32f2c
 NVRAM disabled: can't access /opt/psr/nvram.vxWorks-sim-shm1 with READ/WRITE permission.
-Redirecting TCP port 35455 to 10.0.10.2:21
-Redirecting TCP port 42701 to 10.0.10.2:22
-Redirecting TCP port 38197 to 10.0.10.2:23
-Redirecting TCP port 44163 to 10.0.10.2:69
-Redirecting TCP port 37633 to 10.0.10.2:80
-Redirecting TCP port 33739 to 10.0.10.2:443
-Redirecting TCP port 37063 to 10.0.10.2:17476
-Redirecting UDP port 55803 to 10.0.10.2:17185
-Redirecting TCP port 34415 to 10.0.10.2:1534
-Redirecting TCP port 35739 to 10.0.10.2:5698
-Redirecting TCP port 44263 to 10.0.10.2:5678
-Redirecting TCP port 45603 to 10.0.10.2:3333
-Redirecting TCP port 37053 to 10.0.10.2:49152
-Redirecting TCP port 33983 to 10.0.10.2:49153
-Redirecting TCP port 44689 to 10.0.10.2:49154
-Redirecting TCP port 37157 to 10.0.10.2:49155
-Redirecting TCP port 42537 to 10.0.10.2:49156
-Redirecting TCP port 39273 to 10.0.10.2:49280
-Redirecting TCP port 44527 to 10.0.10.2:49281
-Redirecting TCP port 40905 to 10.0.10.2:49282
-Redirecting TCP port 40233 to 10.0.10.2:49283
-Redirecting TCP port 35767 to 10.0.10.2:49284
+Redirecting TCP port 42273 to 10.0.10.2:21
+Redirecting TCP port 39591 to 10.0.10.2:22
+Redirecting TCP port 38907 to 10.0.10.2:23
+Redirecting TCP port 34901 to 10.0.10.2:69
+Redirecting TCP port 41573 to 10.0.10.2:80
+Redirecting TCP port 39251 to 10.0.10.2:443
+Redirecting TCP port 36807 to 10.0.10.2:17476
+Redirecting UDP port 34298 to 10.0.10.2:17185
+Redirecting TCP port 45839 to 10.0.10.2:1534
+Redirecting TCP port 34589 to 10.0.10.2:5698
+Redirecting TCP port 37233 to 10.0.10.2:5678
+Redirecting TCP port 37301 to 10.0.10.2:3333
+Redirecting TCP port 35495 to 10.0.10.2:49152
+Redirecting TCP port 33519 to 10.0.10.2:49153
+Redirecting TCP port 34147 to 10.0.10.2:49154
+Redirecting TCP port 38253 to 10.0.10.2:49155
+Redirecting TCP port 36499 to 10.0.10.2:49156
+Redirecting TCP port 40007 to 10.0.10.2:49280
+Redirecting TCP port 41185 to 10.0.10.2:49281
+Redirecting TCP port 41485 to 10.0.10.2:49282
+Redirecting TCP port 40911 to 10.0.10.2:49283
+Redirecting TCP port 33981 to 10.0.10.2:49284
 VxWorks CPU number: 2 / Host CPU number: 4
 Failed. 
-Error opening k09-183:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
+Error opening k2-113:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
  
 
  ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
@@ -59,4 +59,424 @@ Error opening k09-183:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
  WDB Comm Type: WDB_COMM_PIPE
  WDB: Ready.
 
--> 0x62b73940 (iCompany): RTP 0x62247228 has been stopped due to signal 11.
+-> Virtual  Base Address: 0x60000000
+Virtual  Top  Address: 0xa0000000    Virtual  Size: 0x40000000 (1024Mb)
+Physical Base Address: 0x60000000
+Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
+Loading...
+0x1ca970 + 0x137dc + 0x32f2c
+NVRAM disabled: can't access /opt/psr/nvram.vxWorks-sim-shm1 with READ/WRITE permission.
+Redirecting TCP port 42273 to 10.0.10.2:21
+Redirecting TCP port 39591 to 10.0.10.2:22
+Redirecting TCP port 38907 to 10.0.10.2:23
+Redirecting TCP port 34901 to 10.0.10.2:69
+Redirecting TCP port 41573 to 10.0.10.2:80
+Redirecting TCP port 39251 to 10.0.10.2:443
+Redirecting TCP port 36807 to 10.0.10.2:17476
+Redirecting UDP port 34298 to 10.0.10.2:17185
+Redirecting TCP port 45839 to 10.0.10.2:1534
+Redirecting TCP port 34589 to 10.0.10.2:5698
+Redirecting TCP port 37233 to 10.0.10.2:5678
+Redirecting TCP port 37301 to 10.0.10.2:3333
+Redirecting TCP port 35495 to 10.0.10.2:49152
+Redirecting TCP port 33519 to 10.0.10.2:49153
+Redirecting TCP port 34147 to 10.0.10.2:49154
+Redirecting TCP port 38253 to 10.0.10.2:49155
+Redirecting TCP port 36499 to 10.0.10.2:49156
+Redirecting TCP port 40007 to 10.0.10.2:49280
+Redirecting TCP port 41185 to 10.0.10.2:49281
+Redirecting TCP port 41485 to 10.0.10.2:49282
+Redirecting TCP port 40911 to 10.0.10.2:49283
+Redirecting TCP port 33981 to 10.0.10.2:49284
+VxWorks CPU number: 2 / Host CPU number: 4
+Failed. 
+Error opening k2-113:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
+ 
+
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]            
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]            
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]  
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]] 
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks 6.9 SMP
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.13
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-2016
+
+ CPU: Linux 4.9.0-0.bpo.1-amd64 [x86_64].  Processor #1.
+ Memory Size: 0x1ff00000 (511Mb).  BSP version 6.9/0.
+ Created: Nov 30 2016 14:03:48
+ ED&R Policy Mode: Deployed
+ WDB Comm Type: WDB_COMM_PIPE
+ WDB: Ready.
+
+-> Virtual  Base Address: 0x60000000
+Virtual  Top  Address: 0xa0000000    Virtual  Size: 0x40000000 (1024Mb)
+Physical Base Address: 0x60000000
+Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
+Loading...
+0x1ca970 + 0x137dc + 0x32f2c
+NVRAM disabled: can't access /opt/psr/nvram.vxWorks-sim-shm1 with READ/WRITE permission.
+Redirecting TCP port 42273 to 10.0.10.2:21
+Redirecting TCP port 39591 to 10.0.10.2:22
+Redirecting TCP port 38907 to 10.0.10.2:23
+Redirecting TCP port 34901 to 10.0.10.2:69
+Redirecting TCP port 41573 to 10.0.10.2:80
+Redirecting TCP port 39251 to 10.0.10.2:443
+Redirecting TCP port 36807 to 10.0.10.2:17476
+Redirecting UDP port 34298 to 10.0.10.2:17185
+Redirecting TCP port 45839 to 10.0.10.2:1534
+Redirecting TCP port 34589 to 10.0.10.2:5698
+Redirecting TCP port 37233 to 10.0.10.2:5678
+Redirecting TCP port 37301 to 10.0.10.2:3333
+Redirecting TCP port 35495 to 10.0.10.2:49152
+Redirecting TCP port 33519 to 10.0.10.2:49153
+Redirecting TCP port 34147 to 10.0.10.2:49154
+Redirecting TCP port 38253 to 10.0.10.2:49155
+Redirecting TCP port 36499 to 10.0.10.2:49156
+Redirecting TCP port 40007 to 10.0.10.2:49280
+Redirecting TCP port 41185 to 10.0.10.2:49281
+Redirecting TCP port 41485 to 10.0.10.2:49282
+Redirecting TCP port 40911 to 10.0.10.2:49283
+Redirecting TCP port 33981 to 10.0.10.2:49284
+VxWorks CPU number: 2 / Host CPU number: 4
+Failed. 
+Error opening k2-113:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
+ 
+
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]            
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]            
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]  
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]] 
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks 6.9 SMP
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.13
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-2016
+
+ CPU: Linux 4.9.0-0.bpo.1-amd64 [x86_64].  Processor #1.
+ Memory Size: 0x1ff00000 (511Mb).  BSP version 6.9/0.
+ Created: Nov 30 2016 14:03:48
+ ED&R Policy Mode: Deployed
+ WDB Comm Type: WDB_COMM_PIPE
+ WDB: Ready.
+
+-> Virtual  Base Address: 0x60000000
+Virtual  Top  Address: 0xa0000000    Virtual  Size: 0x40000000 (1024Mb)
+Physical Base Address: 0x60000000
+Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
+Loading...
+0x1ca970 + 0x137dc + 0x32f2c
+NVRAM disabled: can't access /opt/psr/nvram.vxWorks-sim-shm1 with READ/WRITE permission.
+Redirecting TCP port 42273 to 10.0.10.2:21
+Redirecting TCP port 39591 to 10.0.10.2:22
+Redirecting TCP port 38907 to 10.0.10.2:23
+Redirecting TCP port 34901 to 10.0.10.2:69
+Redirecting TCP port 41573 to 10.0.10.2:80
+Redirecting TCP port 39251 to 10.0.10.2:443
+Redirecting TCP port 36807 to 10.0.10.2:17476
+Redirecting UDP port 34298 to 10.0.10.2:17185
+Redirecting TCP port 45839 to 10.0.10.2:1534
+Redirecting TCP port 34589 to 10.0.10.2:5698
+Redirecting TCP port 37233 to 10.0.10.2:5678
+Redirecting TCP port 37301 to 10.0.10.2:3333
+Redirecting TCP port 35495 to 10.0.10.2:49152
+Redirecting TCP port 33519 to 10.0.10.2:49153
+Redirecting TCP port 34147 to 10.0.10.2:49154
+Redirecting TCP port 38253 to 10.0.10.2:49155
+Redirecting TCP port 36499 to 10.0.10.2:49156
+Redirecting TCP port 40007 to 10.0.10.2:49280
+Redirecting TCP port 41185 to 10.0.10.2:49281
+Redirecting TCP port 41485 to 10.0.10.2:49282
+Redirecting TCP port 40911 to 10.0.10.2:49283
+Redirecting TCP port 33981 to 10.0.10.2:49284
+VxWorks CPU number: 2 / Host CPU number: 4
+Failed. 
+Error opening k2-113:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
+ 
+
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]            
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]            
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]  
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]] 
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks 6.9 SMP
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.13
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-2016
+
+ CPU: Linux 4.9.0-0.bpo.1-amd64 [x86_64].  Processor #1.
+ Memory Size: 0x1ff00000 (511Mb).  BSP version 6.9/0.
+ Created: Nov 30 2016 14:03:48
+ ED&R Policy Mode: Deployed
+ WDB Comm Type: WDB_COMM_PIPE
+ WDB: Ready.
+
+-> Virtual  Base Address: 0x60000000
+Virtual  Top  Address: 0xa0000000    Virtual  Size: 0x40000000 (1024Mb)
+Physical Base Address: 0x60000000
+Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
+Loading...
+0x1ca970 + 0x137dc + 0x32f2c
+NVRAM disabled: can't access /opt/psr/nvram.vxWorks-sim-shm1 with READ/WRITE permission.
+Redirecting TCP port 42273 to 10.0.10.2:21
+Redirecting TCP port 39591 to 10.0.10.2:22
+Redirecting TCP port 38907 to 10.0.10.2:23
+Redirecting TCP port 34901 to 10.0.10.2:69
+Redirecting TCP port 41573 to 10.0.10.2:80
+Redirecting TCP port 39251 to 10.0.10.2:443
+Redirecting TCP port 36807 to 10.0.10.2:17476
+Redirecting UDP port 34298 to 10.0.10.2:17185
+Redirecting TCP port 45839 to 10.0.10.2:1534
+Redirecting TCP port 34589 to 10.0.10.2:5698
+Redirecting TCP port 37233 to 10.0.10.2:5678
+Redirecting TCP port 37301 to 10.0.10.2:3333
+Redirecting TCP port 35495 to 10.0.10.2:49152
+Redirecting TCP port 33519 to 10.0.10.2:49153
+Redirecting TCP port 34147 to 10.0.10.2:49154
+Redirecting TCP port 38253 to 10.0.10.2:49155
+Redirecting TCP port 36499 to 10.0.10.2:49156
+Redirecting TCP port 40007 to 10.0.10.2:49280
+Redirecting TCP port 41185 to 10.0.10.2:49281
+Redirecting TCP port 41485 to 10.0.10.2:49282
+Redirecting TCP port 40911 to 10.0.10.2:49283
+Redirecting TCP port 33981 to 10.0.10.2:49284
+VxWorks CPU number: 2 / Host CPU number: 4
+Failed. 
+Error opening k2-113:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
+ 
+
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]            
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]            
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]  
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]] 
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks 6.9 SMP
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.13
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-2016
+
+ CPU: Linux 4.9.0-0.bpo.1-amd64 [x86_64].  Processor #1.
+ Memory Size: 0x1ff00000 (511Mb).  BSP version 6.9/0.
+ Created: Nov 30 2016 14:03:48
+ ED&R Policy Mode: Deployed
+ WDB Comm Type: WDB_COMM_PIPE
+ WDB: Ready.
+
+-> Virtual  Base Address: 0x60000000
+Virtual  Top  Address: 0xa0000000    Virtual  Size: 0x40000000 (1024Mb)
+Physical Base Address: 0x60000000
+Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
+Loading...
+0x1ca970 + 0x137dc + 0x32f2c
+NVRAM disabled: can't access /opt/psr/nvram.vxWorks-sim-shm1 with READ/WRITE permission.
+Redirecting TCP port 42273 to 10.0.10.2:21
+Redirecting TCP port 39591 to 10.0.10.2:22
+Redirecting TCP port 38907 to 10.0.10.2:23
+Redirecting TCP port 34901 to 10.0.10.2:69
+Redirecting TCP port 41573 to 10.0.10.2:80
+Redirecting TCP port 39251 to 10.0.10.2:443
+Redirecting TCP port 36807 to 10.0.10.2:17476
+Redirecting UDP port 34298 to 10.0.10.2:17185
+Redirecting TCP port 45839 to 10.0.10.2:1534
+Redirecting TCP port 34589 to 10.0.10.2:5698
+Redirecting TCP port 37233 to 10.0.10.2:5678
+Redirecting TCP port 37301 to 10.0.10.2:3333
+Redirecting TCP port 35495 to 10.0.10.2:49152
+Redirecting TCP port 33519 to 10.0.10.2:49153
+Redirecting TCP port 34147 to 10.0.10.2:49154
+Redirecting TCP port 38253 to 10.0.10.2:49155
+Redirecting TCP port 36499 to 10.0.10.2:49156
+Redirecting TCP port 40007 to 10.0.10.2:49280
+Redirecting TCP port 41185 to 10.0.10.2:49281
+Redirecting TCP port 41485 to 10.0.10.2:49282
+Redirecting TCP port 40911 to 10.0.10.2:49283
+Redirecting TCP port 33981 to 10.0.10.2:49284
+VxWorks CPU number: 2 / Host CPU number: 4
+Failed. 
+Error opening k2-113:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
+ 
+
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]            
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]            
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]  
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]] 
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks 6.9 SMP
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.13
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-2016
+
+ CPU: Linux 4.9.0-0.bpo.1-amd64 [x86_64].  Processor #1.
+ Memory Size: 0x1ff00000 (511Mb).  BSP version 6.9/0.
+ Created: Nov 30 2016 14:03:48
+ ED&R Policy Mode: Deployed
+ WDB Comm Type: WDB_COMM_PIPE
+ WDB: Ready.
+
+-> Virtual  Base Address: 0x60000000
+Virtual  Top  Address: 0xa0000000    Virtual  Size: 0x40000000 (1024Mb)
+Physical Base Address: 0x60000000
+Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
+Loading...
+0x1ca970 + 0x137dc + 0x32f2c
+NVRAM disabled: can't access /opt/psr/nvram.vxWorks-sim-shm1 with READ/WRITE permission.
+Redirecting TCP port 42273 to 10.0.10.2:21
+Redirecting TCP port 39591 to 10.0.10.2:22
+Redirecting TCP port 38907 to 10.0.10.2:23
+Redirecting TCP port 34901 to 10.0.10.2:69
+Redirecting TCP port 41573 to 10.0.10.2:80
+Redirecting TCP port 39251 to 10.0.10.2:443
+Redirecting TCP port 36807 to 10.0.10.2:17476
+Redirecting UDP port 34298 to 10.0.10.2:17185
+Redirecting TCP port 45839 to 10.0.10.2:1534
+Redirecting TCP port 34589 to 10.0.10.2:5698
+Redirecting TCP port 37233 to 10.0.10.2:5678
+Redirecting TCP port 37301 to 10.0.10.2:3333
+Redirecting TCP port 35495 to 10.0.10.2:49152
+Redirecting TCP port 33519 to 10.0.10.2:49153
+Redirecting TCP port 34147 to 10.0.10.2:49154
+Redirecting TCP port 38253 to 10.0.10.2:49155
+Redirecting TCP port 36499 to 10.0.10.2:49156
+Redirecting TCP port 40007 to 10.0.10.2:49280
+Redirecting TCP port 41185 to 10.0.10.2:49281
+Redirecting TCP port 41485 to 10.0.10.2:49282
+Redirecting TCP port 40911 to 10.0.10.2:49283
+Redirecting TCP port 33981 to 10.0.10.2:49284
+VxWorks CPU number: 2 / Host CPU number: 4
+Failed. 
+Error opening k2-113:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
+ 
+
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]            
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]            
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]  
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]] 
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks 6.9 SMP
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.13
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-2016
+
+ CPU: Linux 4.9.0-0.bpo.1-amd64 [x86_64].  Processor #1.
+ Memory Size: 0x1ff00000 (511Mb).  BSP version 6.9/0.
+ Created: Nov 30 2016 14:03:48
+ ED&R Policy Mode: Deployed
+ WDB Comm Type: WDB_COMM_PIPE
+ WDB: Ready.
+
+-> Virtual  Base Address: 0x60000000
+Virtual  Top  Address: 0xa0000000    Virtual  Size: 0x40000000 (1024Mb)
+Physical Base Address: 0x60000000
+Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
+Loading...
+0x1ca970 + 0x137dc + 0x32f2c
+NVRAM disabled: can't access /opt/psr/nvram.vxWorks-sim-shm1 with READ/WRITE permission.
+Redirecting TCP port 42273 to 10.0.10.2:21
+Redirecting TCP port 39591 to 10.0.10.2:22
+Redirecting TCP port 38907 to 10.0.10.2:23
+Redirecting TCP port 34901 to 10.0.10.2:69
+Redirecting TCP port 41573 to 10.0.10.2:80
+Redirecting TCP port 39251 to 10.0.10.2:443
+Redirecting TCP port 36807 to 10.0.10.2:17476
+Redirecting UDP port 34298 to 10.0.10.2:17185
+Redirecting TCP port 45839 to 10.0.10.2:1534
+Redirecting TCP port 34589 to 10.0.10.2:5698
+Redirecting TCP port 37233 to 10.0.10.2:5678
+Redirecting TCP port 37301 to 10.0.10.2:3333
+Redirecting TCP port 35495 to 10.0.10.2:49152
+Redirecting TCP port 33519 to 10.0.10.2:49153
+Redirecting TCP port 34147 to 10.0.10.2:49154
+Redirecting TCP port 38253 to 10.0.10.2:49155
+Redirecting TCP port 36499 to 10.0.10.2:49156
+Redirecting TCP port 40007 to 10.0.10.2:49280
+Redirecting TCP port 41185 to 10.0.10.2:49281
+Redirecting TCP port 41485 to 10.0.10.2:49282
+Redirecting TCP port 40911 to 10.0.10.2:49283
+Redirecting TCP port 33981 to 10.0.10.2:49284
+VxWorks CPU number: 2 / Host CPU number: 4
+Failed. 
+Error opening k2-113:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
+ 
+
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]            
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]            
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]  
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]] 
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks 6.9 SMP
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.13
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-2016
+
+ CPU: Linux 4.9.0-0.bpo.1-amd64 [x86_64].  Processor #1.
+ Memory Size: 0x1ff00000 (511Mb).  BSP version 6.9/0.
+ Created: Nov 30 2016 14:03:48
+ ED&R Policy Mode: Deployed
+ WDB Comm Type: WDB_COMM_PIPE
+ WDB: Ready.
+
+-> 

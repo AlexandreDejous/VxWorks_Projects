@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <semLib.h>
 #include <stdlib.h>
+#include <unistd.h>
+
 #include "t3_header.h"
 /* Companies data types definition */
 
@@ -9,23 +11,24 @@
 
 /* END of companies data types definition */
 
-void printInConsole(){
-	printf("lets print");
-}
+
 
 void main(int argc, char *argv[]){
 	
-	printf("monitor started");
-	printInConsole();
-	while(1){
-		char key = getchar();
-		if (key == 'E'){
-			printf("E detected");
-			
-			return;
+	init_shm();
+	int i;
+	printf("--- Monitor started ---\n");
+	while (1){
+		printf("-----------------------\n");
+		for (i = 0; i <50; i++){
+		    if (ptr->companies[i].name[0]!=0){
+		      printf("%s:   %d\n",ptr->companies[i].name,ptr->companies[i].work_done);
+		    }
 		}
-				
+		sleep(1);
 	}
+	
+
 }
 
 

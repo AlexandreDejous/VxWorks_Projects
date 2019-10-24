@@ -21,6 +21,10 @@ Implemented (Task3): TOWRITE
 #define WORK_TIME 50
 #define BREAK_TIME 50
 
+SEM_ID lock;
+SEM_ID truck;
+
+int companyIndex;
 
 /*Standard queue implementation in C. Found at https://gist.github.com/kroggen/5fc7380d30615b2e70fcf9c7b69997b6 */
 
@@ -126,6 +130,7 @@ void digger_in_hole(int n)
     printf("lower digger %d: working\n", n);
     taskDelay(WORK_TIME);
     semGive(semSoilHeap);
+    
     semGive(semShovels);
     taskUnsafe();
     printf("lower digger %d: resting\n", n);
@@ -143,10 +148,15 @@ void digger_on_ground(int n)
     semTake(semSoilHeap, WAIT_FOREVER);/*if it is work time but still no soil after a moment, rest*/
     taskSafe();
     semTake(semShovels, WAIT_FOREVER);
+    printf("upper digger %d: working\n", n);
     taskDelay(WORK_TIME);
     
-    printf("upper digger %d: working\n", n);
+    
     semGive(semShovels);
+    semTake(truck, WAIT_FOREVER);
+    ptr->companies[companyIndex].work_done += 1;
+    semGive(truck);
+    
     taskUnsafe();
     printf("upper digger %d: resting\n", n);
     taskDelay(BREAK_TIME);
@@ -201,30 +211,40 @@ void createUpperDigger(){
 
 void main(int argc, char *argv[])
 {
-	
+  
   init_shm();
   //char *companyName = argv[1];//points to an array of char (name of the company) 
 
   /*register the company*/
   //pointercompanyIndex = registerCompany(companyName); /*when passing a pointer to a func as arg, we pass the pointer itself, not the value of the var it points to*/
+  lock = semOpen("/complock", SEM_TYPE_MUTEX, SEM_FULL, SEM_Q_FIFO, OM_CREATE, NULL);
+  
   int current;
   int i;
+  semTake(lock,WAIT_FOREVER);
   for (i = 0; i <50; i++){
     if (ptr->companies[i].name[0]==0){
       current = i;
+      
+      //int adress1 = ptr->companies[0].name;
+      //int adress2 = ptr->companies[1].name;
       strcpy(ptr->companies[i].name, argv[1]);
+      printf("%s",argv[1]);
       break;
     }
   }
+  companyIndex = current;
+  semGive(lock);
+  printf("INDEX IS : %d", current);
   
   printf("Company name : %s",ptr->companies[i].name);
     
-  /*  ptr->companies[current].name = companyName;
-    ptr->occupied[current] = 1;
-    return current; */
+
 
   semSoilHeap = semCCreate(SEM_Q_FIFO,0 );
   semShovels = semCCreate(SEM_Q_FIFO, 3);
+  truck = semCCreate(SEM_Q_FIFO, 1);
+  
   int taskAddr;
   i = 0;
   int ret = 0;
@@ -237,11 +257,15 @@ void main(int argc, char *argv[])
   
   
   
-	while(1){
+  	while(1){
 		char key = getchar();
 		if (key == 'E'){/*Everybody goes home !!*/
 			
-      //unregisterCompany(*companyIndex);
+
+			
+			
+
+			
 
       if(numberUDiggers + numberLDiggers > 0){
         printf("Everyone goes home!\n");
@@ -275,8 +299,12 @@ void main(int argc, char *argv[])
       {
         printf("Number of diggers already 0\n");
       }
-
-
+      //ERASE DIGGERS FROM MEMORY
+		for (i = 0; i <20; i++){
+			ptr->companies[companyIndex].name[i] = 0;		    
+		}
+		ptr->companies[companyIndex].work_done = 0;
+	  //----------------------------
 		}
     if (key == 'i'){/*lower entering */
 			

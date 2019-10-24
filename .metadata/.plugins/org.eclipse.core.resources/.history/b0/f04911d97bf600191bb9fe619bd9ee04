@@ -1,0 +1,45 @@
+#include <taskLib.h>
+#include <stdio.h>
+#include <semLib.h>
+#include <stdlib.h>
+#include "t3_header.h"
+/* Companies data types definition */
+
+
+
+/* END of companies data types definition */
+
+void printInConsole(){
+	printf("lets print");
+}
+
+
+void main(int argc, char *argv[]){
+	printf("--- Monitor started ---");
+	while (1){
+		printf("-----------------------");
+		for (i = 0; i <50; i++){
+		    if (ptr->companies[i].name[0]=!0){
+		      printf();
+		      //int adress1 = ptr->companies[0].name;
+		      //int adress2 = ptr->companies[1].name;
+		      strcpy(ptr->companies[i].name, argv[1]);
+		      break;
+		    }
+		}
+		
+	}
+	
+	printInConsole();
+	while(1){
+		char key = getchar();
+		if (key == 'E'){
+			printf("E detected");
+			
+			return;
+		}
+				
+	}
+}
+
+

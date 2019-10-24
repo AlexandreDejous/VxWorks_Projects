@@ -77,6 +77,8 @@ monitor/Debug/Objects/TestProject3/monitor.o:  \
   /opt/WindRiver/vxworks-6.9/target/usr/h/semLibCommon.h \
   /opt/WindRiver/vxworks-6.9/target/usr/h/semSysCall.h \
   /opt/WindRiver/vxworks-6.9/target/usr/h/stdlib.h \
+  /opt/WindRiver/vxworks-6.9/target/usr/h/unistd.h \
+  /opt/WindRiver/vxworks-6.9/target/usr/h/sys/unistd.h \
   /home/dejouale/WindRiver/workspace/TestProject3/t3_header.h
 
 /opt/WindRiver/vxworks-6.9/target/usr/h/taskLib.h:
@@ -232,5 +234,9 @@ monitor/Debug/Objects/TestProject3/monitor.o:  \
 /opt/WindRiver/vxworks-6.9/target/usr/h/semSysCall.h:
 
 /opt/WindRiver/vxworks-6.9/target/usr/h/stdlib.h:
+
+/opt/WindRiver/vxworks-6.9/target/usr/h/unistd.h:
+
+/opt/WindRiver/vxworks-6.9/target/usr/h/sys/unistd.h:
 
 /home/dejouale/WindRiver/workspace/TestProject3/t3_header.h:

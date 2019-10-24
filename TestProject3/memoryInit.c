@@ -31,7 +31,7 @@ void init_shm(void)
     lock = semOpen("/complock", SEM_TYPE_MUTEX, SEM_FULL, SEM_Q_FIFO, OM_CREATE, NULL);
     /* use semTake() and semGive() to protect the relevant code below */
 
-    
+    semTake(lock, WAIT_FOREVER);
     /* or consider using O_EXCL flag to find whether the memory
      * needs to be initialized (see memset below) or not */
     fd = shm_open("/company", O_RDWR | O_CREAT | O_EXCL, S_IRUSR|S_IWUSR);
@@ -66,6 +66,6 @@ void init_shm(void)
         memset(ptr, 0, sizeof(struct company_registry));
     }
     
-
+    semGive(lock);
     /* ... register this company to the memory ... */
 }

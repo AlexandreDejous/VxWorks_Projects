@@ -183,11 +183,16 @@ monitor/$(MODE_DIR)/% : VSB_DIR = $(WIND_BASE)/target/lib
 monitor/$(MODE_DIR)/% : VSB_CONFIG_FILE = $(VSB_DIR)/h/config/vsbConfig.h
 monitor/$(MODE_DIR)/% : OBJ_DIR := monitor/$(MODE_DIR)
 
+monitor/$(MODE_DIR)/Objects/TestProject3/memoryInit.o : $(PRJ_ROOT_DIR)/memoryInit.c $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccpentium $(DEBUGFLAGS_C-Compiler) $(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -std=c99 -fasm -Wall    -MD -MP $(IDE_DEFINES) $(DEFINES) $(ADDED_CFLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -o "$@" -c "$<"
+
+
 monitor/$(MODE_DIR)/Objects/TestProject3/monitor.o : $(PRJ_ROOT_DIR)/monitor.c $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccpentium $(DEBUGFLAGS_C-Compiler) $(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -std=c99 -fasm -Wall    -MD -MP $(IDE_DEFINES) $(DEFINES) $(ADDED_CFLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -o "$@" -c "$<"
 
 
-OBJECTS_monitor = monitor/$(MODE_DIR)/Objects/TestProject3/monitor.o
+OBJECTS_monitor = monitor/$(MODE_DIR)/Objects/TestProject3/memoryInit.o \
+	 monitor/$(MODE_DIR)/Objects/TestProject3/monitor.o
 
 ifeq ($(TARGET_JOBS),1)
 monitor/$(MODE_DIR)/monitor.vxe : $(OBJECTS_monitor)
@@ -210,7 +215,8 @@ TARGET_JOBS_RULE?=echo "Update the makefile template via File > Import > Build S
 %_jobs : 
 	$(TRACE_FLAG)$(TARGET_JOBS_RULE)
 
-DEP_FILES := company/$(MODE_DIR)/Objects/TestProject3/memoryInit.d company/$(MODE_DIR)/Objects/TestProject3/test3.d monitor/$(MODE_DIR)/Objects/TestProject3/monitor.d
+DEP_FILES := company/$(MODE_DIR)/Objects/TestProject3/memoryInit.d company/$(MODE_DIR)/Objects/TestProject3/test3.d monitor/$(MODE_DIR)/Objects/TestProject3/memoryInit.d \
+	 monitor/$(MODE_DIR)/Objects/TestProject3/monitor.d
 -include $(DEP_FILES)
 
 

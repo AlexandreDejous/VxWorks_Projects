@@ -2471,7 +2471,6 @@
             <contents>
                 <folder name="/TestProject3" recursive="true">
                     <excludes>
-                        <file name="memoryInit.c"/>
                         <file name="test3bis.c"/>
                         <file name="test3.c"/>
                     </excludes>

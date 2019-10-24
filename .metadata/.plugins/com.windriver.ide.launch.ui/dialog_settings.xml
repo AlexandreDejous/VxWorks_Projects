@@ -15,28 +15,28 @@
 			<item value="false" key="company1.vxe - vxsim1 (1).hideUnconnected"/>
 			<item value="false" key="noEntryPoint - TestProject.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - TestProject2.out - vxsim0.hideUnconnected"/>
-			<item value="false" key="Create - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="CreateT - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="Create - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="CreateTasks - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="Crea - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - noDownload - vxsim0.hideUnconnected"/>
 			<item value="false" key="Cre - TestProject2.out - vxsim0.hideUnconnected"/>
-			<item value="false" key="CreateTasks - TestProject.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - noDownload - vxsim0 (1).hideUnconnected"/>
+			<item value="false" key="CreateTasks - TestProject.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="company.vxe - vxsim1.hideUnconnected"/>
 		</section>
 	</section>
 	<section name="WRLaunchConfigSelectionDialog.com.windriver.ide.launch.vxworks6.tmRunTask">
 		<item value="false" key="new"/>
 		<item value="false" key="duplicate"/>
-		<item value="true" key="launch"/>
 		<item value="false" key="edit"/>
+		<item value="true" key="launch"/>
 	</section>
 	<section name="WRLaunchConfigSelectionDialog.com.windriver.ide.launch.vxworks6.tmRunRTP">
 		<item value="true" key="new"/>
 		<item value="false" key="duplicate"/>
-		<item value="false" key="launch"/>
 		<item value="false" key="edit"/>
+		<item value="false" key="launch"/>
 	</section>
 	<section name="com.windriver.ide.launch.ui.context.WRCompositeContextSelectorTab">
 		<section name="com.windriver.ide.launch.ui.tabs.vxworks.kerneltask.WRVxWorksKernelTaskConfiguratorMediatorPage">
