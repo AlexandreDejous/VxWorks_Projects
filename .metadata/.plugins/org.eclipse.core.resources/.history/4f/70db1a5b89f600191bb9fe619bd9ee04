@@ -280,7 +280,7 @@ void main(int argc, char *argv[])
 			ptr->companies[companyIndex].name[i] = 0;		    
 		}
 		ptr->companies[companyIndex].work_done = 0;
-		return;
+		return
 	  //----------------------------
 		}
     if (key == 'i'){/*lower entering */

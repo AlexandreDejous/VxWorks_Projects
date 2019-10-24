@@ -7,6 +7,12 @@
 #include "t3_header.h"
 
 
+
+
+/* END of companies data types definition */
+
+
+
 void main(int argc, char *argv[]){
 	
 	init_shm();

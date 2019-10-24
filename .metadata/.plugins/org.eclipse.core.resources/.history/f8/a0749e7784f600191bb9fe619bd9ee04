@@ -5,6 +5,12 @@
 #include <unistd.h>
 
 #include "t3_header.h"
+/* Companies data types definition */
+
+
+
+/* END of companies data types definition */
+
 
 
 void main(int argc, char *argv[]){

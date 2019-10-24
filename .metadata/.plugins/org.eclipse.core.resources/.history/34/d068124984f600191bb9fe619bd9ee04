@@ -88,6 +88,26 @@ int ret;
 
 /*END of queue instantiation */
 
+/* Companies data types definition */
+/*
+struct company {
+    char name[20];
+    int work_done;
+};
+
+struct company_registry {
+    struct company companies[50];
+    int occupied[50]; // 0 if the correponding index is not occupied by a company, 1 else
+};
+
+struct company_registry *ptr;
+*/
+
+
+/* END of companies data types definition */
+
+
+
 
 SEM_ID semShovels;
 SEM_ID semSoilHeap;
@@ -165,7 +185,7 @@ void createUpperDigger(){
 	enqueue(&UDiggers, taskAddr);
 	enqueue(&UDiggersID, numberUDiggersCumul-1);
 }
-//first approach didn't work (could have)
+
 /*int registerCompany(char *companyName){
   
   //sifts through the occupancy table and stops on the first free index (current) 
@@ -193,9 +213,10 @@ void main(int argc, char *argv[])
 {
   
   init_shm();
+  //char *companyName = argv[1];//points to an array of char (name of the company) 
 
   /*register the company*/
-  
+  //pointercompanyIndex = registerCompany(companyName); /*when passing a pointer to a func as arg, we pass the pointer itself, not the value of the var it points to*/
   lock = semOpen("/complock", SEM_TYPE_MUTEX, SEM_FULL, SEM_Q_FIFO, OM_CREATE, NULL);
   
   int current;
@@ -204,6 +225,9 @@ void main(int argc, char *argv[])
   for (i = 0; i <50; i++){
     if (ptr->companies[i].name[0]==0){
       current = i;
+      
+      //int adress1 = ptr->companies[0].name;
+      //int adress2 = ptr->companies[1].name;
       strcpy(ptr->companies[i].name, argv[1]);
       printf("%s",argv[1]);
       break;
@@ -280,7 +304,6 @@ void main(int argc, char *argv[])
 			ptr->companies[companyIndex].name[i] = 0;		    
 		}
 		ptr->companies[companyIndex].work_done = 0;
-		return;
 	  //----------------------------
 		}
     if (key == 'i'){/*lower entering */

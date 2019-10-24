@@ -8357,3 +8357,27 @@ java.io.FileNotFoundException
 
 !ENTRY com.windriver.ide.debug 0 3 2019-10-24 19:26:08.214
 !MESSAGE opened new socket: Socket[addr=/192.168.202.113,port=5184,localport=40068]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-24 19:34:26.208
+!MESSAGE VIOStreamsProxy attempting to connect to port 5290
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-24 19:34:26.210
+!MESSAGE opened new socket: Socket[addr=/192.168.202.113,port=5290,localport=56342]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-24 19:34:26.227
+!MESSAGE VIOStreamsProxy attempting to connect to port 5291
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-24 19:34:26.229
+!MESSAGE opened new socket: Socket[addr=/192.168.202.113,port=5291,localport=45854]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-24 19:34:32.624
+!MESSAGE VIOStreamsProxy attempting to connect to port 5292
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-24 19:34:32.626
+!MESSAGE opened new socket: Socket[addr=/192.168.202.113,port=5292,localport=54244]
+
+!ENTRY com.windriver.ide.debug 0 42 2019-10-24 19:34:32.643
+!MESSAGE VIOStreamsProxy attempting to connect to port 5293
+
+!ENTRY com.windriver.ide.debug 0 3 2019-10-24 19:34:32.645
+!MESSAGE opened new socket: Socket[addr=/192.168.202.113,port=5293,localport=51720]
