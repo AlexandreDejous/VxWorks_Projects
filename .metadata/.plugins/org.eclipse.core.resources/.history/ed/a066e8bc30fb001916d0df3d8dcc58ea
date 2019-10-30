@@ -1,0 +1,107 @@
+#include "config.h"
+#include <semLib.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+#include <taskLib.h>
+
+SEM_ID mutex;
+
+
+
+int timespec_subtract (struct timespec *result,
+           struct timespec *x,
+           struct timespec *y)
+{
+  /* Perform the carry for the later subtraction by updating Y. */
+  if (x->tv_nsec < y->tv_nsec) {
+    int num_sec = (y->tv_nsec - x->tv_nsec) / 1000000000 + 1;
+    y->tv_nsec -= 1000000000 * num_sec;
+    y->tv_sec += num_sec;
+  }
+  if (x->tv_nsec - y->tv_nsec > 1000000000) {
+    int num_sec = (x->tv_nsec - y->tv_nsec) / 1000000000;
+    y->tv_nsec += 1000000000 * num_sec;
+    y->tv_sec -= num_sec;
+  }
+
+  /* Compute the time remaining to wait.
+     `tv_nsec' is certainly positive. */
+  result->tv_sec = x->tv_sec - y->tv_sec;
+  result->tv_nsec = x->tv_nsec - y->tv_nsec;
+
+  /* Return 1 if result is negative. */
+  return x->tv_sec < y->tv_sec;
+}
+
+void do_something(int x)
+{
+    long int len = x * 100000000;
+    while (len > 0) len--;
+}
+
+
+void high(){//TODO : TWEAK THIS
+	
+	struct timespec tstart, tend, result;
+	
+	while (1) {
+	  
+		
+		  clock_gettime(CLOCK_MONOTONIC, &tstart);
+		  semTake(mutex, WAIT_FOREVER);
+		  clock_gettime(CLOCK_MONOTONIC, &tend);
+		  semGive(mutex);
+		  timespec_subtract(&result, &tend, &tstart);
+		  taskDelay(HIGH_PRIORITY_DELAY); /* let other tasks run */
+	}
+}
+
+void med(){
+	
+}
+void low(){
+	while (1) {
+	  semTake(mutex, WAIT_FOREVER);
+	  do_something();
+	  semGive(mutex);
+	  taskDelay(LOW_PRIORITY_DELAY); /* this delay can be even zero - do you know why? */
+	}
+}
+
+
+void main(int argc, char *argv[]){
+	
+	int id1, id2, id3;
+	
+	//if (argv[1])
+	
+	//
+	int arg1 = atoi(argv[1]);
+	int arg2 = atoi(argv[2]);
+	
+	if (arg1 == 1){//PH off
+		mutex = semMCreate(SEM_Q_PRIORITY | SEM_INVERSION_SAFE );
+	}else if(arg1 == 2){//PH on
+		mutex = semMCreate(SEM_Q_PRIORITY);
+	}else{//unrecognized
+		return;
+	}
+	
+	
+
+	//semTake(mutex, WAIT_FOREVER);
+	
+	
+	//0 = highest piority
+	id1=taskSpawn("tHPrio", 210, 0, 4096, (FUNCPTR) high, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	id2=taskSpawn("tMPrio", 210, 0, 4096, (FUNCPTR) med, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	id3=taskSpawn("tLPrio", 210, 0, 4096, (FUNCPTR) low, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	
+	
+	printf("running");
+	
+	
+	
+}
+

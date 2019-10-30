@@ -2,10 +2,17 @@
 #include <semLib.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
+#include <taskLib.h>
 
 SEM_ID mutex;
 
+//int tHdosmth = 1;
+//int tMdosmth = 1;
+//int tLdosmth = 2;
 
+int numMeasurements;
+int endPrgm = 0; 
 
 int timespec_subtract (struct timespec *result,
            struct timespec *x,
@@ -32,44 +39,107 @@ int timespec_subtract (struct timespec *result,
   return x->tv_sec < y->tv_sec;
 }
 
+void do_something(int x)
+{
+    long int len = x * 100000000;
+    while (len > 0) len--;
+}
+
+
 void high(){//TODO : TWEAK THIS
 	
-	struct timespec tstart, tend, result;
 	
-	while (1) {
-	  
+	struct timespec tstart, tend, result, maxResult;
+	int countMeasurements = 0;
+	maxResult.tv_nsec = 0;
+	
+	while (1) {		
+		clock_gettime(CLOCK_MONOTONIC, &tstart);
+		semTake(mutex, WAIT_FOREVER);
+		clock_gettime(CLOCK_MONOTONIC, &tend);
+		semGive(mutex);
+		timespec_subtract(&result, &tend, &tstart);
 		
-		  clock_gettime(CLOCK_MONOTONIC, &tstart);
-		  semTake(mutex, WAIT_FOREVER);
-		  clock_gettime(CLOCK_MONOTONIC, &tend);
-		  semGive(mutex);
-		  timespec_subtract(&result, &tend, &tstart);
-		  taskDelay(HIGH_PRIORITY_DELAY); /* let other tasks run */
+		//print the max
+		if (maxResult.tv_nsec<=result.tv_nsec){
+			maxResult.tv_nsec = result.tv_nsec; 
+		}
+		if(endPrgm == 0){
+			printf("%ld\n",result.tv_nsec);//maxResult here
+		}
+		
+		
+		//check if program should emd
+		countMeasurements++;
+		if (countMeasurements >= numMeasurements){
+			endPrgm = 1;
+		}
+		
+		
+		taskDelay(HIGH_PRIORITY_DELAY); /* let other tasks run */
 	}
 }
 
 void med(){
-	
+	while (1) {
+		  do_something(MID_PRIORITY_WORK);
+		  taskDelay(MID_PRIORITY_DELAY); /* this delay can be even zero - do you know why? */
+	}
 }
 void low(){
-	
+	while (1) {
+		semTake(mutex, WAIT_FOREVER);
+		do_something(LOW_PRIORITY_WORK);
+		semGive(mutex);
+		taskDelay(LOW_PRIORITY_DELAY); /* this delay can be even zero - do you know why? */
+	}
 }
 
 
 void main(int argc, char *argv[]){
 	
+	int id1, id2, id3;
 	
-	mutex = semMCreate(SEM_Q_PRIORITY);
-	//mutex = semMCreate(SEM_Q_PRIORITY | SEM_INVERSION_SAFE );
+	//if (argv[1])
+	
+	//
+	int arg1 = atoi(argv[1]);
+	int arg2 = atoi(argv[2]);
+	
+	numMeasurements = arg2;
+	
+	if (arg1 == 1){//PH off
+		mutex = semMCreate(SEM_Q_PRIORITY | SEM_INVERSION_SAFE );
+	}else if(arg1 == 2){//PH on
+		mutex = semMCreate(SEM_Q_PRIORITY);
+	}else{//unrecognized
+		return;
+	}
+	
 	
 
 	//semTake(mutex, WAIT_FOREVER);
 	
 	
 	//0 = highest piority
-	id1=taskSpawn("tHPrio", 210, 0, 4096, (FUNCPTR) high, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-	id2=taskSpawn("tMPrio", 210, 0, 4096, (FUNCPTR) med, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-	id3=taskSpawn("tLPrio", 210, 0, 4096, (FUNCPTR) low, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	printf("Measurement started\n");
+	id1=taskSpawn("tHPrio", HIGH_PRIORITY, 0, 4096, (FUNCPTR) high, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	id2=taskSpawn("tMPrio", MID_PRIORITY, 0, 4096, (FUNCPTR) med, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	id3=taskSpawn("tLPrio", LOW_PRIORITY, 0, 4096, (FUNCPTR) low, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	
+	while(1){
+		if (endPrgm == 1){
+			printf("Measurement finished\n");
+			taskDelete(id1);
+			taskDelete(id2);
+			taskDelete(id3);
+			return;
+		}
+	}
+	
+	
+	
+	
 	
 }
 

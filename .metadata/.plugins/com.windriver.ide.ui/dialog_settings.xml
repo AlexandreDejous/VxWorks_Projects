@@ -4,6 +4,7 @@
 	</section>
 	<section name="WRProjectWizard">
 		<list key="WRWizardNewProjectCreationPage.STORE_PROJECT_LOCATION">
+			<item value="/home/dejouale/WindRiver/workspace/TestProject4"/>
 			<item value="/home/dejouale/WindRiver/workspace/TestProject3"/>
 			<item value="/home/dejouale/WindRiver/workspace/TestProject2"/>
 			<item value="/home/dejouale/WindRiver/workspace/TestProject"/>
