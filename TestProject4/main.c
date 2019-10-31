@@ -1,9 +1,15 @@
+// to use the board : gtkterm -p ttyUSB0 -s 115200
+
+
+
 #include "config.h"
 #include <semLib.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 #include <taskLib.h>
+#include <cpuset.h>
+#include <sched.h>
 
 SEM_ID mutex;
 
@@ -41,7 +47,7 @@ int timespec_subtract (struct timespec *result,
 
 void do_something(int x)
 {
-    long int len = x * 100000000;
+    long int len = x * 10000000;
     while (len > 0) len--;
 }
 
@@ -61,12 +67,19 @@ void high(){//TODO : TWEAK THIS
 		timespec_subtract(&result, &tend, &tstart);
 		
 		//print the max
-		if (maxResult.tv_nsec<=result.tv_nsec){
+		if (maxResult.tv_nsec<result.tv_nsec){
 			maxResult.tv_nsec = result.tv_nsec; 
+			if(endPrgm == 0){
+				printf("%ld\n",result.tv_nsec/1000000);//maxResult here
+			}
 		}
+		
+		/*
 		if(endPrgm == 0){
-			printf("%ld\n",result.tv_nsec);//maxResult here
+			printf("%ld\n",result.tv_nsec/1000000);//maxResult here
 		}
+		*/
+		
 		
 		
 		//check if program should emd
@@ -109,9 +122,9 @@ void main(int argc, char *argv[]){
 	numMeasurements = arg2;
 	
 	if (arg1 == 1){//PH off
-		mutex = semMCreate(SEM_Q_PRIORITY | SEM_INVERSION_SAFE );
+		mutex = semMCreate(SEM_Q_FIFO);
 	}else if(arg1 == 2){//PH on
-		mutex = semMCreate(SEM_Q_PRIORITY);
+		mutex = semMCreate(SEM_Q_PRIORITY | SEM_INVERSION_SAFE );
 	}else{//unrecognized
 		return;
 	}
@@ -123,9 +136,11 @@ void main(int argc, char *argv[]){
 	
 	//0 = highest piority
 	printf("Measurement started\n");
-	id1=taskSpawn("tHPrio", HIGH_PRIORITY, 0, 4096, (FUNCPTR) high, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-	id2=taskSpawn("tMPrio", MID_PRIORITY, 0, 4096, (FUNCPTR) med, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 	id3=taskSpawn("tLPrio", LOW_PRIORITY, 0, 4096, (FUNCPTR) low, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	id2=taskSpawn("tMPrio", MID_PRIORITY, 0, 4096, (FUNCPTR) med, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	id1=taskSpawn("tHPrio", HIGH_PRIORITY, 0, 4096, (FUNCPTR) high, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	
+	
 	
 	while(1){
 		if (endPrgm == 1){

@@ -11,6 +11,6 @@
 #define LOW_PRIORITY_WORK       3 // 3
 
 /* Delays of the tasks. Fill them with your own values */
-#define HIGH_PRIORITY_DELAY     1
-#define MID_PRIORITY_DELAY      7
-#define LOW_PRIORITY_DELAY      0
+#define HIGH_PRIORITY_DELAY     1 //1	2
+#define MID_PRIORITY_DELAY      3 //3	1
+#define LOW_PRIORITY_DELAY      2 //2	0
