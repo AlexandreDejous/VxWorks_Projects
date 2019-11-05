@@ -60,6 +60,7 @@ void high(){//TODO : TWEAK THIS
 	maxResult.tv_nsec = 0;
 	
 	while (1) {		
+		//printf("high\n");
 		clock_gettime(CLOCK_MONOTONIC, &tstart);
 		semTake(mutex, WAIT_FOREVER);
 		clock_gettime(CLOCK_MONOTONIC, &tend);
@@ -95,12 +96,14 @@ void high(){//TODO : TWEAK THIS
 
 void med(){
 	while (1) {
-		  do_something(MID_PRIORITY_WORK);
-		  taskDelay(MID_PRIORITY_DELAY); /* this delay can be even zero - do you know why? */
+		//printf("mid\n");
+		do_something(MID_PRIORITY_WORK);
+		taskDelay(MID_PRIORITY_DELAY); /* this delay can be even zero - do you know why? */
 	}
 }
 void low(){
 	while (1) {
+		//printf("low\n");
 		semTake(mutex, WAIT_FOREVER);
 		do_something(LOW_PRIORITY_WORK);
 		semGive(mutex);
@@ -115,7 +118,7 @@ void main(int argc, char *argv[]){
 	
 	//if (argv[1])
 	
-	//
+	
 	int arg1 = atoi(argv[1]);
 	int arg2 = atoi(argv[2]);
 	
@@ -130,18 +133,51 @@ void main(int argc, char *argv[]){
 	}
 	
 	
-
-	//semTake(mutex, WAIT_FOREVER);
-	
-	
 	//0 = highest piority
 	printf("Measurement started\n");
+	
+	
+	
+	
+	/*
+	//BOARD PART : please uncomment this for the board, and comment the simulator part
+	//-----------------------------------------------
+	//create the tasks (versus spawning em if we re tryin to simulate)
+	id3=taskCreate("tLPrio", LOW_PRIORITY, 0, 4096, (FUNCPTR) low, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	id2=taskCreate("tMPrio", MID_PRIORITY, 0, 4096, (FUNCPTR) med, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	id1=taskCreate("tHPrio", HIGH_PRIORITY, 0, 4096, (FUNCPTR) high, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	
+	//affinity def
+	cpuset_t affinity;
+	// Clear the affinity CPU set and set index for CPU 1 
+	CPUSET_ZERO (affinity);
+	CPUSET_SET  (affinity, 0);
+	
+	//affinity set
+	taskCpuAffinitySet (id1, affinity);
+	taskCpuAffinitySet (id2, affinity);
+	taskCpuAffinitySet (id3, affinity);
+	
+	//activate the tasks
+	taskActivate (id1);
+	taskActivate (id2);
+	taskActivate (id3);
+	//-------------------------------------------------
+	*/
+	
+	
+	
+	//SIMULATOR PART : please uncomment this for the simulator, and comment the board part
+	//-----------------------------------------------
 	id3=taskSpawn("tLPrio", LOW_PRIORITY, 0, 4096, (FUNCPTR) low, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 	id2=taskSpawn("tMPrio", MID_PRIORITY, 0, 4096, (FUNCPTR) med, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 	id1=taskSpawn("tHPrio", HIGH_PRIORITY, 0, 4096, (FUNCPTR) high, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	//--------------------------------------------------
 	
 	
 	
+	
+	//while loop so that the program does not end because of the main
 	while(1){
 		if (endPrgm == 1){
 			printf("Measurement finished\n");

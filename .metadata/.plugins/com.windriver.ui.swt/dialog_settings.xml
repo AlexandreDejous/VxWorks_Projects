@@ -20,5 +20,10 @@
 				</list>
 			</section>
 		</section>
+		<section name="VxWorks6x_192.168.202.205@k2-110">
+			<item value="" key="consoleStartupOptions"/>
+			<section name="com.windriver.ide.target.ui.dialogs.HostShellPropertiesDialog$WRHostShellStartupFileControl">
+			</section>
+		</section>
 	</section>
 </section>

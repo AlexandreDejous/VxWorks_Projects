@@ -1,3 +1,5 @@
+VxWorks6x_192.168.202.205@k2-110Refresh_Timer_State=true
+VxWorks6x_192.168.202.205@k2-110_LastMode=0
 eclipse.preferences.version=1
 vxsim0@k2-111Event_Logging_Level=Additional Instrumentation
 vxsim0@k2-111Refresh_Timer_State=true
@@ -9,3 +11,6 @@ vxsim1@k09-182Message\ Queue\ (msgQLib)=false
 vxsim1@k09-182Refresh_Timer_State=true
 vxsim1@k09-182Watchdog\ (wdLib)=false
 vxsim1@k09-182_LastMode=0
+vxsim1@k2-110Event_Logging_Level=Task State Transition
+vxsim1@k2-110Refresh_Timer_State=true
+vxsim1@k2-110_LastMode=0

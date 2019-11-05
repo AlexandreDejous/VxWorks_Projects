@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.rse.ui.wizards.newconnection.RSEMainNewConnectionWizard">
-		<item value="com.windriver.ide.target.vxsim.VxSimConnectType" key="lastSelectedSystemTypeId"/>
+		<item value="Wind River Target Server Connection" key="lastSelectedSystemTypeId"/>
 		<section name="org.eclipse.rse.ui.wizards.newconnection.RSENewConnectionWizardSelectionPage">
 			<list key="filteredTree.expandedCatogryIds">
 				<item value="com.windriver.ide.target.ui.rse.category.vxworks6"/>
