@@ -78,7 +78,15 @@ TestProject4/Debug/Objects/TestProject4/main.o:  \
   /opt/WindRiver/vxworks-6.9/target/usr/h/taskLibCommon.h \
   /opt/WindRiver/vxworks-6.9/target/usr/h/eventLibCommon.h \
   /opt/WindRiver/vxworks-6.9/target/usr/h/arch/simpentium/coprocSimpentium.h \
-  /opt/WindRiver/vxworks-6.9/target/usr/h/taskSysCall.h
+  /opt/WindRiver/vxworks-6.9/target/usr/h/taskSysCall.h \
+  /opt/WindRiver/vxworks-6.9/target/usr/h/cpuset.h \
+  /opt/WindRiver/vxworks-6.9/target/usr/h/cpusetCommon.h \
+  /opt/WindRiver/vxworks-6.9/target/usr/h/vxAtomicLib.h \
+  /opt/WindRiver/vxworks-6.9/target/usr/h/arch/simpentium/vxAtomicArchLib.h \
+  /opt/WindRiver/vxworks-6.9/target/usr/h/ffsLib.h \
+  /opt/WindRiver/vxworks-6.9/target/usr/h/sched.h \
+  /opt/WindRiver/vxworks-6.9/target/usr/h/base/b_struct_sched_param.h \
+  /opt/WindRiver/vxworks-6.9/target/usr/h/base/b_struct_timespec.h
 
 /home/dejouale/WindRiver/workspace/TestProject4/config.h:
 
@@ -237,3 +245,19 @@ TestProject4/Debug/Objects/TestProject4/main.o:  \
 /opt/WindRiver/vxworks-6.9/target/usr/h/arch/simpentium/coprocSimpentium.h:
 
 /opt/WindRiver/vxworks-6.9/target/usr/h/taskSysCall.h:
+
+/opt/WindRiver/vxworks-6.9/target/usr/h/cpuset.h:
+
+/opt/WindRiver/vxworks-6.9/target/usr/h/cpusetCommon.h:
+
+/opt/WindRiver/vxworks-6.9/target/usr/h/vxAtomicLib.h:
+
+/opt/WindRiver/vxworks-6.9/target/usr/h/arch/simpentium/vxAtomicArchLib.h:
+
+/opt/WindRiver/vxworks-6.9/target/usr/h/ffsLib.h:
+
+/opt/WindRiver/vxworks-6.9/target/usr/h/sched.h:
+
+/opt/WindRiver/vxworks-6.9/target/usr/h/base/b_struct_sched_param.h:
+
+/opt/WindRiver/vxworks-6.9/target/usr/h/base/b_struct_timespec.h:

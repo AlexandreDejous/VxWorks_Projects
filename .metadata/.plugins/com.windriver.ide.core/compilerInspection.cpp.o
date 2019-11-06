@@ -119,6 +119,6 @@
 #define __tune_i486__ 1
 #define __vxworks 1
 #define __VXWORKS__ 1
-#define _WRS_KERNEL 1
+#define __RTP__ 1
 #define CPU I80486
 #define __ELF__ 1

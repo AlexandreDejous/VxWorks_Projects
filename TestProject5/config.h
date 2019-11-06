@@ -16,7 +16,9 @@
 /* sysClkRateSet(CLOCK_RATE) */
 
 
-
+#include <taskLib.h>
+#include <stdio.h>
+#include <kernelLib.h>
 
 #define CLOCK_RATE 1000
 
@@ -29,7 +31,7 @@ struct elem {
 
 #define MAX_ARRAY_SIZE (4*1024*1024/sizeof(struct elem))
 
-struct elem arr[MAX_ARRAY_SIZE]; // 1 MiB array 
+struct elem arr[MAX_ARRAY_SIZE]; /* 1 MiB array */
 
 
 unsigned longrand(long int max)
@@ -56,10 +58,10 @@ unsigned longrand(long int max)
  *      array[n-1].next == array[0]
  */
 
-//arranges sequentially the array for size n bytes
+/*arranges sequentially the array for size n bytes*/
 void seqArray(struct elem* array, int n){
 	
-	//first we need to convert the n from a number of bytes to a number of indexes
+	/*first we need to convert the n from a number of bytes to a number of indexes*/
 	n = n/sizeof(struct elem);
 	
 	unsigned i;
@@ -88,38 +90,39 @@ void seqArray(struct elem* array, int n){
  */
 void ranArray(struct elem* array, int n){
 	
-	//first we need to convert the n from a number of bytes to a number of indexes
+	/*first we need to convert the n from a number of bytes to a number of indexes*/
 	n = n/sizeof(struct elem);
 	
 	
 	int randomNum;
-	int m = 0; //number of cells filled
-	int current = 0; // current index of cell being filled (we start at 0)
+	int m = 0; /*number of cells filled*/
+	int current = 0; /* current index of cell being filled (we start at 0)*/
 	
-	//init n first cells to null
+	/*init n first cells to null*/
+	int i = 0;
 	for (i=0; i < n; i++) {
 		array[i].next = NULL;
 	}
 	
 	
-	while(m < n){//while the num of completed nexts is less than the total num of nexts
-		//init a rand
+	while(m < n){/*while the num of completed nexts is less than the total num of nexts
+		init a rand*/
 		randomNum = longrand(MAX_ARRAY_SIZE);
 		
-		//while at that rand index theres a defined next
+		/*while at that rand index theres a defined next*/
 		while(array[randomNum].next != NULL){
 			
-			//rerand the rand (good stuff there)
+			/*rerand the rand (good stuff there)*/
 			randomNum = longrand(MAX_ARRAY_SIZE);
 		}
-		//define the current next
+		/*define the current next*/
 		array[current].next = &array[randomNum];
-		//increase the count of completed nexts
+		/*increase the count of completed nexts*/
 		m++;
-		//change the current index being modified to the next index
+		/*change the current index being modified to the next index*/
 		current = randomNum;
 	}
-	//in the end we just need to fill the last next with the address of the 0th element
+	/*in the end we just need to fill the last next with the address of the 0th element*/
 	array[current].next = &array[0];
 }
 
@@ -151,35 +154,49 @@ void measureCache(int mode, int n){
 	int bytes = 1024;
 	int traversals = n;
 	
-	printf("Measurement started");
+	int j;
 	
-	//SEQUENTIAL MODE
+	
+	
+	printf("Measurement started\n");
+	
+	printf("running\n");
+	
+/*SEQUENTIAL MODE*/
 	if(mode == 0){
 		
 		int i;
 		for (i=0;i<samples;i++){
 			
-			//flush and init the array
-			seqArray(array,bytes);
 			
-			//TOCHANGE
-			struct elem *p = &array[0];
-			unsigned start = sysTimestamp();
-			while (--i) p = p->next;
+			
+			/*flush and init the array*/
+			seqArray(arr,bytes);
+			
+			
+			
+			/*TOCHANGE*/
+			j = traversals;
+			struct elem *p = &arr[0];
+			unsigned start = sysTimestamp();/*should i put nsigned here ?*/
+			printf("start : %u\n",start);
+			while (--j) p = p->next;
 			unsigned end = sysTimestamp();
-			
-			//double the bytes
+			printf("end : %u\n",end);
+			unsigned meanTime = (end - start)/*/traversals*/;
+			printf("%d    %u\n",bytes,meanTime);
+			/*double the bytes*/
 			bytes = bytes*2;
 		}
 		
 		
 	}
-	//RANDOM MODE
+	/*RANDOM MODE*/
 	if(mode == 1){
 		
 	}
 	
 	
-	printf("Measurement finished");
+	printf("Measurement finished\n");
 	
 }

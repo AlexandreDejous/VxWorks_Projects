@@ -3,13 +3,18 @@
 	<section name="com.windriver.ide.launch.ui.context.WRFlatCompositeLaunchContextSelectorMediatorPage">
 		<section name="com.windriver.ide.launch.ui.context.WRFlatCompositeLaunchContextSelectorMediatorPage$WRFlatCompositeLaunchContextSelectorControl">
 			<item value="false" key="CreateTask - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="TestProject4.vxe - vxsim0.hideUnconnected"/>
+			<item value="false" key="me - TestProject5.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="noEntryPoint - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="TestProject4.vxe - VxWorks6x_192.168.202.110.hideUnconnected"/>
 			<item value="false" key="TestProject3.vxe - vxsim1.hideUnconnected"/>
+			<item value="false" key="mea - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="monitor.vxe - vxsim1.hideUnconnected"/>
 			<item value="false" key="Creat - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="CreateTak - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="TestProject4.vxe - multiple.hideUnconnected"/>
 			<item value="false" key="CreateTa - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="measureCa - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="CreateTasks - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="TestProject4.vxe - VxWorks6x_192.168.202.205.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - noDownload - vxsim0.hideUnconnected"/>
@@ -17,27 +22,38 @@
 			<item value="false" key="noEntryPoint - noDownload - vxsim0 (1).hideUnconnected"/>
 			<item value="false" key="noExecPath - vxsim1.hideUnconnected"/>
 			<item value="false" key="company.vxe - vxsim1.hideUnconnected"/>
+			<item value="false" key="measu - TestProject5.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="measur - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="C - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="New_configuration.hideUnconnected"/>
+			<item value="false" key="meas - TestProject5.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="measureC - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="TestProject4.vxe - vxsim1.hideUnconnected"/>
 			<item value="false" key="CreateTas - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="measureCache - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="Cr - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="TestProject3.vxe - vxsim0.hideUnconnected"/>
+			<item value="false" key="m - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="company1.vxe - vxsim1 (1).hideUnconnected"/>
 			<item value="false" key="noEntryPoint - TestProject.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="measureCac - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="Create - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="CreateT - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="measure - TestProject5.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="noEntryPoint - noDownload - vxsim0 (2).hideUnconnected"/>
 			<item value="false" key="Crea - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="testHeader.vxe - vxsim1.hideUnconnected"/>
+			<item value="false" key="measureCach - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="TestProject4.vxe - noConnection.hideUnconnected"/>
 			<item value="false" key="CreateTasks - TestProject.out - vxsim0.hideUnconnected"/>
 		</section>
 	</section>
 	<section name="WRLaunchConfigSelectionDialog.com.windriver.ide.launch.vxworks6.tmRunTask">
-		<item value="false" key="new"/>
+		<item value="true" key="new"/>
 		<item value="false" key="duplicate"/>
-		<item value="true" key="launch"/>
 		<item value="false" key="edit"/>
+		<item value="false" key="launch"/>
 	</section>
 	<section name="WRLaunchConfigSelectionDialog.com.windriver.ide.launch.vxworks6.tmRunRTP">
 		<item value="true" key="new"/>
