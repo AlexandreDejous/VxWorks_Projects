@@ -19,10 +19,14 @@
 #include <taskLib.h>
 #include <stdio.h>
 #include <kernelLib.h>
+#include <time.h>
+#include <sysLib.h>
 
 #define CLOCK_RATE 1000
 
 #define GAP 0
+
+
 
 struct elem {
   struct elem *next;
@@ -62,13 +66,15 @@ unsigned longrand(long int max)
 void seqArray(struct elem* array, int n){
 	
 	/*first we need to convert the n from a number of bytes to a number of indexes*/
-	n = n/sizeof(struct elem);
+	/*n = n/sizeof(struct elem);*/
 	
 	unsigned i;
 	for (i=0; i < n - 1; i++) {
 		array[i].next = &array[i+1];
 	}
+	/*printf("%d\n",i);*/
 	array[i].next = &array[0];   /* close the cycle */
+	
 }
 
 
@@ -90,8 +96,6 @@ void seqArray(struct elem* array, int n){
  */
 void ranArray(struct elem* array, int n){
 	
-	/*first we need to convert the n from a number of bytes to a number of indexes*/
-	n = n/sizeof(struct elem);
 	
 	
 	int randomNum;
@@ -156,11 +160,12 @@ void measureCache(int mode, int n){
 	
 	int j;
 	
+	sysClkRateSet(CLOCK_RATE);
+	sysTimestampEnable();
 	
 	
 	printf("Measurement started\n");
 	
-	printf("running\n");
 	
 /*SEQUENTIAL MODE*/
 	if(mode == 0){
@@ -169,9 +174,10 @@ void measureCache(int mode, int n){
 		for (i=0;i<samples;i++){
 			
 			
+			unsigned nElem = bytes/sizeof(struct elem);
 			
 			/*flush and init the array*/
-			seqArray(arr,bytes);
+			seqArray(arr,nElem);
 			
 			
 			
@@ -179,11 +185,11 @@ void measureCache(int mode, int n){
 			j = traversals;
 			struct elem *p = &arr[0];
 			unsigned start = sysTimestamp();/*should i put nsigned here ?*/
-			printf("start : %u\n",start);
+			/*printf("start : %u\n",start);*/
 			while (--j) p = p->next;
 			unsigned end = sysTimestamp();
-			printf("end : %u\n",end);
-			unsigned meanTime = (end - start)/*/traversals*/;
+			/*printf("end : %u\n",end);*/
+			unsigned meanTime = (end - start)/traversals;
 			printf("%d    %u\n",bytes,meanTime);
 			/*double the bytes*/
 			bytes = bytes*2;
@@ -193,7 +199,29 @@ void measureCache(int mode, int n){
 	}
 	/*RANDOM MODE*/
 	if(mode == 1){
-		
+		int i;
+		for (i=0;i<samples;i++){
+			
+			unsigned nElem = bytes/sizeof(struct elem);
+			
+			/*flush and init the array*/
+			ranArray(arr,bytes);
+			
+			
+			
+			
+			j = traversals;
+			struct elem *p = &arr[0];
+			unsigned start = sysTimestamp();/*should i put unsigned here ?*/
+			/*printf("start : %u\n",start);*/
+			while (--j) p = p->next;
+			unsigned end = sysTimestamp();
+			/*printf("end : %u\n",end);*/
+			unsigned meanTime = (end - start)/traversals;
+			printf("%d    %u\n",bytes,meanTime);
+			/*double the bytes*/
+			bytes = bytes*2;
+		}
 	}
 	
 	

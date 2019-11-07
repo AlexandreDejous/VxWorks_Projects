@@ -102,7 +102,21 @@ TestProject5_partialImage/Debug/Objects/TestProject5/test5.o:  \
   /opt/WindRiver/vxworks-6.9/target/h/logLib.h \
   /opt/WindRiver/vxworks-6.9/target/h/stdio.h \
   /opt/WindRiver/vxworks-6.9/target/h/errno.h \
-  /opt/WindRiver/vxworks-6.9/target/h/kernelLib.h
+  /opt/WindRiver/vxworks-6.9/target/h/kernelLib.h \
+  /opt/WindRiver/vxworks-6.9/target/h/time.h \
+  /opt/WindRiver/gnu/4.3.3-vxworks-6.9/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.3.3/include-fixed/limits.h \
+  /opt/WindRiver/gnu/4.3.3-vxworks-6.9/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.3.3/include-fixed/syslimits.h \
+  /opt/WindRiver/vxworks-6.9/target/h/limits.h \
+  /opt/WindRiver/vxworks-6.9/target/h/tool/gnu/limits.h \
+  /opt/WindRiver/vxworks-6.9/target/h/base/b_struct_timespec.h \
+  /opt/WindRiver/vxworks-6.9/target/h/sysLib.h \
+  /opt/WindRiver/vxworks-6.9/target/h/bootLib.h \
+  /opt/WindRiver/vxworks-6.9/target/h/ttyLib.h \
+  /opt/WindRiver/vxworks-6.9/target/h/types/vxTypes.h \
+  /opt/WindRiver/vxworks-6.9/target/h/sioLib.h \
+  /opt/WindRiver/vxworks-6.9/target/h/types/vxTypesOld.h \
+  /opt/WindRiver/vxworks-6.9/target/h/sioLibCommon.h \
+  /opt/WindRiver/vxworks-6.9/target/h/drv/timer/timerDev.h
 
 /home/dejouale/WindRiver/workspace/TestProject5/config.h:
 
@@ -309,3 +323,31 @@ TestProject5_partialImage/Debug/Objects/TestProject5/test5.o:  \
 /opt/WindRiver/vxworks-6.9/target/h/errno.h:
 
 /opt/WindRiver/vxworks-6.9/target/h/kernelLib.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/time.h:
+
+/opt/WindRiver/gnu/4.3.3-vxworks-6.9/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.3.3/include-fixed/limits.h:
+
+/opt/WindRiver/gnu/4.3.3-vxworks-6.9/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.3.3/include-fixed/syslimits.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/limits.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/tool/gnu/limits.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/base/b_struct_timespec.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/sysLib.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/bootLib.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/ttyLib.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/types/vxTypes.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/sioLib.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/types/vxTypesOld.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/sioLibCommon.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/drv/timer/timerDev.h:
