@@ -13,4 +13,7 @@
 //PROJECT/TestProject5/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:default=false
 //PROJECT/TestProject5/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:staticanalysisMode=0
 //PROJECT/TestProject5/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:useProject=false
+//PROJECT/TestProject6/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:default=false
+//PROJECT/TestProject6/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:staticanalysisMode=0
+//PROJECT/TestProject6/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:useProject=false
 eclipse.preferences.version=1

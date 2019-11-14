@@ -139,7 +139,7 @@ void main(int argc, char *argv[]){
 	
 	
 	
-	/*
+	
 	//BOARD PART : please uncomment this for the board, and comment the simulator part
 	//-----------------------------------------------
 	//create the tasks (versus spawning em if we re tryin to simulate)
@@ -163,17 +163,17 @@ void main(int argc, char *argv[]){
 	taskActivate (id2);
 	taskActivate (id3);
 	//-------------------------------------------------
-	*/
 	
 	
 	
+	/*
 	//SIMULATOR PART : please uncomment this for the simulator, and comment the board part
 	//-----------------------------------------------
 	id3=taskSpawn("tLPrio", LOW_PRIORITY, 0, 4096, (FUNCPTR) low, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 	id2=taskSpawn("tMPrio", MID_PRIORITY, 0, 4096, (FUNCPTR) med, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 	id1=taskSpawn("tHPrio", HIGH_PRIORITY, 0, 4096, (FUNCPTR) high, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 	//--------------------------------------------------
-	
+	*/
 	
 	
 	

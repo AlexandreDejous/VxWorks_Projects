@@ -121,7 +121,8 @@ TestProject5_partialImage/Debug/Objects/TestProject5/test5.o:  \
   /opt/WindRiver/vxworks-6.9/target/h/sioLib.h \
   /opt/WindRiver/vxworks-6.9/target/h/types/vxTypesOld.h \
   /opt/WindRiver/vxworks-6.9/target/h/sioLibCommon.h \
-  /opt/WindRiver/vxworks-6.9/target/h/drv/timer/timerDev.h
+  /opt/WindRiver/vxworks-6.9/target/h/drv/timer/timerDev.h \
+  /opt/WindRiver/vxworks-6.9/target/h/unistd.h
 
 /home/dejouale/WindRiver/workspace/TestProject5/config.h:
 
@@ -366,3 +367,5 @@ TestProject5_partialImage/Debug/Objects/TestProject5/test5.o:  \
 /opt/WindRiver/vxworks-6.9/target/h/sioLibCommon.h:
 
 /opt/WindRiver/vxworks-6.9/target/h/drv/timer/timerDev.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/unistd.h:

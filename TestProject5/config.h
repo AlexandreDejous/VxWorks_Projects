@@ -21,6 +21,7 @@
 #include <kernelLib.h>
 #include <time.h>
 #include <sysLib.h>
+#include <unistd.h>
 
 #define CLOCK_RATE 1000
 
@@ -96,11 +97,11 @@ void seqArray(struct elem* array, int n){
  */
 void ranArray(struct elem* array, int n){
 	
-	
+	srand(time(NULL));   /* Initialization, should only be called once.*/
 	
 	int randomNum;
 	int m = 0; /*number of cells filled*/
-	int current = 0; /* current index of cell being filled (we start at 0)*/
+	unsigned current = 0; /* current index of cell being filled (we start at 0)*/
 	
 	/*init n first cells to null*/
 	int i = 0;
@@ -108,16 +109,21 @@ void ranArray(struct elem* array, int n){
 		array[i].next = NULL;
 	}
 	
+	unsigned currRand = 0;
+
+	
+	
+
 	
 	while(m < n){/*while the num of completed nexts is less than the total num of nexts
 		init a rand*/
-		randomNum = longrand(MAX_ARRAY_SIZE);
+		randomNum = longrand(n);
 		
 		/*while at that rand index theres a defined next*/
-		while(array[randomNum].next != NULL){
-			
+		while((array[randomNum].next != NULL)){
 			/*rerand the rand (good stuff there)*/
-			randomNum = longrand(MAX_ARRAY_SIZE);
+
+			randomNum = longrand(n);
 		}
 		/*define the current next*/
 		array[current].next = &array[randomNum];
@@ -154,6 +160,8 @@ void ranArray(struct elem* array, int n){
  *      Measurement finished
  */
 void measureCache(int mode, int n){
+	srand(time(0));
+	
 	int samples = 13;
 	int bytes = 1024;
 	int traversals = n;
@@ -205,7 +213,7 @@ void measureCache(int mode, int n){
 			unsigned nElem = bytes/sizeof(struct elem);
 			
 			/*flush and init the array*/
-			ranArray(arr,bytes);
+			ranArray(arr,nElem);
 			
 			
 			
