@@ -3,6 +3,8 @@
 	<section name="CustomTitleAreaDialog">
 		<section name="com.windriver.ide.launch.ui.tabs.controls.WRFileOrBuildTargetSelectionControl">
 			<list key="WREditDownloadDialog.WREditDownloadDialog">
+				<item value="/home/dejouale/WindRiver/workspace/TestProject7/ARMARCH7gnu_SMP/TestProject7/Debug/TestProject7.out"/>
+				<item value="/home/dejouale/WindRiver/workspace/TestProject7/SIMLINUXgnu/TestProject7/Debug/TestProject7.out"/>
 				<item value="/home/dejouale/WindRiver/workspace/TestProject5/ARMARCH7gnu_SMP/TestProject5/Debug/TestProject5.out"/>
 				<item value="/home/dejouale/WindRiver/workspace/TestProject/SIMLINUXgnu/TestProject/Debug/TestProject.out"/>
 			</list>

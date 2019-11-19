@@ -20,7 +20,17 @@
 #define ZYNQ_TIMER_INTERRUPT_EN     (0x60)
 /* register bit definitions*/
 #define INTERRUPT_EN_IV             (0x01)
-#define CTRL_EN                     (0<<0)
+#define CTRL_EN                 
+int udpClient(void)
+{
+    int testSocket;
+    unsigned int counter;
+    struct sockaddr_in destAddr;
+    int errorCode;
+    int returnVal;
+ 
+    counter = 0;
+    returnVal = 0;     (0<<0)
 #define CTRL_DIS                    (1<<0)
 #define CTRL_INT                    (1<<1)
 #define CLOCK_PRESCALE              (0x01 << 1)

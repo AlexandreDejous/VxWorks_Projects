@@ -12,11 +12,12 @@
 			<item value="-R ${workspace_loc}/ -RW -Bt 3"/>
 		</list>
 		<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.TargetServerOptionsControl.STORE_OPTIONS_ID">
+			<item value="-R ${workspace_loc}/ -RW -Bt 3 vxsim0"/>
 			<item value="-R /home/dejouale/WindRiver/workspace -RW -Bt 3"/>
 		</list>
 		<section name="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksSimulatorWizardPage">
 			<section name="com.windriver.ide.target.ui.wizard.controls.vxworks.VxsimKernelImageSelectionControl">
-				<item value="false" key="VxWorksSimulatorWizardPage.KernelImageSelectionControl.filePathFromTargetButton.state"/>
+				<item value="true" key="VxWorksSimulatorWizardPage.KernelImageSelectionControl.filePathFromTargetButton.state"/>
 				<section name="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksSimulatorWizardPage">
 					<section name="com.windriver.ide.target.ui.wizard.controls.vxworks.VxsimKernelImageSelectionControl$VxsimVxWorksKernelImageFileSelectionControl">
 						<list key="VxWorksSimulatorWizardPage.SelectedKernelImageHistory">
@@ -44,6 +45,7 @@
 					<item value="2"/>
 				</list>
 				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.wdbrpc..targetNameAddress">
+					<item value="192.168.202.204"/>
 					<item value="192.168.202.208"/>
 					<item value="192.168.202.21"/>
 					<item value="192.168.202.211"/>

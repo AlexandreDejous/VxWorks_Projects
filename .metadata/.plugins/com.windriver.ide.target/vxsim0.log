@@ -6,29 +6,87 @@ Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
 Loading...
 0x1a5d98 + 0x10114 + 0x18fec
 NVRAM disabled: can't access /opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/nvram.vxWorks0 with READ/WRITE permission.
-Redirecting TCP port 33607 to 10.0.10.2:21
-Redirecting TCP port 39123 to 10.0.10.2:22
-Redirecting TCP port 43651 to 10.0.10.2:23
-Redirecting TCP port 41129 to 10.0.10.2:69
-Redirecting TCP port 41173 to 10.0.10.2:80
-Redirecting TCP port 42651 to 10.0.10.2:443
-Redirecting TCP port 46443 to 10.0.10.2:17476
-Redirecting UDP port 58575 to 10.0.10.2:17185
-Redirecting TCP port 34993 to 10.0.10.2:1534
-Redirecting TCP port 40191 to 10.0.10.2:5698
-Redirecting TCP port 40109 to 10.0.10.2:5678
-Redirecting TCP port 44673 to 10.0.10.2:3333
-Redirecting TCP port 39231 to 10.0.10.2:49152
-Redirecting TCP port 34107 to 10.0.10.2:49153
-Redirecting TCP port 44103 to 10.0.10.2:49154
-Redirecting TCP port 36961 to 10.0.10.2:49155
-Redirecting TCP port 38053 to 10.0.10.2:49156
-Redirecting TCP port 40155 to 10.0.10.2:49280
-Redirecting TCP port 44607 to 10.0.10.2:49281
-Redirecting TCP port 32885 to 10.0.10.2:49282
-Redirecting TCP port 35843 to 10.0.10.2:49283
-Redirecting TCP port 40821 to 10.0.10.2:49284
-Loading symbol table from k2-114:/opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/vxWorks.sym ...done
+Redirecting TCP port 33233 to 10.0.10.2:21
+Redirecting TCP port 41007 to 10.0.10.2:22
+Redirecting TCP port 32851 to 10.0.10.2:23
+Redirecting TCP port 41183 to 10.0.10.2:69
+Redirecting TCP port 34347 to 10.0.10.2:80
+Redirecting TCP port 42833 to 10.0.10.2:443
+Redirecting TCP port 39099 to 10.0.10.2:17476
+Redirecting UDP port 51459 to 10.0.10.2:17185
+Redirecting TCP port 39139 to 10.0.10.2:1534
+Redirecting TCP port 45179 to 10.0.10.2:5698
+Redirecting TCP port 45839 to 10.0.10.2:5678
+Redirecting TCP port 37399 to 10.0.10.2:3333
+Redirecting TCP port 37283 to 10.0.10.2:49152
+Redirecting TCP port 46653 to 10.0.10.2:49153
+Redirecting TCP port 33621 to 10.0.10.2:49154
+Redirecting TCP port 34485 to 10.0.10.2:49155
+Redirecting TCP port 34359 to 10.0.10.2:49156
+Redirecting TCP port 41263 to 10.0.10.2:49280
+Redirecting TCP port 45225 to 10.0.10.2:49281
+Redirecting TCP port 40151 to 10.0.10.2:49282
+Redirecting TCP port 38563 to 10.0.10.2:49283
+Redirecting TCP port 41865 to 10.0.10.2:49284
+Loading symbol table from k2-107:/opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/vxWorks.sym ...done
+ 
+
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]            
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]            
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]  
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]] 
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks 6.9
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.13
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-2017
+
+ CPU: Linux 4.9.0-0.bpo.1-amd64 [x86_64].  Processor #0.
+ Memory Size: 0x1ff00000 (511Mb).  BSP version 6.9/0.
+ Created: Oct 20 2017 18:26:29
+ ED&R Policy Mode: Deployed
+ WDB Comm Type: WDB_COMM_PIPE
+ WDB: Ready.
+
+-> Virtual  Base Address: 0x60000000
+Virtual  Top  Address: 0xa0000000    Virtual  Size: 0x40000000 (1024Mb)
+Physical Base Address: 0x60000000
+Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
+Loading...
+0x1a5d98 + 0x10114 + 0x18fec
+NVRAM disabled: can't access /opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/nvram.vxWorks0 with READ/WRITE permission.
+Redirecting TCP port 33233 to 10.0.10.2:21
+Redirecting TCP port 41007 to 10.0.10.2:22
+Redirecting TCP port 32851 to 10.0.10.2:23
+Redirecting TCP port 41183 to 10.0.10.2:69
+Redirecting TCP port 34347 to 10.0.10.2:80
+Redirecting TCP port 42833 to 10.0.10.2:443
+Redirecting TCP port 39099 to 10.0.10.2:17476
+Redirecting UDP port 51459 to 10.0.10.2:17185
+Redirecting TCP port 39139 to 10.0.10.2:1534
+Redirecting TCP port 45179 to 10.0.10.2:5698
+Redirecting TCP port 45839 to 10.0.10.2:5678
+Redirecting TCP port 37399 to 10.0.10.2:3333
+Redirecting TCP port 37283 to 10.0.10.2:49152
+Redirecting TCP port 46653 to 10.0.10.2:49153
+Redirecting TCP port 33621 to 10.0.10.2:49154
+Redirecting TCP port 34485 to 10.0.10.2:49155
+Redirecting TCP port 34359 to 10.0.10.2:49156
+Redirecting TCP port 41263 to 10.0.10.2:49280
+Redirecting TCP port 45225 to 10.0.10.2:49281
+Redirecting TCP port 40151 to 10.0.10.2:49282
+Redirecting TCP port 38563 to 10.0.10.2:49283
+Redirecting TCP port 41865 to 10.0.10.2:49284
+Loading symbol table from k2-107:/opt/WindRiver/vxworks-6.9/target/proj/linux_diab/default/vxWorks.sym ...done
  
 
  ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]

@@ -6,31 +6,31 @@ Physical Top  Address: 0x80000000    Physical Size: 0x20000000 (512Mb)
 Loading...
 0x1ca970 + 0x137dc + 0x32f2c
 NVRAM disabled: can't access /opt/psr/nvram.vxWorks-sim-shm1 with READ/WRITE permission.
-Redirecting TCP port 34003 to 10.0.10.2:21
-Redirecting TCP port 34447 to 10.0.10.2:22
-Redirecting TCP port 41457 to 10.0.10.2:23
-Redirecting TCP port 43237 to 10.0.10.2:69
-Redirecting TCP port 38585 to 10.0.10.2:80
-Redirecting TCP port 39591 to 10.0.10.2:443
-Redirecting TCP port 46017 to 10.0.10.2:17476
-Redirecting UDP port 56274 to 10.0.10.2:17185
-Redirecting TCP port 33165 to 10.0.10.2:1534
-Redirecting TCP port 38339 to 10.0.10.2:5698
-Redirecting TCP port 41809 to 10.0.10.2:5678
-Redirecting TCP port 45921 to 10.0.10.2:3333
-Redirecting TCP port 41965 to 10.0.10.2:49152
-Redirecting TCP port 42973 to 10.0.10.2:49153
-Redirecting TCP port 44237 to 10.0.10.2:49154
-Redirecting TCP port 43611 to 10.0.10.2:49155
-Redirecting TCP port 46831 to 10.0.10.2:49156
-Redirecting TCP port 35597 to 10.0.10.2:49280
-Redirecting TCP port 39341 to 10.0.10.2:49281
-Redirecting TCP port 44845 to 10.0.10.2:49282
-Redirecting TCP port 40573 to 10.0.10.2:49283
-Redirecting TCP port 37871 to 10.0.10.2:49284
+Redirecting TCP port 45797 to 10.0.10.2:21
+Redirecting TCP port 38701 to 10.0.10.2:22
+Redirecting TCP port 43581 to 10.0.10.2:23
+Redirecting TCP port 36475 to 10.0.10.2:69
+Redirecting TCP port 37073 to 10.0.10.2:80
+Redirecting TCP port 45741 to 10.0.10.2:443
+Redirecting TCP port 35983 to 10.0.10.2:17476
+Redirecting UDP port 35001 to 10.0.10.2:17185
+Redirecting TCP port 32989 to 10.0.10.2:1534
+Redirecting TCP port 35193 to 10.0.10.2:5698
+Redirecting TCP port 45357 to 10.0.10.2:5678
+Redirecting TCP port 44927 to 10.0.10.2:3333
+Redirecting TCP port 38979 to 10.0.10.2:49152
+Redirecting TCP port 38287 to 10.0.10.2:49153
+Redirecting TCP port 38505 to 10.0.10.2:49154
+Redirecting TCP port 44319 to 10.0.10.2:49155
+Redirecting TCP port 44533 to 10.0.10.2:49156
+Redirecting TCP port 35403 to 10.0.10.2:49280
+Redirecting TCP port 39985 to 10.0.10.2:49281
+Redirecting TCP port 44373 to 10.0.10.2:49282
+Redirecting TCP port 40515 to 10.0.10.2:49283
+Redirecting TCP port 39321 to 10.0.10.2:49284
 VxWorks CPU number: 2 / Host CPU number: 4
 Failed. 
-Error opening k2-110:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
+Error opening k09-190:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
  
 
  ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
@@ -60,3 +60,9 @@ Error opening k2-110:/opt/psr/vxWorks-sim-shm.sym: status = 0x2
  WDB: Ready.
 
 -> 
+Segmentation violation
+Program Counter:	0x0x600459b06223fb10
+ (Access Address:		0xtReceive0000): 1f90task 0x
+6223fb10 has had a failure and has been stopped.
+Task: 0x0x6223fb106223fb10 " (tReceivetReceive): "
+The task been terminated because it triggered an exception that raised the signal 11.

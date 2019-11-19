@@ -5,6 +5,11 @@
 #include <xlnx_zynq7k.h>
 
 #include <stdio.h>
+/*#include <stdlib.h>*/
+#include <math.h>
+
+
+/*ping -s 64000 -i 0.2 192.168.202.208*/
 
 /* register offsets (see TRM B.32)*/
 #define ZYNQ_TIMER_CLOCK_CTRL       (0x00)
@@ -28,10 +33,15 @@
 #define TTC0_TIMER2_INTERRUPT       (*((volatile UINT32 *)(ZYNQ7K_TTC0_TIMER2_BASE + ZYNQ_TIMER_INTERRUPT)))
 #define TTC0_TIMER2_INTERRUPT_EN    (*((volatile UINT32 *)(ZYNQ7K_TTC0_TIMER2_BASE + ZYNQ_TIMER_INTERRUPT_EN)))
 
-#define TIM_MAX 36
+#define TIM_MAX 8000
 
-unsigned t1;
-unsigned t2;
+unsigned t1 = 0;
+unsigned t2 = 0;
+unsigned arr1[300]={0};
+unsigned arr2[300]={0};
+int temp1;
+int temp2;
+
 
 SEM_ID semaphore;
 
@@ -39,13 +49,17 @@ void timer_isr(){
 	t1 = TTC0_TIMER2_COUNTER_VAL;
 	semGive(semaphore);
 	TTC0_TIMER2_INTERRUPT;
+	temp1 = floor((t1*36)/1000);
+	arr1[temp1]++;
 }
 
 void timer_service(){
 	while(1){
 		semTake(semaphore,WAIT_FOREVER);
 		t2 = TTC0_TIMER2_COUNTER_VAL;
-		printf("%u\n",t2);
+		temp2 = floor((t2*36)/1000);
+		arr2[temp2]++;
+		/*printf("%u",t2);*/
 	}
 }
 
@@ -70,16 +84,31 @@ void init(){
 
 
 void monitor(){
-	printf("HI\n");
-	int taskAddr = taskSpawn("service_task", 210, 0, 4096, (FUNCPTR) timer_service, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-	printf("HOW ARE\n");
-	init();
-	printf("U?\n");
+	
+	/*printf("HI\n");*/
+	/*int taskAddr =*/ 
+	int n = 60;
+	int i = 0;
+	while(n>0){
+		sleep(1);
+		for (i=0;i<300;i++){
+			printf("%u;",arr1[i]);
+		}
+		printf("/n");
+		n++;
+	}
 	
 	/*while (1){
 		if (){
 			
 		}
 	}*/
+}
+
+void main(){
+	taskSpawn("service_task", 210, 0, 4096, (FUNCPTR) timer_service, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	taskSpawn("monitor_task", 210, 0, 4096, (FUNCPTR) monitor, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+
+	init();
 }
 

@@ -2,17 +2,26 @@
 <section name="Workbench">
 	<section name="com.windriver.ide.launch.ui.context.WRFlatCompositeLaunchContextSelectorMediatorPage">
 		<section name="com.windriver.ide.launch.ui.context.WRFlatCompositeLaunchContextSelectorMediatorPage$WRFlatCompositeLaunchContextSelectorControl">
+			<item value="false" key="recei - TestProject7.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="mai - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="TestProject4.vxe - vxsim0.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="TestProject3.vxe - vxsim1.hideUnconnected"/>
+			<item value="false" key="rece - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="mea - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="monitor.vxe - vxsim1.hideUnconnected"/>
 			<item value="false" key="monitor - TestProject6.out - VxWorks6x_192.168.202.211.hideUnconnected"/>
+			<item value="false" key="receive - TestProject7.out - noConnection.hideUnconnected"/>
 			<item value="false" key="CreateTak - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="monitor - TestProject6.out - noConnection.hideUnconnected"/>
 			<item value="false" key="TestProject4.vxe - multiple.hideUnconnected"/>
 			<item value="false" key="measureCache - TestProject5.out - noConnection.hideUnconnected"/>
+			<item value="false" key="receive - TestProject7.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="receiver - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="CreateTa - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="sender - TestProject7.out - VxWorks6x_192.168.202.204.hideUnconnected"/>
+			<item value="false" key="r - TestProject7.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="sen - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="monir - TestProject6.out - VxWorks6x_192.168.202.211.hideUnconnected"/>
 			<item value="false" key="mo - TestProject6.out - VxWorks6x_192.168.202.211.hideUnconnected"/>
 			<item value="false" key="CreateTasks - TestProject2.out - vxsim0.hideUnconnected"/>
@@ -20,14 +29,16 @@
 			<item value="false" key="Cre - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - noDownload - vxsim0 (1).hideUnconnected"/>
 			<item value="false" key="noExecPath - vxsim1.hideUnconnected"/>
-			<item value="false" key="ma - TestProject6.out - VxWorks6x_192.168.202.208.hideUnconnected"/>
 			<item value="false" key="measureCache - TestProject5.out - VxWorks6x_192.168.202.189.hideUnconnected"/>
+			<item value="false" key="ma - TestProject6.out - VxWorks6x_192.168.202.208.hideUnconnected"/>
 			<item value="false" key="measu - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="C - TestProject2.out - vxsim0.hideUnconnected"/>
-			<item value="false" key="measureC - TestProject5.out - vxsim0.hideUnconnected"/>
-			<item value="false" key="TestProject4.vxe - vxsim1.hideUnconnected"/>
 			<item value="false" key="CreateTas - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="TestProject4.vxe - vxsim1.hideUnconnected"/>
+			<item value="false" key="measureC - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="monit - TestProject6.out - VxWorks6x_192.168.202.211.hideUnconnected"/>
+			<item value="false" key="sender - TestProject7.out - VxWorks6x_192.168.202.211.hideUnconnected"/>
+			<item value="false" key="sender - TestProject7.out - multiple.hideUnconnected"/>
 			<item value="false" key="TestProject3.vxe - vxsim0.hideUnconnected"/>
 			<item value="false" key="m - TestProject6.out - VxWorks6x_192.168.202.208.hideUnconnected"/>
 			<item value="false" key="m - TestProject5.out - vxsim0.hideUnconnected"/>
@@ -35,40 +46,56 @@
 			<item value="false" key="noEntryPoint - TestProject.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="TestProject4.vxe - VxWorks6x_192.168.202.189.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="se - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="main - TestProject6.out - VxWorks6x_192.168.202.208.hideUnconnected"/>
 			<item value="false" key="CreateT - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="measure - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="testHeader.vxe - vxsim1.hideUnconnected"/>
+			<item value="false" key="ma - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="TestProject4.vxe - noConnection.hideUnconnected"/>
 			<item value="false" key="CreateTasks - TestProject.out - vxsim0.hideUnconnected"/>
-			<item value="false" key="mai - TestProject6.out - VxWorks6x_192.168.202.208.hideUnconnected"/>
+			<item value="false" key="sende - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - TestProject5.out - VxWorks6x_192.168.202.189.hideUnconnected"/>
+			<item value="false" key="mai - TestProject6.out - VxWorks6x_192.168.202.208.hideUnconnected"/>
 			<item value="false" key="CreateTask - TestProject2.out - vxsim0.hideUnconnected"/>
-			<item value="false" key="me - TestProject5.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="noEntryPoint - TestProject7.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="sender - TestProject7.out - noConnection.hideUnconnected"/>
 			<item value="false" key="TestProject4.vxe - VxWorks6x_192.168.202.110.hideUnconnected"/>
-			<item value="false" key="monitor - TestProject6.out - VxWorks6x_192.168.202.208.hideUnconnected"/>
+			<item value="false" key="me - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="Creat - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="monitor - TestProject6.out - VxWorks6x_192.168.202.208.hideUnconnected"/>
 			<item value="false" key="measureCache - TestProject5.out - VxWorks6x_192.168.202.211.hideUnconnected"/>
 			<item value="false" key="measureCache - TestProject5.out - multiple.hideUnconnected"/>
 			<item value="false" key="monito - TestProject6.out - VxWorks6x_192.168.202.211.hideUnconnected"/>
+			<item value="false" key="receive - TestProject7.out - vxsim1.hideUnconnected"/>
+			<item value="false" key="sender - TestProject7.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="receive - TestProject7.out - multiple.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - TestProject6.out - VxWorks6x_192.168.202.211 (1).hideUnconnected"/>
 			<item value="false" key="measureCa - TestProject5.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="noEntryPoint - TestProject7.out - noConnection.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - noDownload - vxsim0.hideUnconnected"/>
 			<item value="false" key="company.vxe - vxsim1.hideUnconnected"/>
+			<item value="false" key="rec - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="measur - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="New_configuration.hideUnconnected"/>
+			<item value="false" key="main - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="meas - TestProject5.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="re - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="measureCache - TestProject5.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="receiv - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="Cr - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="send - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - TestProject5.out - VxWorks6x_192.168.202.189 (1).hideUnconnected"/>
 			<item value="false" key="company1.vxe - vxsim1 (1).hideUnconnected"/>
 			<item value="false" key="measureCac - TestProject5.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="moni - TestProject6.out - VxWorks6x_192.168.202.211.hideUnconnected"/>
 			<item value="false" key="Create - TestProject2.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="s - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - noDownload - vxsim0 (2).hideUnconnected"/>
 			<item value="false" key="Crea - TestProject2.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="measureCache - TestProject5.out - VxWorks6x_192.168.202.205.hideUnconnected"/>
 			<item value="false" key="measureCach - TestProject5.out - vxsim0.hideUnconnected"/>
+			<item value="false" key="m - TestProject7.out - vxsim0.hideUnconnected"/>
 			<item value="false" key="mon - TestProject6.out - VxWorks6x_192.168.202.211.hideUnconnected"/>
 			<item value="false" key="noEntryPoint - TestProject6.out - VxWorks6x_192.168.202.211.hideUnconnected"/>
 		</section>
