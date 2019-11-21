@@ -110,7 +110,13 @@ TestProject6_partialImage/Debug/Objects/TestProject6/test6.o:  \
   /opt/WindRiver/vxworks-6.9/target/config/xlnx_zynq7k/xlnx_zynq7k.h \
   /opt/WindRiver/vxworks-6.9/target/h/stdio.h \
   /opt/WindRiver/vxworks-6.9/target/h/errno.h \
-  /opt/WindRiver/vxworks-6.9/target/h/math.h
+  /opt/WindRiver/vxworks-6.9/target/h/math.h \
+  /opt/WindRiver/vxworks-6.9/target/h/time.h \
+  /opt/WindRiver/gnu/4.3.3-vxworks-6.9/x86-linux2/bin/../../lib/gcc/arm-wrs-vxworks/4.3.3/include-fixed/limits.h \
+  /opt/WindRiver/gnu/4.3.3-vxworks-6.9/x86-linux2/bin/../../lib/gcc/arm-wrs-vxworks/4.3.3/include-fixed/syslimits.h \
+  /opt/WindRiver/vxworks-6.9/target/h/limits.h \
+  /opt/WindRiver/vxworks-6.9/target/h/tool/gnu/limits.h \
+  /opt/WindRiver/vxworks-6.9/target/h/base/b_struct_timespec.h
 
 /opt/WindRiver/vxworks-6.9/target/h/intLib.h:
 
@@ -333,3 +339,15 @@ TestProject6_partialImage/Debug/Objects/TestProject6/test6.o:  \
 /opt/WindRiver/vxworks-6.9/target/h/errno.h:
 
 /opt/WindRiver/vxworks-6.9/target/h/math.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/time.h:
+
+/opt/WindRiver/gnu/4.3.3-vxworks-6.9/x86-linux2/bin/../../lib/gcc/arm-wrs-vxworks/4.3.3/include-fixed/limits.h:
+
+/opt/WindRiver/gnu/4.3.3-vxworks-6.9/x86-linux2/bin/../../lib/gcc/arm-wrs-vxworks/4.3.3/include-fixed/syslimits.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/limits.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/tool/gnu/limits.h:
+
+/opt/WindRiver/vxworks-6.9/target/h/base/b_struct_timespec.h:

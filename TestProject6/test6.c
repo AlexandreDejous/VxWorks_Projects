@@ -9,6 +9,9 @@
 #include <math.h>
 
 
+#include <time.h>
+
+
 /*ping -s 64000 -i 0.2 192.168.202.208*/
 
 /* register offsets (see TRM B.32)*/
@@ -20,17 +23,7 @@
 #define ZYNQ_TIMER_INTERRUPT_EN     (0x60)
 /* register bit definitions*/
 #define INTERRUPT_EN_IV             (0x01)
-#define CTRL_EN                 
-int udpClient(void)
-{
-    int testSocket;
-    unsigned int counter;
-    struct sockaddr_in destAddr;
-    int errorCode;
-    int returnVal;
- 
-    counter = 0;
-    returnVal = 0;     (0<<0)
+#define CTRL_EN                 (0<<0)
 #define CTRL_DIS                    (1<<0)
 #define CTRL_INT                    (1<<1)
 #define CLOCK_PRESCALE              (0x01 << 1)
@@ -58,9 +51,9 @@ SEM_ID semaphore;
 void timer_isr(){
 	t1 = TTC0_TIMER2_COUNTER_VAL;
 	semGive(semaphore);
-	TTC0_TIMER2_INTERRUPT;
-	temp1 = floor((t1*36)/1000);
+	temp1 = ((t1*36)/1000);
 	arr1[temp1]++;
+	TTC0_TIMER2_INTERRUPT;
 }
 
 void timer_service(){
@@ -97,15 +90,14 @@ void monitor(){
 	
 	/*printf("HI\n");*/
 	/*int taskAddr =*/ 
+	printf("/");
 	int n = 60;
 	int i = 0;
 	while(n>0){
-		sleep(1);
-		for (i=0;i<300;i++){
-			printf("%u;",arr1[i]);
-		}
-		printf("/n");
-		n++;
+		printf("%d",n);
+		taskDelay(10000);
+		printf("s");
+		n--;
 	}
 	
 	/*while (1){
@@ -116,9 +108,23 @@ void monitor(){
 }
 
 void main(){
+	printf("program launched");
 	taskSpawn("service_task", 210, 0, 4096, (FUNCPTR) timer_service, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	printf(".");
 	taskSpawn("monitor_task", 210, 0, 4096, (FUNCPTR) monitor, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-
+	printf(".");
 	init();
+	printf(".");
+	/*int n = 60;
+	int i = 0;
+	while(n>0){
+		sleep(1);
+		printf("/");*/
+		/*for (i=0;i<300;i++){
+			printf("%u;",arr1[i]);
+		}*/
+		/*printf("/n");*/
+		/*n--;
+	}*/
 }
 

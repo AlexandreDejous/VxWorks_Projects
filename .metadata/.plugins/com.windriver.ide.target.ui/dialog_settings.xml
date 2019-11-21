@@ -2,11 +2,11 @@
 <section name="Workbench">
 	<section name="TargetConnectionDlg">
 		<item value="true" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.TargetServerOptionsControl.STORE_OPTION_VERBOSE_ID"/>
-		<item value="true" key="TargetConnectionTypePage.Wind River Target Server Connection.defaultInitialized"/>
 		<item value="true" key="TargetConnectionTypePage.com.windriver.ide.target.vxsim.VxSimConnectType.defaultInitialized"/>
+		<item value="true" key="TargetConnectionTypePage.Wind River Target Server Connection.defaultInitialized"/>
 		<item value="true" key="TargetConnectionSummaryPage.Wind River Target Server Connection.connectOnFinish"/>
-		<item value="true" key="TargetConnectionSummaryPage.com.windriver.ide.target.vxsim.VxSimConnectType.connectOnFinish"/>
 		<item value="true" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.TargetServerOptionsControl.STORE_OPTION_VERBOSE_ID"/>
+		<item value="true" key="TargetConnectionSummaryPage.com.windriver.ide.target.vxsim.VxSimConnectType.connectOnFinish"/>
 		<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.TargetServerOptionsControl.STORE_OPTIONS_ID">
 			<item value="-R /home/dejouale/WindRiver/workspace -RW -Bt 3"/>
 			<item value="-R ${workspace_loc}/ -RW -Bt 3"/>
@@ -27,29 +27,63 @@
 				</section>
 			</section>
 		</section>
+		<section name="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage">
+			<section name="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage$1">
+				<item value="70" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.WdbproxyTipcConnectionTypeConfigurationPanel.portType"/>
+				<item value="0x4444" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.wdbproxy.port"/>
+				<item value="" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.selectedProcessor.family"/>
+				<item value="UDP" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.wdbproxy.type"/>
+				<item value="" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.WdbproxyTipcConnectionTypeConfigurationPanel.address"/>
+				<item value="71" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.WdbproxyTipcConnectionTypeConfigurationPanel.portInstance"/>
+				<item value="wdbpipe" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.TargetServerBackendSelectionControl.selectedBackendType"/>
+				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.selectedProcessor">
+					<item value="(default from target)"/>
+				</list>
+				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.busname">
+					<item value="plb_0"/>
+				</list>
+				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.wdbproxy.UDP.targetNameAddress">
+				</list>
+				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.wdbproxy.TCP.targetNameAddress">
+				</list>
+				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.wdbrpc..targetNameAddress">
+				</list>
+				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.nodenumber">
+					<item value="1"/>
+				</list>
+				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.portnumber">
+					<item value="2"/>
+				</list>
+				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.wdbproxy.targetNameAddress">
+				</list>
+				<section name="com.windriver.ide.target.ui.wizard.panels.wdbproxy.WdbproxyBackendConfigurationPanel$SslPathSelectionControl">
+					<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.SSL_certificate_path">
+					</list>
+				</section>
+			</section>
+		</section>
 		<section name="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage">
 			<section name="com.windriver.ide.target.ui.wizard.controls.tgtsvr.TargetServerBackendSelectionControl">
 				<item value="71" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.WdbproxyTipcConnectionTypeConfigurationPanel.portInstance"/>
 				<item value="0x4444" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.wdbproxy.port"/>
 				<item value="/dev/ttyS1" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.WdbserialBackendConfigurationPanel.selectedTTYDevice.Linux"/>
-				<item value="70" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.WdbproxyTipcConnectionTypeConfigurationPanel.portType"/>
 				<item value="9600" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.WdbserialBackendConfigurationPanel.selectedTTYSpeedRate.Linux"/>
+				<item value="70" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.WdbproxyTipcConnectionTypeConfigurationPanel.portType"/>
 				<item value="" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.WdbproxyTipcConnectionTypeConfigurationPanel.address"/>
 				<item value="wdbrpc" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.TargetServerBackendSelectionControl.selectedBackendType"/>
-				<item value="UDP" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.wdbproxy.type"/>
 				<item value="" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.selectedProcessor.family"/>
+				<item value="UDP" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.wdbproxy.type"/>
 				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.selectedProcessor">
 					<item value="(default from target)"/>
 				</list>
+				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.wdbrpc..targetNameAddress">
+					<item value="192.168.202.216"/>
+					<item value="192.168.202.20"/>
+					<item value="192.168.202.209"/>
+					<item value="192.168.202.204"/>
+				</list>
 				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.portnumber">
 					<item value="2"/>
-				</list>
-				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.wdbrpc..targetNameAddress">
-					<item value="192.168.202.204"/>
-					<item value="192.168.202.208"/>
-					<item value="192.168.202.21"/>
-					<item value="192.168.202.211"/>
-					<item value="192.168.202.189"/>
 				</list>
 				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxWorksWizardPage.busname">
 					<item value="plb_0"/>
@@ -81,47 +115,12 @@
 				</section>
 			</section>
 		</section>
-		<section name="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage">
-			<section name="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage$1">
-				<item value="70" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.WdbproxyTipcConnectionTypeConfigurationPanel.portType"/>
-				<item value="0x4444" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.wdbproxy.port"/>
-				<item value="" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.selectedProcessor.family"/>
-				<item value="UDP" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.wdbproxy.type"/>
-				<item value="" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.WdbproxyTipcConnectionTypeConfigurationPanel.address"/>
-				<item value="71" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.WdbproxyTipcConnectionTypeConfigurationPanel.portInstance"/>
-				<item value="wdbpipe" key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.TargetServerBackendSelectionControl.selectedBackendType"/>
-				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.selectedProcessor">
-					<item value="(default from target)"/>
-				</list>
-				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.busname">
-					<item value="plb_0"/>
-				</list>
-				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.wdbproxy.TCP.targetNameAddress">
-				</list>
-				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.wdbproxy.UDP.targetNameAddress">
-				</list>
-				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.wdbrpc..targetNameAddress">
-				</list>
-				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.nodenumber">
-					<item value="1"/>
-				</list>
-				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.portnumber">
-					<item value="2"/>
-				</list>
-				<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.wdbproxy.targetNameAddress">
-				</list>
-				<section name="com.windriver.ide.target.ui.wizard.panels.wdbproxy.WdbproxyBackendConfigurationPanel$SslPathSelectionControl">
-					<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimTargetServerOptionsPage.SSL_certificate_path">
-					</list>
-				</section>
-			</section>
-		</section>
 		<section name="com.windriver.ui.controls.WRBaseEditBrowseTextControl">
 			<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimNetworkOptionsPage.com.windriver.ide.target.vxsim.VxSimConnectType.Inet_on_ethernet_(e)">
 			</list>
-			<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimNetworkOptionsPage.com.windriver.ide.target.vxsim.VxSimConnectType.">
-			</list>
 			<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimNetworkOptionsPage.com.windriver.ide.target.vxsim.VxSimConnectType.Inet_on_backplane_(b)">
+			</list>
+			<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimNetworkOptionsPage.com.windriver.ide.target.vxsim.VxSimConnectType.">
 			</list>
 			<list key="com.windriver.ide.target.ui.wizard.pages.vxworks.VxsimNetworkOptionsPage.com.windriver.ide.target.vxsim.VxSimConnectType.Gateway_inet_(g)">
 			</list>
