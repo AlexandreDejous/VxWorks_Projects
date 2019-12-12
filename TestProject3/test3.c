@@ -134,7 +134,9 @@ void digger_on_ground(int n)
     
     semGive(semShovels);
     semTake(truck, WAIT_FOREVER);
-    ptr->companies[companyIndex].work_done += 1;
+    //semTake(lock, WAIT_FOREVER);
+    ptr->companies[companyIndex].work_done += 1;//////////////////////////////////////////
+    //semGive(lock);
     semGive(truck);
     
     taskUnsafe();
@@ -213,8 +215,9 @@ void main(int argc, char *argv[])
   semGive(lock);
   printf("INDEX IS : %d", current);
   
+  //semTake(lock, WAIT_FOREVER);		
   printf("Company name : %s",ptr->companies[i].name);
-    
+  //semGive(lock);
 
 
   semSoilHeap = semCCreate(SEM_Q_FIFO,0 );
@@ -276,10 +279,14 @@ void main(int argc, char *argv[])
         printf("Number of diggers already 0\n");
       }
       //ERASE DIGGERS FROM MEMORY
+      //semTake(lock, WAIT_FOREVER);//////////////////////////////////////////////////////
+      		
 		for (i = 0; i <20; i++){
+			
 			ptr->companies[companyIndex].name[i] = 0;		    
 		}
 		ptr->companies[companyIndex].work_done = 0;
+		//semGive(lock);
 		return;
 	  //----------------------------
 		}

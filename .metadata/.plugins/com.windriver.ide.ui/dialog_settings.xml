@@ -4,11 +4,11 @@
 	</section>
 	<section name="WRProjectWizard">
 		<list key="WRWizardNewProjectCreationPage.STORE_PROJECT_LOCATION">
+			<item value="/home/dejouale/Desktop/sem"/>
+			<item value="/home/dejouale/WindRiver/workspace/sem"/>
 			<item value="/home/dejouale/WindRiver/workspace/TestProject7"/>
 			<item value="/home/dejouale/WindRiver/workspace/TestProject6"/>
 			<item value="/home/dejouale/WindRiver/workspace/TestProject5"/>
-			<item value="/home/dejouale/WindRiver/workspace/TestProject4"/>
-			<item value="/home/dejouale/WindRiver/workspace/TestProject3"/>
 		</list>
 	</section>
 	<section name="class com.windriver.ide.ui.staticanalysis.ispwizard.WRStoreGeneratedIncludesPage">

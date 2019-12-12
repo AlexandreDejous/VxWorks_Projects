@@ -6,19 +6,26 @@
 
 #include "t3_header.h"
 
+SEM_ID lock;
+
 
 void main(int argc, char *argv[]){
 	
 	init_shm();
+	lock = semOpen("/complock", SEM_TYPE_MUTEX, SEM_FULL, SEM_Q_FIFO, OM_CREATE, NULL);
 	int i;
 	printf("--- Monitor started ---\n");
 	while (1){
 		printf("-----------------------\n");
+		semTake(lock, WAIT_FOREVER);
 		for (i = 0; i <50; i++){
+			
 		    if (ptr->companies[i].name[0]!=0){
 		      printf("%s:   %d\n",ptr->companies[i].name,ptr->companies[i].work_done);
 		    }
 		}
+		
+		semGive(lock);
 		sleep(1);
 	}
 	

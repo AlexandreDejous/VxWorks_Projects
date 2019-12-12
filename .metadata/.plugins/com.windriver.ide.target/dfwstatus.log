@@ -1,6 +1,376 @@
-DFW status and trace log : Tue Dec  3 14:38:37 2019
+DFW status and trace log : Thu Dec 12 14:28:24 2019
 
-14:38:37.877 ERROR: no id specified
+14:28:24.526 ERROR: no id specified
   SevError(2) : programcontext.cpp : 5665
-14:38:37.880 ERROR: target definition defaultTarget has not been created
+14:28:24.538 ERROR: target definition defaultTarget has not been created
   Protocol Component : SevError(2) : targetdefinitionmanager.cpp : 5161
+DFW status and trace log : Thu Dec 12 14:29:33 2019
+
+14:29:33.594 ERROR: Node 'TargetDefns' does not have a child name 'vxsim1': StdStructContainerInfoNode1::evalNodeChild
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+14:29:33.595 ERROR: Node 'TargetDefns' does not have a child name 'vxsim1'
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+14:29:33.601 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5665
+14:29:33.712 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.720 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.725 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.730 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.735 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.740 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.745 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.751 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.756 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.761 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.766 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.771 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.776 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.781 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.786 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.792 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.797 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.802 ERROR: Could not find Processor or OS
+  SevError(2) : TOSplugincommon.cpp : 2597
+14:29:33.808 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5665
+14:29:33.808 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5665
+14:29:33.815 ERROR: Invalid core (CPU) id
+  SevError(2) : tccoreinfo.cpp : 849
+14:29:33.885 ERROR: Unsupported function call: TargetPluginAPI::GetTraceInfo
+  SevError(2) : tccallwrappers.cpp : 4517
+14:29:33.891 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:33.891 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:33.891 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.052 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.052 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.053 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.053 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.053 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.053 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.054 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.054 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.054 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.054 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.055 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.055 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.057 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.057 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.057 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.057 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.061 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.061 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.061 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.061 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.063 WARNING: No register with name 'pc' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'pc' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'pc' exists
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'FPRegisterAccess' exists
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'GetFeatures' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'GetFeatures' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'GetFeatures' exists
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'EvalEdxFxsr' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'EvalEdxFxsr' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'EvalEdxFxsr' exists
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'EvalEcxXSaveAvx' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'EvalEcxXSaveAvx' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.063 WARNING: No register with name 'EvalEcxXSaveAvx' exists
+  SevWarning(1) : scregaccess.cpp : 3817
+14:29:34.066 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.103 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.103 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.118 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.118 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.118 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.118 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.118 ERROR: Internal Error: Target connected notice when not connecting
+  SevInternalError(4) : contextstatemanagerimpl.cpp : 533
+14:29:34.124 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.124 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.124 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.124 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.125 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.125 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.125 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.125 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.126 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.126 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.128 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.128 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.129 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.129 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.129 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.129 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.129 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.129 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.129 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.129 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.129 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.129 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.129 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.129 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.129 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.129 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.129 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.129 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.129 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.129 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.131 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.131 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.148 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.148 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.150 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.151 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.151 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.151 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.151 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.151 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.152 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.152 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:29:34.176 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:29:34.176 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.031 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.031 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.042 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.042 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.042 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.042 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.060 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.060 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.069 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.069 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.070 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.070 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.116 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.116 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.116 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.116 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.116 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.116 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.117 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.117 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.118 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.118 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.118 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.118 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.118 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.118 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.118 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.118 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.118 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.118 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.118 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:09.118 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.139 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+14:30:09.139 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.139 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+14:30:09.139 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:09.139 ERROR: Operation succeeded: ProgramContext::GetLockedModuleListEntry
+  SevError(2) : programcontext.cpp : 5233
+14:30:09.139 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5233
+14:30:10.158 ERROR: Unknown thread/program-context id 23
+  SevError(2) : programcontext.cpp : 5595
+14:30:10.167 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:10.167 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:30:10.176 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:30:10.176 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:54:54.144 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:54:54.144 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:54:54.153 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:54:54.153 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:54:54.153 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:54:54.153 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:54:54.160 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:54:54.160 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:54:54.168 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:54:54.168 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:54:54.168 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:54:54.168 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208
+14:54:54.239 ERROR: Program context is undefined
+  SevError(2) : dtacell.cpp : 559
+14:54:54.239 ERROR: Operation succeeded
+  SevError(2) : programcontext.cpp : 5208

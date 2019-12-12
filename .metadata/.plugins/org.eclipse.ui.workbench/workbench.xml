@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="49" version="2.0">
+<workbench progressCount="43" version="2.0">
 <workbenchAdvisor/>
 <window height="1100" maximized="true" width="1820" x="0" y="31">
 <fastViewData fastViewLocation="1024"/>
@@ -26,7 +26,7 @@
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="com.windriver.windview.common.ui.editor.WRSVEditor" itemType="typePlaceholder" x="902" y="27"/>
 <coolItem id="com.windriver.windview.plugins.vxworks.config.VxWorksConfigEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -35,76 +35,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="test.c" partName="test.c" path="/home/dejouale/WindRiver/workspace/TestProject/test.c" title="test.c" tooltip="TestProject/test.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject/test.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="778" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="test2.c" partName="test2.c" path="/home/dejouale/WindRiver/workspace/TestProject2/test2.c" title="test2.c" tooltip="TestProject2/test2.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject2/test2.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="466" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="test3.c" partName="test3.c" path="/home/dejouale/WindRiver/workspace/TestProject3/test3.c" title="test3.c" tooltip="TestProject3/test3.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject3/test3.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7438" selectionTopPixel="4913"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="memoryInit.c" partName="memoryInit.c" path="/home/dejouale/WindRiver/workspace/TestProject3/memoryInit.c" title="memoryInit.c" tooltip="TestProject3/memoryInit.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject3/memoryInit.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="145" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="monitor.c" partName="monitor.c" path="/home/dejouale/WindRiver/workspace/TestProject3/monitor.c" title="monitor.c" tooltip="TestProject3/monitor.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject3/monitor.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="59" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="t3_header.h" partName="t3_header.h" path="/home/dejouale/WindRiver/workspace/TestProject3/t3_header.h" title="t3_header.h" tooltip="TestProject3/t3_header.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject3/t3_header.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="244" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="config.h" partName="config.h" path="/home/dejouale/WindRiver/workspace/TestProject4/config.h" title="config.h" tooltip="TestProject4/config.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject4/config.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="577" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="/home/dejouale/WindRiver/workspace/TestProject4/main.c" title="main.c" tooltip="TestProject4/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject4/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="406" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="config.h" partName="config.h" path="/home/dejouale/WindRiver/workspace/TestProject5/config.h" title="config.h" tooltip="TestProject5/config.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject5/config.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="894" selectionTopPixel="271"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="test5.c" partName="test5.c" path="/home/dejouale/WindRiver/workspace/TestProject5/test5.c" title="test5.c" tooltip="TestProject5/test5.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject5/test5.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="21" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="test6.c" partName="test6.c" path="/home/dejouale/WindRiver/workspace/TestProject6/test6.c" title="test6.c" tooltip="TestProject6/test6.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject6/test6.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2694" selectionTopPixel="1397"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="receiver.c" partName="receiver.c" path="/home/dejouale/WindRiver/workspace/TestProject7/receiver.c" title="receiver.c" tooltip="TestProject7/receiver.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject7/receiver.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1375" selectionTopPixel="700"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="sender.c" partName="sender.c" path="/home/dejouale/WindRiver/workspace/TestProject7/sender.c" title="sender.c" tooltip="TestProject7/sender.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProject7/sender.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1606" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="com.windriver.ide.importexport.PerspectiveLayoutView" partName="Perspective Layout">
@@ -187,7 +121,7 @@
 <viewState pageId="context-help-page"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="DFE">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="DFE">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.windriver.ide.ui.SDEPerspectiveFactory" id="com.windriver.ide.perspective.SDE" label="Basic Device Development"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -652,13 +586,13 @@
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.Disconnect"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.SkipAllBreakpoints"/>
 <hide_toolbar_item_id id="com.windriver.ide.ocd.ui.welcomescreen.action"/>
-<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.ToggleStepFilters"/>
 <hide_toolbar_item_id id="org.eclipse.tcf.te.ui.terminals.toolbar"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.ToggleStepFilters"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.StepOver"/>
-<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.Resume"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.Suspend"/>
-<hide_toolbar_item_id id="com.windriver.ide.cfg.components.clients.opcae.actions.Launch"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.Resume"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="com.windriver.ide.cfg.components.clients.opcae.actions.Launch"/>
 <hide_toolbar_item_id id="com.windriver.ide.ui.WRBuildFile"/>
 <hide_toolbar_item_id id="com.windriver.ide.ui.WRRunLastBuild"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.DropToFrame"/>
@@ -776,169 +710,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TestProject6/test6.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TestProject7/receiver.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TestProject5/test5.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TestProject5/config.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TestProject7/sender.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TestProject7/sender.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TestProject7/sender.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TestProject6/test6.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TestProject7/receiver.c"/>
-</editors>
-<item historyLabel="test6.c" index="0">
-<position info="not_deleted" x="2600" y="0"/>
-</item>
-<item historyLabel="test6.c" index="0">
-<position info="not_deleted" x="2669" y="0"/>
-</item>
-<item historyLabel="test6.c" index="0">
-<position info="not_deleted" x="2668" y="0"/>
-</item>
-<item historyLabel="test6.c" index="0">
-<position info="not_deleted" x="2733" y="0"/>
-</item>
-<item historyLabel="receiver.c" index="1">
-<position info="not_deleted" x="1438" y="0"/>
-</item>
-<item historyLabel="test6.c" index="0">
-<position info="not_deleted" x="2799" y="0"/>
-</item>
-<item historyLabel="test5.c" index="2">
-<position info="not_deleted" x="21" y="0"/>
-</item>
-<item historyLabel="config.h" index="3">
-<position info="not_deleted" x="894" y="0"/>
-</item>
-<item historyLabel="test6.c" index="0">
-<position info="not_deleted" x="785" y="0"/>
-</item>
-<item historyLabel="receiver.c" index="1">
-<position info="not_deleted" x="1438" y="0"/>
-</item>
-<item historyLabel="receiver.c" index="1">
-<position info="not_deleted" x="1421" y="0"/>
-</item>
-<item historyLabel="receiver.c" index="1">
-<position info="not_deleted" x="362" y="0"/>
-</item>
-<item historyLabel="sender.c" index="4">
-<position info="not_deleted" x="1828" y="0"/>
-</item>
-<item historyLabel="receiver.c" index="1">
-<position info="not_deleted" x="447" y="0"/>
-</item>
-<item historyLabel="sender.c" index="4">
-<position info="not_deleted" x="367" y="0"/>
-</item>
-<item historyLabel="receiver.c" index="1">
-<position info="not_deleted" x="362" y="0"/>
-</item>
-<item historyLabel="receiver.c" index="1">
-<position info="not_deleted" x="1000" y="0"/>
-</item>
-<item historyLabel="receiver.c" index="1">
-<position info="not_deleted" x="607" y="0"/>
-</item>
-<item historyLabel="sender.c" index="5">
-<position info="not_deleted" x="1553" y="0"/>
-</item>
-<item historyLabel="sender.c" index="5">
-<position info="not_deleted" x="408" y="0"/>
-</item>
-<item historyLabel="sender.c" index="5">
-<position info="not_deleted" x="1210" y="0"/>
-</item>
-<item historyLabel="sender.c" index="5">
-<position info="not_deleted" x="411" y="0"/>
-</item>
-<item historyLabel="sender.c" index="5">
-<position info="not_deleted" x="412" y="0"/>
-</item>
-<item historyLabel="sender.c" index="5">
-<position info="not_deleted" x="1178" y="34"/>
-</item>
-<item historyLabel="sender.c" index="5">
-<position info="not_deleted" x="1536" y="0"/>
-</item>
-<item historyLabel="sender.c" index="5">
-<position info="not_deleted" x="1535" y="0"/>
-</item>
-<item historyLabel="sender.c" index="5">
-<position info="not_deleted" x="1317" y="0"/>
-</item>
-<item historyLabel="receiver.c" index="1">
-<position info="not_deleted" x="1358" y="0"/>
-</item>
-<item historyLabel="sender.c" index="5">
-<position info="not_deleted" x="529" y="0"/>
-</item>
-<item historyLabel="receiver.c" index="1">
-<position info="not_deleted" x="1358" y="0"/>
-</item>
-<item historyLabel="sender.c" index="6">
-<position info="not_deleted" x="1246" y="0"/>
-</item>
-<item historyLabel="receiver.c" index="1">
-<position info="not_deleted" x="1375" y="0"/>
-</item>
-<item historyLabel="sender.c" index="6">
-<position info="not_deleted" x="1606" y="0"/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position info="not_deleted" x="1900" y="0"/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position info="not_deleted" x="3161" y="1"/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position info="not_deleted" x="2219" y="0"/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position info="not_deleted" x="1517" y="16"/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position info="not_deleted" x="1515" y="0"/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position/>
-</item>
-<item historyLabel="sender.c" index="6">
-<position info="not_deleted" x="1606" y="0"/>
-</item>
-<item historyLabel="receiver.c" index="8">
-<position info="not_deleted" x="1375" y="0"/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position info="not_deleted" x="2765" y="0"/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position info="not_deleted" x="2651" y="0"/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position info="not_deleted" x="3069" y="0"/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position info="not_deleted" x="2634" y="18"/>
-</item>
-<item historyLabel="test6.c" index="7">
-<position info="not_deleted" x="2986" y="0"/>
-</item>
-<item active="true" historyLabel="test6.c" index="7">
-<position info="not_deleted" x="3156" y="4"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -957,6 +729,21 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="test3.c" tooltip="TestProject3/test3.c">
+<persistable path="/TestProject3/test3.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="t3_header.h" tooltip="TestProject3/t3_header.h">
+<persistable path="/TestProject3/t3_header.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="monitor.c" tooltip="TestProject3/monitor.c">
+<persistable path="/TestProject3/monitor.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="memoryInit.c" tooltip="TestProject3/memoryInit.c">
+<persistable path="/TestProject3/memoryInit.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="file.c" tooltip="sem/file.c">
+<persistable path="/sem/file.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sender.c" tooltip="TestProject7/sender.c">
 <persistable path="/TestProject7/sender.c"/>
 </file>

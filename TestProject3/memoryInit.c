@@ -44,6 +44,7 @@ void init_shm(void)
     }
     /* set the size of shared memory block */
     if (ftruncate (fd, sizeof(struct company_registry)) == -1) {
+    	semGive(lock);
         perror("ftruncate");
         exit (1);
     }
@@ -54,6 +55,7 @@ void init_shm(void)
                           MAP_SHARED, fd, 0);
 
     if (ptr == (struct company_registry *)MAP_FAILED)
+    	semGive(lock);
         exit (1);
 
     /* close the file descriptor; the mapping is not impacted by this */
